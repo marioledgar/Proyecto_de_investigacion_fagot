@@ -1,0 +1,61 @@
+\documentclass[11pt]{scrartcl}
+
+\usepackage{graphicx}
+
+\usepackage[bib,spanish]{mario}
+% \usepackage{appendix} %% Solo si no es KOMA-script
+\usepackage{subcaption}
+\usepackage{array}
+\usepackage{subfiles}
+\usepackage[justification=centering]{caption}
+
+\addto\captionsspanish{
+\def\tablename{Tabla}
+}
+
+\usepackage{biblatex}
+\addbibresource{biblio.bib}
+
+\usepackage{csquotes}
+
+\usepackage{siunitx} \sisetup{input-digits = 0123456789\pi} % Para que deje usar \pi en siunitx
+
+\renewcommand{\arraystretch}{1.5}
+
+\title{Análisis de los armónicos del fagot}
+\author{Mario Ledesma García}
+\date{Abril 2025}
+
+\begin{document}
+
+\maketitle
+
+% % Secciones
+% - Portada con el título y los nombres y apellidos.
+% - Abstract en la portada, justo debajo del título y los nombres.
+% - Índice paginado.
+% Hipótesis.
+% 1. Introducción teórica.
+% 2. Procedimiento experimental.
+% 2.1. Materiales.
+% 2.2. Proceso paso a paso.
+% 3. Presentación de resultados.
+% 4. Discusión de resultados.
+% 5. Conclusiones.
+% 6. Bibliografía.
+
+\section{Introducción} \label{intro} \subfile{partes/intro/intro}
+
+\section{Marco teórico} \label{marco} \subfile{partes/marco_teorico/marco_teorico}
+
+\appendix
+\section{Demostraciones} \label{demostraciones} \subfile{partes/apendices/demostraciones}
+
+%https://koppreeds.com/harmonic.html
+
+%https://onlinetonegenerator.com/multiple-tone-generator.html
+%Generador de sonidos
+
+\printbibliography
+
+\end{document}

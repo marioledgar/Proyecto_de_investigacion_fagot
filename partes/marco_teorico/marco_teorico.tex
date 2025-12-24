@@ -1,0 +1,738 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%
+%%      MAS       %%
+%%%%%%%%%%%%%%%%%%%%
+
+\subsection{El movimiento armónico simple}
+
+Antes de hablar de ondas se debe siempre dar una introducción al movimiento armónico simple (MAS).
+
+El movimiento armónico simple es un tipo de movimiento producido por un cuerpo que se desplaza de su posición de equilibrio y se mueve de manera periódica alrededor de ella.
+Los ejemplos más comunes son un péndulo y un muelle que oscila en torno al equilibrio.
+
+\begin{figure}
+    \centering
+    \subcaptionbox{}
+    {\includegraphics[height=5cm]{partes/marco_teorico/figuras/muelles/Muelle_abajo.png}}
+    \subcaptionbox{}
+    {\includegraphics[height=5cm]{partes/marco_teorico/figuras/muelles/Muelle_equilibrio.png}}
+    \subcaptionbox{}
+    {\includegraphics[height=5cm]{partes/marco_teorico/figuras/muelles/Muelle_arriba.png}}
+    \caption{MAS en un muelle. Fuente: Wikipedia.}\label{muelle}
+\end{figure}
+
+El movimiento armónico simple sigue la ley de Hooke, enunciada en 1678 por el científico británico Robert Hooke (1635-1703):
+
+Para desplazamientos pequeños, la fuerza restauradora (la que lleva al objeto a su posición de equilibrio) es directamente proporcional a la distancia a la posición de equilibrio:
+\begin{equation}\label{hooke}
+    F_R = -s x,
+\end{equation}
+donde $F_R$ es la fuerza restauradora, $x$ el desplazamiento y $s$ una constante de proporcionalidad con unidades $\unit{\kilogram\per\second\squared}$, en el caso de los muelles, la constante de elasticidad \cite{pain}.
+
+El hecho de que el desplazamiento tenga que ser pequeño se debe a que, si no, el muelle (por ejemplo) se ``da de sí'' y no vuelve a la posición de equilibrio.
+La razón del signo ``$-$'' en el lado derecho de la expresión se debe a que la fuerza restauradora va en dirección contraria al desplazamiento.
+
+El MAS, como cualquier otro movimiento, también se rige por la segunda ley de Newton o ley fundamental de la dinámica.
+Esta ley fue enunciada por Isaac Newton (1643-1727) en 1687 en su obra \textit{Philosophiæ Naturalis Principia Mathematica} (Principios Matemáticos de la filosofía natural, \cite{newton_principia}) y dice lo siguiente \cite{gamow}:
+
+Si se aplica una fuerza $F$ a un cuerpo de masa $m$, este sufrirá una aceleración $a$ de manera que
+
+\begin{equation}\label{newton2}
+    F = ma
+\end{equation}
+
+Igualando la ley de Hooke (\ref{hooke}) a la segunda ley de Newton (\ref{newton2}) nos queda que
+
+\begin{equation}\label{newhoo}
+    ma = -sx,
+\end{equation}
+
+o lo que es lo mismo,
+
+\begin{equation*}
+    m \ddot{x} - sx = 0,
+\end{equation*}
+
+donde $\ddot{x}$ es la aceleración, la segunda derivada de la posición.
+Con el objetivo de simplificar la ecuación introducimos una nueva variable
+\[\omega = \sqrt{\frac{s}{m}}\]
+llamada frecuencia angular, de la que hablaremos más adelante.
+
+Con esto, nuestra ecuación se reduce a
+\begin{equation}\label{ecuacion_dif}
+    \ddot{x} + \omega^2x = 0.
+\end{equation}
+
+Esta ecuación es una ecuación diferencial lineal y homogénea de segundo orden, y aunque su resolución es muy conocida, presentamos un esbozo de ella.
+
+Su polinomio característico en $r$ es
+\[r^2 + \omega^2 = 0,\]
+con raíces $r = \pm \omega i$.
+Es bien sabido que las soluciones de una ecuación de este tipo cuyo polinomio característico tiene dos raíces complejas $r = \alpha \pm \beta i$ son las de la forma
+\[e^{\alpha x}(c_{1}\cos(\beta x)+c_{2}\sen(\beta x)), \hspace{1cm} c_1, c_2 \in \RR\]
+(una demostración se puede encontrar, por ejemplo, en  \cite{edos}).
+Por tanto, en este caso las soluciones son
+\begin{equation*}
+    x = c_1\cos(\omega t) + c_2 \sen(\omega t), \hspace{1cm} c_1, c_2 \in \RR.
+\end{equation*}
+
+Si ponemos $c_1 = A \sen \varphi_0$ y $c_2 = A \cos \varphi_0$ (esto es lo mismo que hacer un cambio a coordenadas polares al número complejo $z = c_1 + c_2 i$), entonces,
+\begin{align}
+    x &= A \sen \varphi_0 \cos (\omega t)+ a \cos \varphi_0 \sen (\omega t)\nonumber\\
+    & = A \sen (\omega t + \varphi_0). \label{MAS}
+\end{align}
+
+Esta es la fórmula que todos conocemos como la ecuación del movimiento armónico simple.
+
+En esta fórmula, $\omega$ se conoce como la frecuencia angular, la cantidad de veces que se repite el movimiento por unidad de tiempo;
+$\varphi_0$ es la fase inicial, la posición del cuerpo en el inicio; y
+$A$ es la amplitud, la distancia entre la posición de máximo desplazamiento y el reposo.
+
+\begin{table}
+\centering
+\begin{tabular}{ c|m{7cm}|c  }
+     \textit{Magnitud (símbolo)} & \textit{Descripción} & \textit{Unidades SI} \\
+     \hline
+     Frecuencia ($\nu$, $f$) & Veces que se repite el movimiento por unidad de tiempo. & $\unit{\per\second} = \unit{\hertz}$ \\ 
+     \hline
+     Frecuencia angular ($\omega$) & Similar a la frecuencia ($\omega = 2\pi f$).
+     Útil al plantear la ecuación del MAS. & $\unit{\radian\per\second}$\\
+     \hline
+     Amplitud ($A$) & Distancia del máximo desplazamiento al reposo. & $\unit{\metre}$\\
+     \hline
+     Fase inicial ($\varphi_0$) & Desplazamiento inicial $\times \ 2 \pi \,\unit{\radian\per\metre}$ & $\unit{\radian}$\\
+\end{tabular}
+\caption{Magnitudes que definen el MAS.}
+    \label{magnitudes1}
+\end{table}
+
+Para calcular la velocidad y la aceleración, simplemente derivamos respecto al tiempo.
+La velocidad es
+\begin{equation*}
+    v = \dot x = A \,\omega \cos(\omega t \varphi_0)
+\end{equation*}
+y la aceleración,
+\begin{equation*}
+     a = \ddot x = -A\, \omega^2 \sen (\omega t +\varphi_0) = -\omega^2 x.
+\end{equation*}
+
+Al ver esto, nos damos cuenta de que la ecuación de la aceleración es idéntica a la ecuación \ref{ecuacion_dif} salvo por el cambio de variable que hicimos.
+
+Hay más maneras de expresar la posición en el MAS: podemos sustituir el seno por un coseno (solo hay que ajustar $\varphi_0$) y podemos representarlo como la parte real de una exponencial compleja según la fórmula de Euler $e^{ix}=\cos x+i\sen x$:
+\[x = \Re(e^{(\omega t + \varphi_0)i}).\]
+Esta última forma se trata extensamente en \cite{comp}.
+
+En el movimiento armónico simple la energía cinética sigue la forma habitual:
+\begin{equation*}
+    E_{c} = \half m v^2
+\end{equation*}
+
+En cuanto a la energía potencial, se basa en la definición del trabajo \cite{epe}:
+\[W = E_{p_2} - E_{p_1} = \int_0^x F \ddint r = \int_0^x s r \ddint r,\]
+donde $s$ es la constante de elasticidad y $F$ la fuerza que ejercemos, que es $sx$ de acuerdo a la ley de Hooke (sin el ``$-$'' por ser en la misma dirección al desplazamiento).
+Para evitar ambigüedades hemos utilizado $r$ como variable de integración.
+
+Si tomamos el primer instante como el reposo, nos queda
+\begin{equation*}
+    E_p = \half s x^2.
+\end{equation*}
+
+La energía mecánica es
+\begin{equation*}
+    E_m = \half s x^2 + \half m\dot x^2
+\end{equation*}
+
+Como sabemos que la energía mecánica es constante,
+\begin{align*}
+    \frac{\dd E}{\dd t} &= \half m (\dot x^2)' + \half s (x^2)' \\
+    &= m \dot x \ddot x + s \dot x x \\
+    &= \dot x(m  \ddot x + sx)= 0
+\end{align*}
+y como la velocidad no es constante en $0$,
+\begin{equation*}
+    m  \ddot x + sx = 0,
+\end{equation*}
+otra vez la ecuación inicial.
+
+Por último, damos la fórmula de la suma de dos MAS.
+
+Si tienen la misma frecuencia y sus ecuaciones son
+\begin{align*}
+    x_1 &= A_1 \sen(\omega t + \varphi_1)\\
+    x_2 &= A_2 \sen(\omega t + \varphi_2),
+\end{align*}
+la fórmula de la suma de ambas viene dada por
+\begin{equation*}
+    x = R \cos (\omega t + \theta),
+\end{equation*}
+donde  la amplitud es
+\[R = \sqrt{A_1^2 + A_2^2 + 2A_1A_2 \cos(\varphi_2 - \varphi_1)}\]
+y la fase viene dada por
+\[\tan \theta = \frac{A_1 \sen \varphi_1 + A_2 \sen \varphi_2}{A_1 \cos \varphi_1 + A_2 \cos \varphi_2}.\]
+
+Si tienen distinta frecuencia,
+su superposición no vendrá dada por otro movimiento armónico simple.
+Para encontrarla habría que utilizar la forma compleja de la ecuación del movimiento armónico simple.
+Se puede encontrar en \cite{instruments}.
+
+El movimiento resultante se parece a un MAS, pero con una amplitud y una fase inicial que varían de manera periódica con el mismo periodo 
+\[\omega = \frac{\omega_2-\omega_1}{2}.\]
+Esto se puede ver en la figura \ref{sumaMAS}.
+
+En el caso de las ondas de sonido, si las frecuencias son similares, esto produce un sonido que percibimos como si fuera pulsante pulsante.
+Como el periodo de los pulsos decrece cuando decrece la diferencia $\Delta \omega = \omega_2 - \omega_1$, la frecuencia aumenta si $\Delta\omega$ decrece.
+Por eso, solo percibimos los pulsos cuando $\Delta\omega$ es pequeño, si no, son demasiado rápidos para oírlos.
+
+\begin{figure}[t!]
+    \centering
+    \subcaptionbox{}{\includegraphics[height=3cm]{partes/marco_teorico/figuras/pulsos/Onda1.png}}
+    \subcaptionbox{}{\includegraphics[height=3cm]
+    {partes/marco_teorico/figuras/pulsos/Onda 2.png}}
+    \subcaptionbox{}{\includegraphics[height=3cm]{partes/marco_teorico/figuras/pulsos/Pulsos.png}}
+    \caption{Suma de dos MAS con distinta frecuencia. Elaboración propia.}
+    \label{sumaMAS}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%      ONDAS       %%
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Ondas}
+
+Las ondas juegan un papel crucial en esta investigación, ya que el sonido es una forma de onda.
+Pero, ¿qué es una onda?
+
+Pues bien, una onda o movimiento ondulatorio es, a grandes rasgos, una perturbación que se propaga.
+Si afinamos un poco la definición, habría que decir que provoca cambios en la energía, pero no en la materia.
+Por ejemplo, imaginemos el clásico ejemplo de onda: tiramos una piedra a un lago y se crean crestas y valles (olas) en la superficie.
+Supongamos que dejamos en el lago un trozo de corcho.
+Cuando las ondas lo alcancen, empezará a ascender y descender en la superficie del agua, pero permanecerá en el mismo lugar una vez se hayan disipado.
+
+Las ondas se pueden clasificar de distintas maneras \cite{2bach}. Para empezar, según su dimensión, pueden ser unidimensionales, bidimensionales, o tridimensionales si se propagan en una, dos o tres dimensiones del espacio respectivamente.
+Un ejemplo de onda unidimensional es una cuerda a la que se le mueve uno de sus extremos y esto se desplaza por toda la cuerda;
+una onda bidimensional pueden ser las olas de un estanque y una tridimensional, la luz o el sonido.
+
+En la figura \ref{ondasdim} se pueden ver ejemplos de los tres tipos de ondas.
+También se aprecian claramente los frentes de onda: los conjuntos de puntos en un mismo estado de vibración. Se ve como en el caso de las ondas unidimensionales son puntos, en las bidimensionales segmentos curvos y en las tridimensionales, superficies.
+
+Además, si el foco de la onda es el origen y la onda se mueve en un medio sin obstáculos en el que la velocidad de propagación es la misma en todas las direcciones,
+los  frentes de onda son circunferencias centradas en el origen en el caso de las ondas bidimensionales y esferas centradas en el origen en el caso de las tridimensionales.
+Sin embargo, para mayor simplicidad, a veces se consideran frentes de onda planos, ya que esto es una buena aproximación para frentes lejanos al origen.
+
+\begin{figure}[ht!]
+    \centering
+    \subcaptionbox{Onda unidimensional \dots}{\includegraphics[height=3.1cm]{
+        partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png}}
+    \subcaptionbox{\dots bidimensional \dots}{\includegraphics[height=3.1cm]{partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png}}
+    \subcaptionbox{\dots y tridimensional}{\includegraphics[height=3.3cm]{partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png}}
+    \caption{Ejemplos de ondas de distintas dimensiones. Elaboración propia.}
+    \label{ondasdim}
+\end{figure}
+
+También se pueden clasificar según el medio en el que se propagan: pueden ser mecánicas, si requieren un medio material para propagarse (como el sonido); o electromagnéticas, si se pueden propagar en el vacío (como la luz).
+
+Por último, las ondas mecánicas se pueden clasificar según la dirección en la que se mueven sus partículas: si se mueven de manera paralela a la dirección de propagación onda, será una onda longitudinal; si se mueven de manera perpendicular a la dirección de propagación de la onda, será una onda transversal \cite{georgi2022physics}. Se pueden ver un ejemplo de cada tipo en la figura \ref{ondasdire}.
+Esta clasificación también se puede extender a las ondas electromagnéticas, pero no entraremos en eso por estar fuera del alcance de esta investigación.
+
+Hay también un tipo especial de ondas llamadas ondas armónicas: aquellas que representan un movimiento armónico simple.
+Las partículas del medio en el que se propaga una onda armónica sufren por tanto un MAS.
+Como podemos deducir de esto, su ecuación es sinusoidal, viene dada por un seno o coseno.
+
+\begin{figure}[ht!]
+    \centering
+    \subcaptionbox{Una onda longitudinal}{\includegraphics[height=5cm]{partes/marco_teorico/figuras/ondas_direccion/Longitudinal.png}}\hspace{2cm}
+    \subcaptionbox{\dots y una transversal}{\includegraphics[height=5cm]{partes/marco_teorico/figuras/ondas_direccion/Transversal.png}}
+    \caption{Ejemplos de ondas según la dirección del movimiento de las partículas. Fuente: Wikipedia.}
+    \label{ondasdire}
+\end{figure}
+
+Las principales magnitudes de una onda son (damos la definición para una onda mecánica pero se puede extender a cualquier tipo de onda):
+
+\begin{description}
+     \ii  [Amplitud ($A$)] Distancia del máximo desplazamiento al reposo. Unidades: $\unit{\metre}$.
+     \ii [Frecuencia ($\nu$, $f$)] Veces que se repite un periodo completo en cada partícula por unidad de tiempo. Unidades: $\unit{\per\second} = \unit{\hertz}$.
+     \ii[Periodo ($T$)] Tiempo que tarda una partícula efectuar un ciclo ($T = f^{-1}$). Unidades: $\unit{\second}$.
+     \ii [Longitud de onda ($\lambda$)] Distancia mínima entre dos partículas que se encuentran en un mismo estado \footnote{Tienen que mantener el mismo estado de vibración en cualquier momento dado. Sin esta condición podríamos llegar a pensar que el seno tiene periodo $\pi$ porque $\sen 0 = \sen \pi$.}. Unidades: $\unit{m}$.
+     \ii [Velocidad de propagación ($v$)] Velocidad a la que se propaga la onda por el medio. Por supuesto, $v = \frac{\lambda}{T}$. Unidades: $\unit{\metre\per\second}$.
+     \ii [Frecuencia angular ($\omega$)] Similar a la frecuencia ($\omega = 2\pi f$). Útil al plantear la ecuación de la onda, pero no tiene un significado físico como tal. Unidades: $\unit{\radian\per\second}$.
+     \ii [Número de onda angular ($k$)] Número de veces que se  repite la onda en un espacio de $\SI{2 \pi}{\metre}$. Por tanto, $k = 2 \pi \lambda^{-1}$. Unidades: $\unit{\radian\per\metre}$
+\end{description}
+
+Esto se ve mejor con un dibujo: en la figura \ref{ondasmag} se representan la amplitud $A$, el periodo $T$ y la longitud de onda $\lambda$. La primera imagen muestra como cambia la posición de una sola partícula según avanza el tiempo y la segunda, el estado global del medio en instante de tiempo.
+
+\begin{figure}[ht!]
+    \centering
+    \subcaptionbox{Desplazamiento respecto al tiempo en una partícula fija.}{\includegraphics[height=3cm]{partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png}}\hspace{2cm}
+    \subcaptionbox{Desplazamiento respecto a la posición en un instante fijo.}{\includegraphics[height=3cm]{partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png}}
+    \caption{Magnitudes relativas a las ondas. Elaboración propia}
+    \label{ondasmag}
+\end{figure}
+
+Con esta imagen se visualiza un concepto clave sobre las ondas:
+el movimiento ondulatorio es doblemente periódico.
+Esto se refiere al movimiento periódico que sufre cada partícula y a que el desplazamiento de las partículas se repite periódicamente a lo largo del medio: una onda es periódica en el tiempo y en el espacio \cite{2bach}.
+
+La ecuación de una onda respecto al espacio y al tiempo, por tanto, tiene un factor periódico en el tiempo y el espacio. Presentamos la ecuación de una onda armónica; la de una onda general viene dada, como veremos en la siguiente sección, por la suma de varias de estas.
+
+Efectivamente, la ecuación cumple estas características:
+\begin{eq}\label{ecuacion_mas}
+y(x, t) = A \sen (k \cdot (x \pm v t) + \varphi_0),
+\end{eq}
+donde $y$ es el desplazamiento, $A$ la amplitud de la onda, $k$ el número de onda angular,  $v$ la velocidad de propagación y $\varphi_0$ la fase inicial; es decir, $\arcsen \left(\frac{y(0, 0)}{A} \right)$ \cite{ondarm}.
+Derivamos esta ecuación en el Apéndice \ref{demostraciones}.
+
+El signo de ``$\pm$'' hace referencia al sentido de propagación de la onda.
+Se podría permitir que la velocidad fuera negativa, pero esto no se suele hacer.
+El motivo es que, si hablamos por ejemplo de ``la velocidad del sonido en el aire'' o ``la velocidad de la luz en el vacío'' nos referimos al módulo de esta velocidad.
+
+Esta ecuación; sin embargo, no es del todo correcta: si bien funciona para ondas unidimensionales; todos hemos visto como, al tirar una piedra a un estanque, las ondas se atenúan a medida que se alejan.
+Esto se conoce como atenuación de la onda, y es una cualidad intrínseca de todas las ondas de más de una dimensión.
+Esto, junto con otras propiedades de las ondas, lo trataremos en  la siguiente sección.
+
+\subsubsection{Propiedades de las ondas}
+
+Las ondas tienen muchas propiedades, algunas de las más conocidas siendo la reflexión y la refracción.
+En esta sección hablamos sobre algunas de ellas, sin mucha profundidad.
+
+Para empezar, definimos un concepto muy útil que nos permitirá caracterizar la amplitud cambiante de una onda es la envolvente:
+es una curva suave que es tangente a la onda en todo punto de amplitud máxima\cite{johnson2011software}.
+Aunque esta definición no es muy rigurosa, dependiendo del contexto puede tener más sentido.
+
+Por ejemplo, en la figura \ref{sumaMAS}, la curva verde es la envolvente de la azul.
+
+Ahora podemos pasar a hablar de las distintas propiedades de las ondas.
+En primer lugar, la atenuación.
+Pero antes de explicar como funciona debemos explicar otros conceptos: la potencia y la intensidad de una onda.
+
+La potencia $P$ de una onda, se define de la manera habitual: es la energía transportada por la onda por unidad de tiempo, la capacidad de transportar energía.
+Su unidad en el SI es el vatio $\unit{\watt} = \unit{\joule\per\second}$.
+
+Sin embargo, la energía que propaga una onda se reparte en todo el frente de onda.
+Esto significa que, cuanto mayor el frente de onda, menos energía tiene un punto que pertenece a esta.
+
+Para expresar esto se utiliza otra magnitud: la intensidad de la onda.
+Se habla de la intensidad de cada frente de onda y viene dada por
+\begin{equation*}
+\begin{aligned}
+    I &= P,\\[2pt]
+    I &= \frac{P}{L},\\[2pt]
+    I &= \frac{P}{S},
+\end{aligned}
+\end{equation*}
+para ondas uni-, bi- y tridimensionales respectivamente, donde $P$ es la potencia, $L$ la longitud de un frente de onda unidimensional y $S$ a superficie de un frente de onda bidimensional.
+
+Por supuesto, podemos calcular $L$ y $S$ a partir de su distancia al foco.
+Esto nos daría que en una onda unidimensional la intensidad es constante, que en una bidimensional la intensidad es inversamente proporcional a la distancia al foco y que en una tridimensional la intensidad es inversamente proporcional al cuadrado de la distancia al foco.
+
+Para llegar al concepto de atenuación tenemos que unificar los conceptos de intensidad y amplitud.
+En el apéndice \ref{demostraciones} derivamos la siguiente fórmula:
+\begin{equation*}
+    I = \text{cte.} \cdot A^2.
+\end{equation*}
+Esto y la proporcionalidad entre distancia y intensidad nos da que la amplitud de un frente de onda a una distancia $r$ del foco viene dada por
+\begin{equation*}
+\begin{aligned}
+    A &= P,\\[2pt]
+    A &= \frac{\text{cte.}} {\sqrt{r}},\\[2pt]
+    A &= \frac{\text{cte.}}{r},
+\end{aligned}
+\end{equation*}
+en el caso de ondas uni-, bi- y tridimensionales respectivamente.
+
+Sin embargo, si analizamos la caída de la intensidad de una onda real, vemos que es más rápida que la calculada por la atenuación, como se ve en la figura \ref{absorcion}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=5.5cm]{partes/marco_teorico//figuras/absorcion_vs_atenuacion.png}
+    \caption{Caída de la intensidad en función de la distancia. En verde, la predicha por la fórmula de la atenuación. En rojo, la envolvente de la onda real. Fuente: \cite{absorcion}.}
+    \label{absorcion}
+\end{figure}
+
+Este fenómeno se conoce como absorción.
+En el caso de las ondas mecánicas, esto es porque en la realidad la energía de la onda se está perdiendo en forma, por ejemplo, de energía térmica por la fricción entre partículas.
+La absorción depende del material del medio, ya que cada material tiene una característica llamada coeficiente de absorción que mide su capacidad para absorber ondas.
+
+Supongamos que una onda mecánica plana viaja por un medio ideal.
+Si atraviesa una pared de espesor $x$ cuyo material tiene coeficiente de absorción $\beta$, y que al alcanzar esta pared tiene una intensidad $I$.
+Entonces, al atravesar la pared tendrá una intensidad $I_0$ que viene dada por
+\[I_0 = I e^{-\beta x}.\]
+Por tanto, la intensidad disminuye de forma exponencial con el grosor y el coeficiente de absorción \cite{absorcion}.
+
+Las siguiente propiedad es una de las más importantes, y es útil para demostrar el comportamiento de otras.
+Es el principio de Huygens.
+
+El principio de Huygens dice que en una onda cada punto actúa como foco de una onda secundaria \cite{freegarde2012introduction}.
+Así, los frentes de onda principales son la unión de los frentes de onda secundarios.
+
+También afirma que las ondas secundarias interfieren (se suman) y dan lugar a la onda.
+
+Esto se ve mejor con una imagen: la figura \ref{huygens} muestra esto perfectamente para ondas planas y esféricas.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{partes/marco_teorico//figuras/huygens.png}
+    \caption{Principio de Huygens. Fuente: Wikipedia}
+    \label{huygens}
+\end{figure}
+
+El principio de Huygens, aunque intuitivo, es de mucha importancia y sirve para demostrar el comportamiento de varias de las próximas propiedades, reflexión y refracción, aunque no lo haremos por evitar alejarnos del tema.
+
+Yendo a la reflexión, es el cambio de la dirección de una onda al incidir sobre un medio.
+Esto se ve en la figura \ref{reflexion_refraccion}.
+
+El ángulo de reflexión es el simétrico respecto a la normal del ángulo de incidencia.
+
+La refracción es el cambio de la dirección de una onda al encontrarse cambiar de medio a uno con velocidad de propagación distinta.
+Según la ley de Snell, la nueva dirección viene dada por
+\[\frac{\sen(\theta_i)}{\sen(\theta_t)} = \frac{v_i}{v_t}\]
+donde se sigue la nomenclatura de la figura \ref{reflexion_refraccion} para los ángulos y $v_i$ y $v_t$ son, respectivamente, la velocidad en el primer y segundo medio.
+
+En la figura \ref{refraccion_lapiz} se ve el efecto de la luz sobre las imágenes.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.3\linewidth]{partes/marco_teorico//figuras/reflexion_refraccion.png}
+    \caption{Reflexión y refracción de una onda. Fuente: Wikipedia.}
+    \label{reflexion_refraccion}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.25\linewidth]{partes/marco_teorico//figuras/refraccion_real.png}
+    \caption{La refracción hace que parezca que el lápiz está doblado. Fuente: Wikipedia.}
+    \label{refraccion_lapiz}
+\end{figure}
+
+Como se ve en la figura \ref{reflexion_refraccion}, la reflexión puede ocurrir la reflexión a la vez que la refracción.
+
+Otra de las propiedades de las ondas es el efecto Doppler.
+El efecto Doppler consiste en la percepción de una frecuencia que no es la emitida en una onda cuyo foco se mueve respecto a emisor.
+
+Cuando la fuente de emisión de la onda se acerca al receptor, la frecuencia percibida será mayor que la real, mientras que cuando se aleja, se percibirá una frecuencia menor.
+
+Este es el motivo del por qué el sonido de la sirena de una ambulancia se hace más agudo al acercarse a nosotros y más grave al  alejarse.
+También ocurre con la luz: la teoría del Big Bang fue ideada por Edwin Hubble al ver que el universo se expandía.
+Esta observación se basaba en que vio cómo la luz de la mayoría de las galaxias se hacía ligeramente más roja con el tiempo, lo que hoy en día se conoce como corrimiento al rojo (esto no se puede percibir a simple vista, se hace con un espectrofotómetro).
+
+% Por último, la resonancia.
+% Este fenómeno es más fácil de explicar con un ejemplo.
+% Imaginemos un columpio que está oscilando una vez por segundo (con una frecuencia de $\qty{1}{\hertz}$).
+% Cada cierto tiempo lo propulsamos.
+% Si lo empujamos con una frecuencia de $\qty{0,9}{\hertz}$, de media no incrementaremos ni disminuiremos su velocidad, porque algunas de las veces que lo empujemos estará moviéndose en una dirección y otras en la contraria.
+
+% Sin embargo, si lo empujamos con una frecuencia de $\qty{1}{\hertz}$, entrará en resonancia y su intensidad aumentará.
+\todo{resonancia}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%                    %%
+%%      FOURIER       %%
+%%                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Análisis de Fourier}
+
+El análisis de Fourier es una de las herramientas más importante a la hora de descomponer un sonido en sus diferentes armónicos.
+Aunque la descomposición se realice desde hace tiempo por ordenador, presentamos el funcionamiento del método.
+
+Jean-Baptiste Joseph Fourier (1768-1830) fue un matemático francés que tuvo grandes aportaciones tanto a las matemáticas como a la física.
+Su vida es muy interesante, llena de acontecimientos históricos como la revolución francesa o la campaña napoleónica en Egipto,
+y se puede encontrar en \cite{fourier}.
+
+Fourier se movía principalmente por el ámbito de la propagación del calor. Tenía una obsesión con el calor: llevaba siempre capas de ropa y mantenía su habitación a una alta temperatura.
+Se cree que la desarrolló al volver de Egipto: después de vivir con temperaturas tan altas temperaturas se fue a vivir a Grenoble, en los Alpes franceses.
+Las bajas temperaturas de este lugar le llevaron a esta obsesión \cite{fourier}.
+
+En primer lugar hablaremos de la descomposición de una función en series trigonométricas, para pasar luego a hablar de la transformada de Fourier.
+
+\subsubsection{Series de Fourier}
+
+La descomposición de una función en serie trigonométrica (es decir, en la suma de varias funciones sinusoidales) fue un tema de suma importancia y muy discutido durante el siglo XVIII.
+Ya se sabía que toda función\footnote{En realidad solo es posible en el caso de las conocidas como funciones suaves, aquellas que se pueden derivar infinitamente en el punto a aproximar.}
+se puede aproximar con un polinomio en un intervalo centrado en un punto con tanta precisión como se necesitara con la técnica desarrollada por el matemático inglés Brook Taylor (1685-1731), las series de Taylor.
+Pero la posibilidad de aproximar una función arbitraria como suma de series de senos y cosenos era tema de debate, y no todos estaban de acuerdo en que se pudiera hacer.
+
+Gran parte del problema estaba en como se concebía el concepto de función: algunos consideraban que una función era una gráfica.
+Con esto se dejaba de lado funciones con gráficas tan complejas que no se pueden representar de este modo, como aquellas que toman todos los valores reales en cualquier intervalo
+(para más información sobre esto, leer el Apéndice A de \cite{chris}, sobre bases de Hamel).
+Al intentar dibujarlas se vería simplemente un papel completamente pintado.
+
+Otros, como  Jean le Rond d'Alembert (1717-1783), afirmaban que una función debía de poder representarse con una fórmula, lo que se conoce como que tengan forma explícita.
+Sin embargo, este enfoque no incluye las funciones de probabilidad o funciones en las que a cada entrada se le asigna una salida aleatoria.
+Además, las funciones definidas a trozos se consideraban la unión de distintas funciones \cite{elena}.
+
+Volviendo al tema, no todos estaban de acuerdo en las condiciones que debía cumplir un función para poder descomponerse en serie trigonométrica.
+Claramente la función debía ser periódica, pero tenía que existir alguna otra condición, ya que, si no, las funciones descritas anteriormente que cubrían todo el plano también se podrían representar con una de estas series.
+Esta cuestión se mantendría abierta hasta el trabajo de Dirichlet en 1829, pero aun así se pudo desarrollar esta teoría.
+
+La motivación para esta nueva técnica provenía, como suele ser, de varios problemas.
+El primero era el de la distribución del calor, estudiado como hemos dicho por Fourier.
+No entraremos en este por ser más complicado y no ser de mucho interés, pero se puede encontrar un ejemplo muy interesante de esta aplicación en el Capítulo 2 de \cite{elena}.
+
+El segundo problema era el de la cuerda vibrante: dada una cuerda tensa que se había desplazado de su posición de equilibrio, encontrar la forma que tendrá en un momento determinado.
+Este problema es más fácil de analizar, aunque tampoco lo hagamos en plena profundidad.
+
+Para analizar el problema de la cuerda vibrante, tenemos que idealizar las condiciones del problema: asumimos que la cuerda no tiene grosor, que su masa está uniformemente distribuida a lo largo de su longitud y que no se resiste a la flexión. Por supuesto, tampoco puede haber fuerzas externas.
+
+Tensamos la cuerda, fijando ambos extremos, $x = 0$ y $x = L$, donde $L$ es la longitud de la cuerda.
+Luego la desplazamos de su posición de equilibrio de manera que tome la forma de una función $f: [0, L] \to \RR$: el desplazamiento vertical que sufrirá un punto de ordenada $x$ será $f(x)$. Por supuesto, $f$ debe de ser continua.
+Luego soltamos la cuerda y dejamos que vibre libremente. Nuestro problema consiste en encontrar la función $u(x,t)$ que nos indique el desplazamiento de un punto ($x$) en cada instante de tiempo ($t$).
+
+La principal idea que se utilizó para explorar este problema fue tomar un caso discreto en vez de continuo.
+Para ver esto, imaginemos que en la cuerda hay algunas cuentas a intervalos uniformes.
+En vez de considerar el movimiento de toda la cuerda, se estudiaba el de las cuentas, más simple.
+
+Hasta 1747 solo se habían considerado casos de un máximo de 8 cuentas, investigado por Johann Bernoulli (1667–1748).
+Fue el francés Jean le Rond d'Alembert (1717-1783) el que resolvió en ese año el caso general.
+
+Su técnica consistía en considerar el problema según el número de cuentas tendía al infinito. Encontró así la siguiente ecuación (el razonamiento se puede encontrar en \cite{cuerda} o en su propio artículo \cite{dalembert}):
+\begin{equation}\label{difcuerda}
+    \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2},
+\end{equation}
+donde $c$ es una constante que depende de las propiedades de la cuerda con unidades $\unit{\metre\per\second}$ y suponemos que $L = 1$.
+
+D'Alembert encontró que la solución debía de ser de la forma
+\[u(x, t) = \Phi(x + ct) + \Psi(x - ct),\]
+donde $\Phi$ y $\Psi$ son funciones arbitrarias con segundas derivadas continuas.
+Imponiendo las condiciones de contorno $u(x, 0) = f(x)$ e $u(0, t) = u(1, t) = 0$, llegó a que
+\begin{equation}\label{cuerda}
+    u(x, t) = \half(f(x + ct) + f(x - ct).
+\end{equation}
+Sin embargo, esto no tiene sentido, ya que $f$ solo está definida en $[0, L]$.
+Pues bien, para arreglar este problema, se extiende $f$ a todos los reales de la siguiente manera:
+\begin{itemize}
+    \ii Definimos $f$ como una función impar: $f(-x) = -f(x)$.
+    \ii Imponemos que $f$ sea periódica con periodo $2L$.
+\end{itemize}
+
+Por ejemplo, si $f(x) = x^2\sen x$ para $0 \leq x \leq \pi$, la cuerda vibraría como se ve en la figura \ref{vibcue} (en este caso $L = \pi$).
+
+\begin{figure}
+    \centering
+    \includegraphics[height=5cm]{partes/marco_teorico/figuras/vibracion_cuerda.png}
+    \caption{Vibración de una cuerda con forma $f(x) = x^2 \sen x$. Elaboración propia.}
+    \label{vibcue}
+\end{figure}
+
+La ecuación \ref{cuerda} tiene sentido para cualquier función $f$; sin embargo, la ecuación \ref{difcuerda} solo tiene sentido para funciones con segunda derivada.
+D'Alembert creía que su fórmula solo podía aplicarse a estos casos.
+
+Sin embargo, otros defendían la aplicación de la fórmula a cualquier caso.
+Por ejemplo, si hacemos que la cuerda tenga un pico, como en la figura \ref{trian}, en principio no se podría aplicar nuestra fórmula, ya que la función no tiene segunda derivada en este pico.
+\begin{figure}[ht!]
+    \centering
+    \subcaptionbox{Función original.}{\includegraphics[height=3cm]{partes/marco_teorico/figuras/onda_triangular/original.png}}\hspace{1cm}
+    \subcaptionbox{Aproximación para $n=3$}{\includegraphics[height=3cm]{partes/marco_teorico/figuras/onda_triangular/fourier_aproximada.png}}
+    \caption{Pulso triangular y aproximación por serie de Fourier. Elaboración propia}
+    \label{trian}
+\end{figure}
+Durante mucho tiempo existió este desacuerdo.
+hasta que Daniel Bernoulli (1604-1705), hijo de Johann Bernoulli, dio el saltó crucial: consideró representar $f$ como la suma de varios (infinitos) senos y cosenos \cite{bernoulli}, lo que actualmente se conoce como la serie de Fourier de $f$:
+\[f(x) = \sum_{n=1}^\infty A_n \sen\left(\frac{\pi n x}{L}\right)\]
+para algunos coeficientes $A_n$ que dependerían de la función.
+Cualquier función de esta forma tendría segunda derivada, y además concuerda con el hecho de que una cuerda vibra según la suma de sus armónicos.
+
+Ahora definiremos las series de Fourier en general.
+
+\begin{definition*}
+    Sea $f: \RR \to \RR$ una función periódica con periodo $P$ que cumpla que
+    \begin{enumerate}[label=\alph*)]
+        \ii \(\int_{-P/2}^{P/2} |f(x)| \ddint x\) existe.
+        \ii Cada periodo de $f$ se puede dividir en número finito de intervalos en los que la función es monótona.
+        \ii $f$ tiene un número finito de discontinuidades en cada periodo, y son discontinuidades de salto finito.
+    \end{enumerate}
+    Entonces, para todo $x$,
+    \[f(x) = \frac{a_0}{2} + 
+    \sum_{n=1}^\infty \left( a_n \cos\left(\frac{2 \pi n}{P}x\right) +
+    b_n \sen\left(\frac{2 \pi n}{P}x\right)\right),\]
+    para algunos coeficientes $a_0, a_1, b_1, a_2, b_2, \dots$
+     
+    Estos coeficientes vienen dados por
+    \begin{align*}
+        a_n &= \frac{2}{P} \int_{-P/2}^{P/2} f(x)\cos \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = 0, 1, 2, \dots\\
+        b_n &= \frac{2}{P} \int_{-P/2}^{P/2} f(x)\sen \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1.03cm} \text{para} \hspace{1.2mm} n = 1, 2, \dots 
+    \end{align*}
+\end{definition*}
+
+Las condiciones tres condiciones para que exista la serie de Fourier (más precisamente, para que converja) se conocen como condiciones de Dirichlet \cite{dirichlet}, en honor a Gustav Lejeune Dirichlet (1805-1859), el que las estableció.
+
+La demostración de la convergencia de la serie de Fourier se puede encontrar en el apéndice \ref{demostraciones}.
+
+Otra forma común de expresar la serie de Fourier es como
+\begin{equation*}
+    f(x) = \sum_{n = -\infty}^\infty c_n e^{\frac{i 2 \pi n}{P}x}
+\end{equation*}
+donde
+\begin{equation*}
+     c_n = \frac{1}{P} \int_{-P/2}^{P/2} f(x) e^{\frac{-i 2 \pi n}{P}x} \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = \dots, -2, -1, 0, 1, 2, \dots 
+\end{equation*}
+
+Esto se deriva de la fórmula de Euler
+\begin{equation*}
+    e^{i\theta} = \cos \theta + i \sen \theta.
+\end{equation*}
+Se pueden encontrar más detalles en el apéndice \ref{demostraciones}.
+
+Aunque solo las funciones periódicas tienen serie de Fourier, cualquier función $f$ se puede aproximar en un intervalo $[a, b]$:
+solo hay que definir una nueva función como
+\[f(x) =
+\begin{cases}
+    f(x) & x \in [a, b]\\
+    f(x \bmod (b-a)) & x \notin [a, b],
+\end{cases}\]
+donde $x \bmod y$, con $x, y \in \RR$ e $y \not= 0$, es el resto de dividir $x$ entre $y$, teniendo en cuenta que el cociente tiene que ser entero.
+Por ejemplo: $3,7 \bmod 1,5 =  0,2$ y $-3 \bmod 1 = 0$.
+
+Esto es solo una manera de expresar formalmente que extendemos de manera periódica la función a todos los reales.
+Por supuesto, nuestra nueva función tiene que cumplir las condiciones de Dirichlet.
+
+En la siguiente sección veremos como esto se extiende naturalmente a la transformada de Fourier.
+
+\subsubsection{Transformada de Fourier}
+
+Si bien podemos aproximar un intervalo de la función, nos gustaría poder aproximarla entera.
+De esta manera, se nos puede ocurrir tomar el límite
+\begin{equation*}
+    c_n = \lim_{A \to \infty} \frac{1}{A} \int_{-A/2}^{A/2} f(x) e^{\frac{-i 2 \pi n}{A}x} \ddint x.
+\end{equation*}
+Por supuesto, esto no tiene ningún sentido porque no podemos dividir entre infinito, en realidad hay que trabajar con una nueva variable $\frac{1}{A}$ para poder tomar el límite.
+
+Sin embargo, una vez nuestra expresión tiene sentido, podemos desarrollar la transformada de Fourier: una nueva función en una variable $\omega$ que se define como
+\begin{equation*}
+    \SF(\omega) = \int_{-\infty}^{\infty} f(x) e^{-2 \pi i x \omega} \ddint x.
+\end{equation*}
+Como es natural, debemos imponer la condición de que sea absolutamente integrable; esto es, que exista $\int_{-\infty} ^\infty |f(x)| \ddint x$.
+
+% Otras versiones utilizadas son
+% \begin{equation*}
+%     \hat{f}(\omega) = \frac{1}{2\pi} \int_{-\infty}^{\infty} f(x) e^{-i \omega x} \ddint x
+% \end{equation*}
+% y
+% \begin{equation*}
+%     \hat{f}(\omega) = \sqrt{\frac{1}{2\pi}} \int_{-\infty}^{\infty} f(x) e^{-i \omega x} \ddint x.
+% \end{equation*}
+% Aunque parezca algo artificial la raíz cuadrada, tiene un motivo natural: se debe a la definición de la transformada inversa
+
+Dada una función $f(x)$ y otra $\SF(\omega)$, absolutamente integrables, si $\SF$ es la transformada de $f$, el teorema de inversión de Fourier afirma que $f(-x)$ es la transformada de $\SF(\omega)$; es decir, que podemos recuperar una función dada su transformada de Fourier \cite{gerard}.
+La demostración matemática es un poco densa, por lo que no la mostraremos aquí, pero se puede encontrar en la mayoría de libros de análisis de Fourier.
+
+Es fácil ver que, aunque una función tenga serie de Fourier, puede (y suele) no tener transformada de Fourier.
+Por ejemplo, aunque el seno es su propia serie de Fourier, al no ser absolutamente integrable, no tiene transformada.
+
+Sin embargo, dada una función periódica $f$ con periodo $P$, con serie de Fourier definida, podemos encontrar la transformada de un periodo: definimos una nueva función $f_0$ de la siguiente manera
+\[f_0(x) =
+\begin{cases}
+    f(x) & x \in \left[\frac{-P}{2}, \frac{P}{2}\right]\\
+    0 & x \notin \left[\frac{-P}{2}, \frac{P}{2}\right]
+\end{cases}\]
+Como $f$ era absolutamente integrable en un periodo, $f_0$ es absolutamente integrable.
+Entonces, podemos calcular su transformada.
+
+Además, resulta que en ciertos valores ``enteros'', la transformada toma los valores de la serie de Fourier.
+En realidad no es exactamente así: realmente
+\begin{eq}\label{valores_enteros}
+2 \pi c_n = \SF_0\left(\frac{n}{2\pi}\right).
+\end{eq}
+(En este caso y en lo sucesivo suponemos que $P = 2 \pi$).
+De hecho, por eso algunos autores prefieren escribir los coeficientes como $c_{n/2 \pi}$ en vez de $c_n$: porque son el valor de la transformada en $\frac{n}{2 \pi}$ (por una constante).
+
+La ecuación \ref{valores_enteros} se deduce fácilmente de la definición de los coeficientes y la transformada:
+\begin{align*}
+\SF_0 \left(\frac{n}{2\pi} \right) &= \int_{-\infty}^{\infty} f_0(x) \exp \lf({-2 \pi i x \frac{n}{2\pi}} \ri) \ddint x \\
+& = \int _{-\pi}^{\pi} f(x) e^{-i x n} \ddint x \\
+& = 2 \pi c_n.
+\end{align*}
+Esto es lo que hace a la transformada de Fourier tan útil: si tenemos una onda y queremos saber la intensidad relativa de sus diferentes armónicos (sin que nos importe el valor de las intensidades, solo las proporciones entre ellas), solo necesitamos hacer su transformada de Fourier y comparar los valores de la forma $\frac{n}{2\pi}$.
+
+Por ejemplo, si queremos descomponer un sonido que cambia en el tiempo, como un glissando\footnote{El glissando es un efecto que consiste en pasar de una nota a otra haciendo que suenen todos los sonidos intermedios}.
+Podemos hacer la transformada de Fourier cada cierto intervalo de tiempo, por ejemplo cada $\SI{20}{\milli\second}$.
+
+Por supuesto para esto hace falta el equipamiento adecuado; a menudo se convierte el sonido en señales eléctricas y luego se utiliza un analizador de espectro para separar sus armónicos.
+
+Sin embargo, esto nos hace preguntarnos: ¿cómo puede un ordenador, tan solo capaz de trabajar con cantidades finitas de datos, calcular la transformada de Fourier de una función continua?
+Esto es lo que nos lleva a la transformada de Fourier discreta.
+
+\subsubsection{Transformada de Fourier discreta}
+
+La transformada de Fourier como tal no puede ser implementada en un ordenador, al trabajar con datos infinitos.
+Para eso se inventó la transformada de Fourier discreta, DFT (del inglés \textit{discrete Fourier transform}), una herramienta que consiste en discretizar las variables de $f$ y $\SF$, esto es, $x$ y $\omega$.
+
+Antes de nada damos una definición que será clave en nuestra derivación del método de la DFT:
+
+Un impulso de área $A$ es una ``función'' $f$ tal que $f(x) = 0$ para cualquier $x \not = p$ y cuya integral sobre los reales es $A$.
+Por ejemplo, la función $\delta$ de Dirac: cumple que $\delta(x) = 0$ para $x \not = 0$ y que
+    \[\int_{\infty}^{\infty} \delta(x) \ddint x.\]
+
+Para calcular la DFT seguimos los siguientes pasos \cite{dft}:
+
+En primer lugar, tomamos $N$ muestras de nuestra función separadas por un tiempo $T$ entre ellas. Denotamos estas muestras por $f[0]$, $f[T]$, \dots, $f[(N - 1)T]$. Esto se ve en la figura \ref{sampling} (a).
+
+\begin{figure}[ht!]
+    \centering
+    \subcaptionbox{Muestreo.}{\includegraphics[width = 7cm]{partes/marco_teorico/figuras/DFT/sampling.png}}
+    \subcaptionbox{Periodificación.}{\includegraphics[width = 7cm]{partes/marco_teorico/figuras/DFT/periodica.png}}
+    \caption{Discretización de una función para el cálculo de la DFT. Fuente: \cite{dft}.}
+    \label{sampling}
+\end{figure}
+
+Aquí hay que notar dos cosas: para empezar, que la distancia entre las muestras no puede ser demasiado grande, ya que entonces sería una muy mala aproximación de la función original, y el resultado sería poco preciso.
+Además, con estas $N$ muestras estamos definiendo una ``ventana'', un intervalo en el que tomamos las muestras, olvidando el resto de la función.
+Esta ventana no debe ser demasiado grande, si no, después de hacer la DFT en distintos intervalos, quedaría algo similar a una película con pocos fotogramas por segundo.
+
+Sin embargo, esta ventana tiene que ser lo suficientemente grande como para que se pueda apreciar la función: por ejemplo, si $f(x) = \sen(x)$ y nuestra ventana fuera 
+\[
+\lf[\frac{\pi}{2} - \varepsilon, \frac{\pi}{2} + \varepsilon \ri]
+\]
+para $\varepsilon$ pequeño, la función parecería una constante.
+
+Como se ve en la figura \ref{sampling} (b), ahora estamos suponiendo que nuestra función es periódica, y que la DFT funcionaría para toda la onda; aunque no es así y tendremos que calcularla para cada intervalo de tiempo.
+
+Después de esta discretización, debemos calcular la transformada. Sin embargo, al ser la transformada una integral y ser nuestra función discreta, inevitablemente obtendremos que $\SF(\omega) = 0$.
+Por ello, interpretamos cada $f[k]$, para $k = 0$, $1$, \dots, $N-1$, como un impulso de área $f[k]$. 
+
+Ahora ya podemos integrar:
+\begin{align*}
+    \SF_d(\omega) &= \int_0^{(N - 1) T} f(x) e^{-2\pi i \omega x} \ddint x \\
+    &= f[0] e^{0} + f[1] e^{-2\pi i \omega \cdot 1} + \dots + f[N - 1] e^{-2\pi i \omega (N - 1) T} \\
+    &= \sum_{k=0}^{N-1} f[k] e^{-2\pi i \omega k T}.
+\end{align*}
+Aunque este sumatorio se puede evaluar para cualquier $\omega$ real, solo nos interesa para los valores de la forma $\frac{k}{2 \pi}$ para $k = 0$, $1$, \dots, $N-1$; por la ecuación \ref{valores_enteros}.
+
+Aunque la DFT se pueda realizar teóricamente con un ordenador, para $N$ grande, el tiempo de computación crece mucho.
+Por ello se ha desarrollado un método conocido como la FFT (del inglés \textit{fast Fourier transform}, transformada de Fourier rápida).
+Reduce el número de operaciones a realizar sustancialmente. Usando la DFT convencional, el número de operaciones necesarias es del orden de $N^2$.
+Sin embargo, esto se reduce a un número de operaciones del orden de $N \log_2 N$ \cite{rao_kim}.
+
+El método es algo largo de explicar, pero no usa matemáticas demasiado avanzadas y se puede encontrar en \cite{fft} y \cite{elena}, por ejemplo.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%         SONIDO        %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Sonido}
+
+El término \textit{sonido} acepta varias definiciones,
+según el ámbito en el que nos encontremos.
+En física, el sonido es una onda mecánica, una vibración,
+que se propaga a través de un medio, ya sea líquido sólido o gas.
+En psicología y fisiología, el sonido es la recepción de esta vibración
+por el sentido del oído, y su procesamiento por parte del cerebro.
+Se utilizará la primera de estas definiciones en esta investigación.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%         FAGOT         %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{El fagot}
+
+El fagot es un instrumento de viento madera, de taladro cónico, 
+
+
+
+
+\end{document}

@@ -1,0 +1,4 @@
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QEsta ley fue enunciada por Isaac Newton (1643-1727) en 1687 en su obra Philosophiæ Naturalis Principia Mathematica (Principios Matemáticos de la filosofía natural, \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q) y dice lo siguiente \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q:\\E$"}
+{"rule":"MAS","sentence":"^\\QEl MAS, como cualquier otro movimiento, también se rige por la segunda ley de Newton o ley fundamental de la dinámica.\\E$"}
+{"rule":"MAS","sentence":"^\\QÚtil al plantear la ecuación del MAS.\\E$"}
+{"rule":"MAS","sentence":"^\\QAntes de hablar de ondas se debe siempre dar una introducción al movimiento armónico simple (MAS).\\E$"}
