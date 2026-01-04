@@ -45,6 +45,37 @@
       \field{title}{Fourier. Un matemático al servicio de la física}
       \field{year}{2017}
     \endentry
+    \entry{definicion_sonido}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f577c27c986189a143bc85414905354}{%
+           family={ASA/ANSI},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f577c27c986189a143bc85414905354}
+      \strng{fullhash}{3f577c27c986189a143bc85414905354}
+      \strng{fullhashraw}{3f577c27c986189a143bc85414905354}
+      \strng{bibnamehash}{3f577c27c986189a143bc85414905354}
+      \strng{authorbibnamehash}{3f577c27c986189a143bc85414905354}
+      \strng{authornamehash}{3f577c27c986189a143bc85414905354}
+      \strng{authorfullhash}{3f577c27c986189a143bc85414905354}
+      \strng{authorfullhashraw}{3f577c27c986189a143bc85414905354}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Standard Acoustical Terminology Database - Sound}
+      \field{urlday}{4}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://asastandards.org/terms/sound-2/
+      \endverb
+      \verb{url}
+      \verb https://asastandards.org/terms/sound-2/
+      \endverb
+    \endentry
     \entry{bernoulli}{article}{}{}
       \name{author}{1}{}{%
         {{hash=5d56973704433b022f0ebe95b1aa716b}{%

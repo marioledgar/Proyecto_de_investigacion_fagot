@@ -1,14 +1,16 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[136] biber-MSWIN64:342> INFO - === 
-[224] Biber.pm:421> INFO - Reading 'main.bcf'
-[381] Biber.pm:1002> INFO - Found 24 citekeys in bib section 0
-[413] Biber.pm:4487> INFO - Processing section 0
-[427] Biber.pm:4678> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[505] bibtex.pm:1713> INFO - LaTeX decoding ...
-[562] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
-[731] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[732] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[732] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[829] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[844] bbl.pm:779> INFO - Output to main.bbl
+[727] biber-MSWIN64:342> INFO - === 
+[890] Biber.pm:421> INFO - Reading 'main.bcf'
+[1352] Biber.pm:1002> INFO - Found 25 citekeys in bib section 0
+[1439] Biber.pm:4487> INFO - Processing section 0
+[1489] Biber.pm:4678> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[1707] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1909] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
+[2466] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2467] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2502] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[2632] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[2668] bbl.pm:779> INFO - Output to main.bbl
+[2668] Biber.pm:132> WARN - legacy year field 'n.d.' in entry 'definicion_sonido' is not an integer - this will probably not sort properly.
+[2669] Biber.pm:134> INFO - WARNINGS: 1

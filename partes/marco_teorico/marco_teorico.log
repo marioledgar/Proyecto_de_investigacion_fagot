@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  4 JAN 2026 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  4 JAN 2026 15:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -374,8 +374,6 @@ Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quotdepth=\count308
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
-Package babel Info: Making < an active character on input line 722.
-Package babel Info: Making > an active character on input line 722.
 ))
 LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 73.
 LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 73.
@@ -1125,14 +1123,12 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
 (scrartcl)           before \begin{document} on input line 3.
-Class scrartcl Info: temporary deactivation of babel-spanish quoting  on input line 3.
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count521
 ))
-Class scrartcl Info: reactivation of babel-spanish quoting  on input line 3.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1195,8 +1191,9 @@ Package biblatex Info: Automatic encoding selection.
 \openout6 = `marco_teorico.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'marco_teorico.bbl' found.
- (./marco_teorico.bbl)
+Package biblatex Info: ... file 'marco_teorico.bbl' not found.
+
+No file marco_teorico.bbl.
 Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
 Package hyperref Info: Link coloring ON on input line 3.
@@ -1206,58 +1203,27 @@ Package tocbasic Info: setting babel extension for `lol' on input line 3.
 LaTeX Info: Redefining \dots on input line 3.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-spanish.trsl
+(c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 3.
-
-
-LaTeX Warning: File `partes/marco_teorico/figuras/muelles/Muelle_abajo.png' not found on input line 19.
-
-
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:19: Package pdftex.def Error: File `partes/marco_teorico/figuras/muelles/Muelle_abajo.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...teorico/figuras/muelles/Muelle_abajo.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `partes/marco_teorico/figuras/muelles/Muelle_equilibrio.png' not found on input line 21.
-
-
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:21: Package pdftex.def Error: File `partes/marco_teorico/figuras/muelles/Muelle_equilibrio.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...co/figuras/muelles/Muelle_equilibrio.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `partes/marco_teorico/figuras/muelles/Muelle_arriba.png' not found on input line 23.
-
-
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:23: Package pdftex.def Error: File `partes/marco_teorico/figuras/muelles/Muelle_arriba.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 ...eorico/figuras/muelles/Muelle_arriba.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<figuras/muelles/Muelle_abajo.png, id=31, 149.05687pt x 377.91188pt>
+File: figuras/muelles/Muelle_abajo.png Graphic file (type png)
+<use figuras/muelles/Muelle_abajo.png>
+Package pdftex.def Info: figuras/muelles/Muelle_abajo.png  used on input line 19.
+(pdftex.def)             Requested size: 56.11224pt x 142.26378pt.
+<figuras/muelles/Muelle_equilibrio.png, id=33, 149.05687pt x 377.91188pt>
+File: figuras/muelles/Muelle_equilibrio.png Graphic file (type png)
+<use figuras/muelles/Muelle_equilibrio.png>
+Package pdftex.def Info: figuras/muelles/Muelle_equilibrio.png  used on input line 21.
+(pdftex.def)             Requested size: 56.11224pt x 142.26378pt.
+<figuras/muelles/Muelle_arriba.png, id=34, 149.55875pt x 377.91188pt>
+File: figuras/muelles/Muelle_arriba.png Graphic file (type png)
+<use figuras/muelles/Muelle_arriba.png>
+Package pdftex.def Info: figuras/muelles/Muelle_arriba.png  used on input line 23.
+(pdftex.def)             Requested size: 56.30118pt x 142.26378pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
-(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
@@ -1272,322 +1238,239 @@ File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 30.
  (c:/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+)
 
-] [2] [3]
+LaTeX Warning: Citation 'pain' on page 1 undefined on input line 33.
 
-LaTeX Warning: File `partes/marco_teorico/figuras/pulsos/Onda1.png' not found on input line 191.
 
+LaTeX Warning: Citation 'newton_principia' on page 1 undefined on input line 39.
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:191: Package pdftex.def Error: File `partes/marco_teorico/figuras/pulsos/Onda1.png' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 .../marco_teorico/figuras/pulsos/Onda1.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation 'gamow' on page 1 undefined on input line 39.
 
+[1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-LaTeX Warning: File `partes/marco_teorico/figuras/pulsos/Onda 2.png' not found on input line 193.
+ <./figuras/muelles/Muelle_abajo.png> <./figuras/muelles/Muelle_equilibrio.png> <./figuras/muelles/Muelle_arriba.png>]
 
+LaTeX Warning: Citation 'edos' on page 2 undefined on input line 76.
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:193: Package pdftex.def Error: File `partes/marco_teorico/figuras/pulsos/Onda 2.png' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.193 ...marco_teorico/figuras/pulsos/Onda 2.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation 'comp' on page 2 undefined on input line 126.
 
 
-LaTeX Warning: File `partes/marco_teorico/figuras/pulsos/Pulsos.png' not found on input line 194.
+LaTeX Warning: Citation 'epe' on page 2 undefined on input line 133.
 
+[2] [3]
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:194: Package pdftex.def Error: File `partes/marco_teorico/figuras/pulsos/Pulsos.png' not found: using draft setting.
+LaTeX Warning: Citation 'instruments' on page 4 undefined on input line 179.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.194 ...marco_teorico/figuras/pulsos/Pulsos.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<figuras/pulsos/Onda1.png, id=77, 567.11874pt x 144.03813pt>
+File: figuras/pulsos/Onda1.png Graphic file (type png)
+<use figuras/pulsos/Onda1.png>
+Package pdftex.def Info: figuras/pulsos/Onda1.png  used on input line 191.
+(pdftex.def)             Requested size: 336.09421pt x 85.35826pt.
+<figuras/pulsos/Onda2.png, id=78, 567.11874pt x 141.52875pt>
+File: figuras/pulsos/Onda2.png Graphic file (type png)
+<use figuras/pulsos/Onda2.png>
+Package pdftex.def Info: figuras/pulsos/Onda2.png  used on input line 192.
+(pdftex.def)             Requested size: 342.04784pt x 85.35826pt.
+<figuras/pulsos/Pulsos.png, id=79, 567.11874pt x 140.525pt>
+File: figuras/pulsos/Pulsos.png Graphic file (type png)
+<use figuras/pulsos/Pulsos.png>
+Package pdftex.def Info: figuras/pulsos/Pulsos.png  used on input line 193.
+(pdftex.def)             Requested size: 344.47948pt x 85.35826pt.
+[4 <./figuras/pulsos/Onda1.png> <./figuras/pulsos/Onda2.png> <./figuras/pulsos/Pulsos.png>]
 
-[4]
+LaTeX Warning: Citation '2bach' on page 5 undefined on input line 213.
 
-LaTeX Warning: File ` partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png' not found on input line 229.
+<figuras/ondas_dimensiones/Unidimensional.png, id=90, 642.90187pt x 250.43562pt>
+File: figuras/ondas_dimensiones/Unidimensional.png Graphic file (type png)
+<use figuras/ondas_dimensiones/Unidimensional.png>
+Package pdftex.def Info: figuras/ondas_dimensiones/Unidimensional.png  used on input line 228.
+(pdftex.def)             Requested size: 226.43164pt x 88.2037pt.
+<figuras/ondas_dimensiones/Bidimensional.png, id=91, 363.3575pt x 219.82124pt>
+File: figuras/ondas_dimensiones/Bidimensional.png Graphic file (type png)
+<use figuras/ondas_dimensiones/Bidimensional.png>
+Package pdftex.def Info: figuras/ondas_dimensiones/Bidimensional.png  used on input line 229.
+(pdftex.def)             Requested size: 145.79506pt x 88.2037pt.
+<figuras/ondas_dimensiones/Tridimensional.png, id=92, 297.11pt x 340.77313pt>
+File: figuras/ondas_dimensiones/Tridimensional.png Graphic file (type png)
+<use figuras/ondas_dimensiones/Tridimensional.png>
+Package pdftex.def Info: figuras/ondas_dimensiones/Tridimensional.png  used on input line 230.
+(pdftex.def)             Requested size: 81.86191pt x 93.89418pt.
 
+LaTeX Warning: Citation 'georgi2022physics' on page 5 undefined on input line 237.
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:229: Package pdftex.def Error: File `partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png' not found: using draft setting.
+[5 <./figuras/ondas_dimensiones/Unidimensional.png> <./figuras/ondas_dimensiones/Bidimensional.png> <./figuras/ondas_dimensiones/Tridimensional.png>]
+<figuras/ondas_direccion/Longitudinal.png, id=103, 174.6525pt x 224.84pt>
+File: figuras/ondas_direccion/Longitudinal.png Graphic file (type png)
+<use figuras/ondas_direccion/Longitudinal.png>
+Package pdftex.def Info: figuras/ondas_direccion/Longitudinal.png  used on input line 246.
+(pdftex.def)             Requested size: 110.514pt x 142.26378pt.
+<figuras/ondas_direccion/Transversal.png, id=104, 148.05313pt x 218.31563pt>
+File: figuras/ondas_direccion/Transversal.png Graphic file (type png)
+<use figuras/ondas_direccion/Transversal.png>
+Package pdftex.def Info: figuras/ondas_direccion/Transversal.png  used on input line 247.
+(pdftex.def)             Requested size: 96.47736pt x 142.26378pt.
+<figuras/magnitudes_ondas/onda_amplitud_periodo.png, id=107, 146.04562pt x 97.11281pt>
+File: figuras/magnitudes_ondas/onda_amplitud_periodo.png Graphic file (type png)
+<use figuras/magnitudes_ondas/onda_amplitud_periodo.png>
+Package pdftex.def Info: figuras/magnitudes_ondas/onda_amplitud_periodo.png  used on input line 268.
+(pdftex.def)             Requested size: 128.37122pt x 85.35826pt.
+<figuras/magnitudes_ondas/onda_longitud_frecuencia.png, id=108, 152.06813pt x 97.11281pt>
+File: figuras/magnitudes_ondas/onda_longitud_frecuencia.png Graphic file (type png)
+<use figuras/magnitudes_ondas/onda_longitud_frecuencia.png>
+Package pdftex.def Info: figuras/magnitudes_ondas/onda_longitud_frecuencia.png  used on input line 269.
+(pdftex.def)             Requested size: 133.66489pt x 85.35826pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.229 ...as/ondas_dimensiones/Unidimensional.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
+LaTeX Warning: Citation '2bach' on page 6 undefined on input line 276.
 
-LaTeX Warning: File `partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png' not found on input line 230.
+[6 <./figuras/ondas_direccion/Longitudinal.png> <./figuras/ondas_direccion/Transversal.png>]
 
+LaTeX Warning: Citation 'ondarm' on page 7 undefined on input line 284.
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:230: Package pdftex.def Error: File `partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230 ...ras/ondas_dimensiones/Bidimensional.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `demostraciones' on page 7 undefined on input line 285.
 
 
-LaTeX Warning: File `partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png' not found on input line 231.
+LaTeX Warning: Citation 'johnson2011software' on page 7 undefined on input line 301.
 
+[7 <./figuras/magnitudes_ondas/onda_amplitud_periodo.png> <./figuras/magnitudes_ondas/onda_longitud_frecuencia.png>]
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:231: Package pdftex.def Error: File `partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png' not found: using draft setting.
+LaTeX Warning: Reference `demostraciones' on page 8 undefined on input line 331.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.231 ...as/ondas_dimensiones/Tridimensional.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<figuras/absorcion_vs_atenuacion.png, id=128, 308.65312pt x 262.73157pt>
+File: figuras/absorcion_vs_atenuacion.png Graphic file (type png)
+<use figuras/absorcion_vs_atenuacion.png>
+Package pdftex.def Info: figuras/absorcion_vs_atenuacion.png  used on input line 349.
+(pdftex.def)             Requested size: 156.49014pt x 133.20956pt.
 
+LaTeX Warning: Citation 'absorcion' on page 8 undefined on input line 350.
 
-LaTeX Warning: File `partes/marco_teorico/figuras/ondas_direccion/Longitudinal.png' not found on input line 247.
 
+LaTeX Warning: Citation 'absorcion' on page 8 undefined on input line 350.
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:247: Package pdftex.def Error: File `partes/marco_teorico/figuras/ondas_direccion/Longitudinal.png' not found: using draft setting.
+[8 <./figuras/absorcion_vs_atenuacion.png>]
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.247 ...iguras/ondas_direccion/Longitudinal.png}}
-                                                  \hspace{2cm}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation 'absorcion' on page 9 undefined on input line 362.
 
 
-LaTeX Warning: File `partes/marco_teorico/figuras/ondas_direccion/Transversal.png' not found on input line 248.
+LaTeX Warning: Citation 'freegarde2012introduction' on page 9 undefined on input line 367.
 
+<figuras/huygens.png, id=136, 735.74875pt x 581.17125pt>
+File: figuras/huygens.png Graphic file (type png)
+<use figuras/huygens.png>
+Package pdftex.def Info: figuras/huygens.png  used on input line 375.
+(pdftex.def)             Requested size: 167.29967pt x 132.15015pt.
+<figuras/reflexion_refraccion.png, id=140, 154.5775pt x 157.58875pt>
+File: figuras/reflexion_refraccion.png Graphic file (type png)
+<use figuras/reflexion_refraccion.png>
+Package pdftex.def Info: figuras/reflexion_refraccion.png  used on input line 396.
+(pdftex.def)             Requested size: 125.47794pt x 127.9275pt.
+<figuras/refraccion_real.png, id=141, 501.875pt x 376.40625pt>
+File: figuras/refraccion_real.png Graphic file (type png)
+<use figuras/refraccion_real.png>
+Package pdftex.def Info: figuras/refraccion_real.png  used on input line 403.
+(pdftex.def)             Requested size: 104.56389pt x 78.4216pt.
+[9 <./figuras/huygens.png (PNG copy)>]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 426.
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:248: Package pdftex.def Error: File `partes/marco_teorico/figuras/ondas_direccion/Transversal.png' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 ...figuras/ondas_direccion/Transversal.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation 'fourier' on page 10 undefined on input line 442.
 
-[5]
 
-LaTeX Warning: File `partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png' not found on input line 269.
+LaTeX Warning: Citation 'fourier' on page 10 undefined on input line 446.
 
+[10 <./figuras/reflexion_refraccion.png (PNG copy)> <./figuras/refraccion_real.png (PNG copy)>]
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:269: Package pdftex.def Error: File `partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png' not found: using draft setting.
+LaTeX Warning: Citation 'chris' on page 11 undefined on input line 460.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.269 ...nitudes_ondas/onda_amplitud_periodo.png}}
-                                                  \hspace{2cm}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
+LaTeX Warning: Citation 'elena' on page 11 undefined on input line 465.
 
-LaTeX Warning: File `partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png' not found on input line 270.
 
+LaTeX Warning: Citation 'elena' on page 11 undefined on input line 473.
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:270: Package pdftex.def Error: File `partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png' not found: using draft setting.
+[11]
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.270 ...udes_ondas/onda_longitud_frecuencia.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation 'cuerda' on page 12 undefined on input line 491.
 
 
-LaTeX Warning: Reference `demostraciones' on page 6 undefined on input line 286.
+LaTeX Warning: Citation 'dalembert' on page 12 undefined on input line 491.
 
-[6] [7]
+<figuras/vibracion_cuerda.png, id=164, 402.00188pt x 361.35pt>
+File: figuras/vibracion_cuerda.png Graphic file (type png)
+<use figuras/vibracion_cuerda.png>
+Package pdftex.def Info: figuras/vibracion_cuerda.png  used on input line 515.
+(pdftex.def)             Requested size: 158.27066pt x 142.26378pt.
+<figuras/onda_triangular/original.png, id=168, 693.59125pt x 372.39125pt>
+File: figuras/onda_triangular/original.png Graphic file (type png)
+<use figuras/onda_triangular/original.png>
+Package pdftex.def Info: figuras/onda_triangular/original.png  used on input line 527.
+(pdftex.def)             Requested size: 158.98288pt x 85.35826pt.
+<figuras/onda_triangular/fourier_aproximada.png, id=169, 693.59125pt x 372.39125pt>
+File: figuras/onda_triangular/fourier_aproximada.png Graphic file (type png)
+<use figuras/onda_triangular/fourier_aproximada.png>
+Package pdftex.def Info: figuras/onda_triangular/fourier_aproximada.png  used on input line 528.
+(pdftex.def)             Requested size: 158.98288pt x 85.35826pt.
 
-LaTeX Warning: Reference `demostraciones' on page 8 undefined on input line 332.
+LaTeX Warning: Citation 'bernoulli' on page 12 undefined on input line 533.
 
+[12 <./figuras/vibracion_cuerda.png>]
+Package hyperref Info: bookmark level for unknown definition* defaults to 0 on input line 541.
 
-LaTeX Warning: File `partes/marco_teorico//figuras/absorcion_vs_atenuacion.png' not found on input line 350.
 
+LaTeX Warning: Citation 'dirichlet' on page 13 undefined on input line 560.
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:350: Package pdftex.def Error: File `partes/marco_teorico//figuras/absorcion_vs_atenuacion.png' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.350 ...ico//figuras/absorcion_vs_atenuacion.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `demostraciones' on page 13 undefined on input line 562.
 
-[8]
+[13 <./figuras/onda_triangular/original.png> <./figuras/onda_triangular/fourier_aproximada.png>]
 
-LaTeX Warning: File `partes/marco_teorico//figuras/huygens.png' not found on input line 376.
+LaTeX Warning: Reference `demostraciones' on page 14 undefined on input line 577.
 
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:376: Package pdftex.def Error: File `partes/marco_teorico//figuras/huygens.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.376 ...artes/marco_teorico//figuras/huygens.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `partes/marco_teorico//figuras/reflexion_refraccion.png' not found on input line 397.
-
-
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:397: Package pdftex.def Error: File `partes/marco_teorico//figuras/reflexion_refraccion.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.397 ...eorico//figuras/reflexion_refraccion.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `partes/marco_teorico//figuras/refraccion_real.png' not found on input line 404.
-
-
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:404: Package pdftex.def Error: File `partes/marco_teorico//figuras/refraccion_real.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.404 ...rco_teorico//figuras/refraccion_real.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[9]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 427.
- [10] [11]
-
-LaTeX Warning: File `partes/marco_teorico/figuras/vibracion_cuerda.png' not found on input line 516.
-
-
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:516: Package pdftex.def Error: File `partes/marco_teorico/figuras/vibracion_cuerda.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.516 ...rco_teorico/figuras/vibracion_cuerda.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `partes/marco_teorico/figuras/onda_triangular/original.png' not found on input line 528.
-
-
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:528: Package pdftex.def Error: File `partes/marco_teorico/figuras/onda_triangular/original.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.528 ...co/figuras/onda_triangular/original.png}}
-                                                  \hspace{1cm}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `partes/marco_teorico/figuras/onda_triangular/fourier_aproximada.png' not found on input line 529.
-
-
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:529: Package pdftex.def Error: File `partes/marco_teorico/figuras/onda_triangular/fourier_aproximada.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.529 .../onda_triangular/fourier_aproximada.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[12]
-Package hyperref Info: bookmark level for unknown definition* defaults to 0 on input line 542.
-
-
-LaTeX Warning: Reference `demostraciones' on page 13 undefined on input line 563.
-
-[13]
-
-LaTeX Warning: Reference `demostraciones' on page 14 undefined on input line 578.
+LaTeX Warning: Citation 'gerard' on page 14 undefined on input line 619.
 
 [14]
 
-LaTeX Warning: File `partes/marco_teorico/figuras/DFT/sampling.png' not found on input line 676.
+LaTeX Warning: Citation 'dft' on page 15 undefined on input line 669.
+
+<figuras/DFT/sampling.png, id=201, 674.52pt x 237.88875pt>
+File: figuras/DFT/sampling.png Graphic file (type png)
+<use figuras/DFT/sampling.png>
+Package pdftex.def Info: figuras/DFT/sampling.png  used on input line 675.
+(pdftex.def)             Requested size: 199.16928pt x 70.2419pt.
+<figuras/DFT/periodica.png, id=202, 688.07062pt x 250.43562pt>
+File: figuras/DFT/periodica.png Graphic file (type png)
+<use figuras/DFT/periodica.png>
+Package pdftex.def Info: figuras/DFT/periodica.png  used on input line 676.
+(pdftex.def)             Requested size: 199.16928pt x 72.4907pt.
+
+LaTeX Warning: Citation 'dft' on page 15 undefined on input line 677.
 
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:676: Package pdftex.def Error: File `partes/marco_teorico/figuras/DFT/sampling.png' not found: using draft setting.
+LaTeX Warning: Citation 'dft' on page 15 undefined on input line 677.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.676 .../marco_teorico/figuras/DFT/sampling.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[15]
+
+LaTeX Warning: Citation 'rao_kim' on page 16 undefined on input line 707.
 
 
-LaTeX Warning: File `partes/marco_teorico/figuras/DFT/periodica.png' not found on input line 677.
+LaTeX Warning: Citation 'fft' on page 16 undefined on input line 709.
 
 
-c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex:677: Package pdftex.def Error: File `partes/marco_teorico/figuras/DFT/periodica.png' not found: using draft setting.
+LaTeX Warning: Citation 'elena' on page 16 undefined on input line 709.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.677 ...marco_teorico/figuras/DFT/periodica.png}}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[16 <./figuras/DFT/sampling.png> <./figuras/DFT/periodica.png>]
 
-[15] [16] [17] (./marco_teorico.aux
-LaTeX Info: Redefining \sptext on input line 25.
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
+LaTeX Warning: Citation 'definicion_sonido' on page 17 undefined on input line 722.
+
+[17] (./marco_teorico.aux
+LaTeX Info: Redefining \sptext on input line 22.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
 )
  ***********
 LaTeX2e <2025-11-01>
@@ -1598,11 +1481,9 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                marco_teorico
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'marco_teorico.run.xml'.
 \openout1 = `marco_teorico.run.xml'.
@@ -1610,90 +1491,18 @@ Package logreq Info: Writing requests to 'marco_teorico.run.xml'.
  )
 (\end occurred when \ifx on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
- 51586 strings out of 469415
- 1150369 string characters out of 5467484
- 2015513 words of memory out of 5000000
- 79496 multiletter control sequences out of 15000+600000
- 641569 words of font info for 93 fonts, out of 8000000 for 9000
+ 50937 strings out of 469415
+ 1109929 string characters out of 5467484
+ 2016352 words of memory out of 5000000
+ 78872 multiletter control sequences out of 15000+600000
+ 641401 words of font info for 92 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 128i,21n,149p,11342b,1907s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{cite.0@fft} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@rao_kim} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@dft} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@gerard} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@dirichlet} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@bernoulli} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@dalembert} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@cuerda} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@elena} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@chris} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@fourier} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@freegarde2012introduction} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@absorcion} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@johnson2011software} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@ondarm} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@georgi2022physics} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@2bach} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@instruments} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@epe} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@comp} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@edos} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@gamow} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@newton_principia} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@pain} has been referenced but does not exist, replaced by a fixed one
-
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on marco_teorico.pdf (17 pages, 272725 bytes).
+ 128i,21n,149p,11342b,1880s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on marco_teorico.pdf (17 pages, 1700818 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 288 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
