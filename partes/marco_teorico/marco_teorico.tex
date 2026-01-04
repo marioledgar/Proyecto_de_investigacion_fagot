@@ -182,7 +182,7 @@ El movimiento resultante se parece a un MAS, pero con una amplitud y una fase in
 \[\omega = \frac{\omega_2-\omega_1}{2}.\]
 Esto se puede ver en la figura \ref{sumaMAS}.
 
-En el caso de las ondas de sonido, si las frecuencias son similares, esto produce un sonido que percibimos como si fuera pulsante pulsante.
+En el caso de las ondas de sonido, si las frecuencias son similares, esto produce un sonido que percibimos como si fuera pulsante .
 Como el periodo de los pulsos decrece cuando decrece la diferencia $\Delta \omega = \omega_2 - \omega_1$, la frecuencia aumenta si $\Delta\omega$ decrece.
 Por eso, solo percibimos los pulsos cuando $\Delta\omega$ es pequeño, si no, son demasiado rápidos para oírlos.
 
@@ -216,10 +216,11 @@ Un ejemplo de onda unidimensional es una cuerda a la que se le mueve uno de sus 
 una onda bidimensional pueden ser las olas de un estanque y una tridimensional, la luz o el sonido.
 
 En la figura \ref{ondasdim} se pueden ver ejemplos de los tres tipos de ondas.
-También se aprecian claramente los frentes de onda: los conjuntos de puntos en un mismo estado de vibración. Se ve como en el caso de las ondas unidimensionales son puntos, en las bidimensionales segmentos curvos y en las tridimensionales, superficies.
+También se aprecian claramente los frentes de onda: los conjuntos de puntos en un mismo estado de vibración. Se ve como en el caso de las ondas unidimensionales son puntos, en las bidimensionales, segmentos curvos y en las tridimensionales, superficies.
 
-Además, si el foco de la onda es el origen y la onda se mueve en un medio sin obstáculos en el que la velocidad de propagación es la misma en todas las direcciones,
-los  frentes de onda son circunferencias centradas en el origen en el caso de las ondas bidimensionales y esferas centradas en el origen en el caso de las tridimensionales.
+Además, si el foco de la onda es el origen y se propaga en un medio homogéneo sin obstáculos,
+los frentes de onda son circunferencias centradas en el origen para ondas bidimensionales
+y esferas para tridimensionales.
 Sin embargo, para mayor simplicidad, a veces se consideran frentes de onda planos, ya que esto es una buena aproximación para frentes lejanos al origen.
 
 \begin{figure}[ht!]
@@ -227,7 +228,7 @@ Sin embargo, para mayor simplicidad, a veces se consideran frentes de onda plano
     \subcaptionbox{Onda unidimensional \dots}{\includegraphics[height=3.1cm]{
         partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png}}
     \subcaptionbox{\dots bidimensional \dots}{\includegraphics[height=3.1cm]{partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png}}
-    \subcaptionbox{\dots y tridimensional}{\includegraphics[height=3.3cm]{partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png}}
+    \subcaptionbox{\dots y tridimensional.}{\includegraphics[height=3.3cm]{partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png}}
     \caption{Ejemplos de ondas de distintas dimensiones. Elaboración propia.}
     \label{ondasdim}
 \end{figure}
@@ -238,7 +239,7 @@ Por último, las ondas mecánicas se pueden clasificar según la dirección en l
 Esta clasificación también se puede extender a las ondas electromagnéticas, pero no entraremos en eso por estar fuera del alcance de esta investigación.
 
 Hay también un tipo especial de ondas llamadas ondas armónicas: aquellas que representan un movimiento armónico simple.
-Las partículas del medio en el que se propaga una onda armónica sufren por tanto un MAS.
+Las partículas del medio en el que se propaga una onda armónica sufren, por tanto, un MAS.
 Como podemos deducir de esto, su ecuación es sinusoidal, viene dada por un seno o coseno.
 
 \begin{figure}[ht!]
@@ -249,7 +250,7 @@ Como podemos deducir de esto, su ecuación es sinusoidal, viene dada por un seno
     \label{ondasdire}
 \end{figure}
 
-Las principales magnitudes de una onda son (damos la definición para una onda mecánica pero se puede extender a cualquier tipo de onda):
+Las principales magnitudes de una onda son (damos la definición para una onda mecánica, pero se puede extender a cualquier tipo de onda):
 
 \begin{description}
      \ii  [Amplitud ($A$)] Distancia del máximo desplazamiento al reposo. Unidades: $\unit{\metre}$.
@@ -278,9 +279,9 @@ Esto se refiere al movimiento periódico que sufre cada partícula y a que el de
 La ecuación de una onda respecto al espacio y al tiempo, por tanto, tiene un factor periódico en el tiempo y el espacio. Presentamos la ecuación de una onda armónica; la de una onda general viene dada, como veremos en la siguiente sección, por la suma de varias de estas.
 
 Efectivamente, la ecuación cumple estas características:
-\begin{eq}\label{ecuacion_mas}
+\begin{equation}\label{ecuacion_mas}
 y(x, t) = A \sen (k \cdot (x \pm v t) + \varphi_0),
-\end{eq}
+\end{equation}
 donde $y$ es el desplazamiento, $A$ la amplitud de la onda, $k$ el número de onda angular,  $v$ la velocidad de propagación y $\varphi_0$ la fase inicial; es decir, $\arcsen \left(\frac{y(0, 0)}{A} \right)$ \cite{ondarm}.
 Derivamos esta ecuación en el Apéndice \ref{demostraciones}.
 
@@ -332,7 +333,7 @@ En el apéndice \ref{demostraciones} derivamos la siguiente fórmula:
 \begin{equation*}
     I = \text{cte.} \cdot A^2.
 \end{equation*}
-Esto y la proporcionalidad entre distancia y intensidad nos da que la amplitud de un frente de onda a una distancia $r$ del foco viene dada por
+Esto y la proporcionalidad entre distancia e intensidad nos da que la amplitud de un frente de onda a una distancia $r$ del foco viene dada por
 \begin{equation*}
 \begin{aligned}
     A &= P,\\[2pt]
@@ -361,7 +362,7 @@ Entonces, al atravesar la pared tendrá una intensidad $I_0$ que viene dada por
 \[I_0 = I e^{-\beta x}.\]
 Por tanto, la intensidad disminuye de forma exponencial con el grosor y el coeficiente de absorción \cite{absorcion}.
 
-Las siguiente propiedad es una de las más importantes, y es útil para demostrar el comportamiento de otras.
+La siguiente propiedad es una de las más importantes, y es útil para demostrar el comportamiento de otras.
 Es el principio de Huygens.
 
 El principio de Huygens dice que en una onda cada punto actúa como foco de una onda secundaria \cite{freegarde2012introduction}.
@@ -412,7 +413,7 @@ El efecto Doppler consiste en la percepción de una frecuencia que no es la emit
 
 Cuando la fuente de emisión de la onda se acerca al receptor, la frecuencia percibida será mayor que la real, mientras que cuando se aleja, se percibirá una frecuencia menor.
 
-Este es el motivo del por qué el sonido de la sirena de una ambulancia se hace más agudo al acercarse a nosotros y más grave al  alejarse.
+Este es el motivo del porqué el sonido de la sirena de una ambulancia se hace más agudo al acercarse a nosotros y más grave al  alejarse.
 También ocurre con la luz: la teoría del Big Bang fue ideada por Edwin Hubble al ver que el universo se expandía.
 Esta observación se basaba en que vio cómo la luz de la mayoría de las galaxias se hacía ligeramente más roja con el tiempo, lo que hoy en día se conoce como corrimiento al rojo (esto no se puede percibir a simple vista, se hace con un espectrofotómetro).
 
@@ -445,7 +446,8 @@ Fourier se movía principalmente por el ámbito de la propagación del calor. Te
 Se cree que la desarrolló al volver de Egipto: después de vivir con temperaturas tan altas temperaturas se fue a vivir a Grenoble, en los Alpes franceses.
 Las bajas temperaturas de este lugar le llevaron a esta obsesión \cite{fourier}.
 
-En primer lugar hablaremos de la descomposición de una función en series trigonométricas, para pasar luego a hablar de la transformada de Fourier.
+
+En primer lugar, hablaremos de la descomposición de una función en series trigonométricas, para pasar luego a hablar de la transformada de Fourier.
 
 \subsubsection{Series de Fourier}
 
@@ -459,12 +461,12 @@ Con esto se dejaba de lado funciones con gráficas tan complejas que no se puede
 (para más información sobre esto, leer el Apéndice A de \cite{chris}, sobre bases de Hamel).
 Al intentar dibujarlas se vería simplemente un papel completamente pintado.
 
-Otros, como  Jean le Rond d'Alembert (1717-1783), afirmaban que una función debía de poder representarse con una fórmula, lo que se conoce como que tengan forma explícita.
+Otros, como  Jean le Rond d’Alembert (1717-1783), afirmaban que una función debía de poder representarse con una fórmula, lo que se conoce como que tengan forma explícita.
 Sin embargo, este enfoque no incluye las funciones de probabilidad o funciones en las que a cada entrada se le asigna una salida aleatoria.
 Además, las funciones definidas a trozos se consideraban la unión de distintas funciones \cite{elena}.
 
-Volviendo al tema, no todos estaban de acuerdo en las condiciones que debía cumplir un función para poder descomponerse en serie trigonométrica.
-Claramente la función debía ser periódica, pero tenía que existir alguna otra condición, ya que, si no, las funciones descritas anteriormente que cubrían todo el plano también se podrían representar con una de estas series.
+Volviendo al tema, no todos estaban de acuerdo en las condiciones que debía cumplir una función para poder descomponerse en serie trigonométrica.
+Claramente, la función debía ser periódica, pero tenía que existir alguna otra condición, ya que, si no, las funciones descritas anteriormente que cubrían todo el plano también se podrían representar con una de estas series.
 Esta cuestión se mantendría abierta hasta el trabajo de Dirichlet en 1829, pero aun así se pudo desarrollar esta teoría.
 
 La motivación para esta nueva técnica provenía, como suele ser, de varios problemas.
@@ -485,7 +487,7 @@ Para ver esto, imaginemos que en la cuerda hay algunas cuentas a intervalos unif
 En vez de considerar el movimiento de toda la cuerda, se estudiaba el de las cuentas, más simple.
 
 Hasta 1747 solo se habían considerado casos de un máximo de 8 cuentas, investigado por Johann Bernoulli (1667–1748).
-Fue el francés Jean le Rond d'Alembert (1717-1783) el que resolvió en ese año el caso general.
+Fue el francés Jean le Rond d’Alembert (1717-1783) el que resolvió en ese año el caso general.
 
 Su técnica consistía en considerar el problema según el número de cuentas tendía al infinito. Encontró así la siguiente ecuación (el razonamiento se puede encontrar en \cite{cuerda} o en su propio artículo \cite{dalembert}):
 \begin{equation}\label{difcuerda}
@@ -493,10 +495,10 @@ Su técnica consistía en considerar el problema según el número de cuentas te
 \end{equation}
 donde $c$ es una constante que depende de las propiedades de la cuerda con unidades $\unit{\metre\per\second}$ y suponemos que $L = 1$.
 
-D'Alembert encontró que la solución debía de ser de la forma
+D’Alembert encontró que la solución debía de ser de la forma
 \[u(x, t) = \Phi(x + ct) + \Psi(x - ct),\]
 donde $\Phi$ y $\Psi$ son funciones arbitrarias con segundas derivadas continuas.
-Imponiendo las condiciones de contorno $u(x, 0) = f(x)$ e $u(0, t) = u(1, t) = 0$, llegó a que
+Imponiendo las condiciones de contorno $u(x, 0) = f(x)$, $u(0, t) = u(1, t) = 0$, llegó a que
 \begin{equation}\label{cuerda}
     u(x, t) = \half(f(x + ct) + f(x - ct).
 \end{equation}
@@ -517,7 +519,7 @@ Por ejemplo, si $f(x) = x^2\sen x$ para $0 \leq x \leq \pi$, la cuerda vibraría
 \end{figure}
 
 La ecuación \ref{cuerda} tiene sentido para cualquier función $f$; sin embargo, la ecuación \ref{difcuerda} solo tiene sentido para funciones con segunda derivada.
-D'Alembert creía que su fórmula solo podía aplicarse a estos casos.
+D’Alembert creía que su fórmula solo podía aplicarse a estos casos.
 
 Sin embargo, otros defendían la aplicación de la fórmula a cualquier caso.
 Por ejemplo, si hacemos que la cuerda tenga un pico, como en la figura \ref{trian}, en principio no se podría aplicar nuestra fórmula, ya que la función no tiene segunda derivada en este pico.
@@ -528,8 +530,8 @@ Por ejemplo, si hacemos que la cuerda tenga un pico, como en la figura \ref{tria
     \caption{Pulso triangular y aproximación por serie de Fourier. Elaboración propia}
     \label{trian}
 \end{figure}
-Durante mucho tiempo existió este desacuerdo.
-hasta que Daniel Bernoulli (1604-1705), hijo de Johann Bernoulli, dio el saltó crucial: consideró representar $f$ como la suma de varios (infinitos) senos y cosenos \cite{bernoulli}, lo que actualmente se conoce como la serie de Fourier de $f$:
+Durante mucho tiempo existió este desacuerdo,
+hasta que Daniel Bernoulli (1604-1705), hijo de Johann Bernoulli, dio el salto crucial: consideró representar $f$ como la suma de varios (infinitos) senos y cosenos \cite{bernoulli}, lo que actualmente se conoce como la serie de Fourier de $f$:
 \[f(x) = \sum_{n=1}^\infty A_n \sen\left(\frac{\pi n x}{L}\right)\]
 para algunos coeficientes $A_n$ que dependerían de la función.
 Cualquier función de esta forma tendría segunda derivada, y además concuerda con el hecho de que una cuerda vibra según la suma de sus armónicos.
@@ -582,7 +584,7 @@ solo hay que definir una nueva función como
     f(x) & x \in [a, b]\\
     f(x \bmod (b-a)) & x \notin [a, b],
 \end{cases}\]
-donde $x \bmod y$, con $x, y \in \RR$ e $y \not= 0$, es el resto de dividir $x$ entre $y$, teniendo en cuenta que el cociente tiene que ser entero.
+donde $x \bmod y$, con $x, y \in \RR$, $y \not= 0$, es el resto de dividir $x$ entre $y$, teniendo en cuenta que el cociente tiene que ser entero.
 Por ejemplo: $3,7 \bmod 1,5 =  0,2$ y $-3 \bmod 1 = 0$.
 
 Esto es solo una manera de expresar formalmente que extendemos de manera periódica la función a todos los reales.

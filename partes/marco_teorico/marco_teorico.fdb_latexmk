@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1766512151.53508 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" "marco_teorico.pdf" "marco_teorico" 1766512152.4277 2
-  "../../main.tex" 1766512138 1446 372d8246a683645aaa9ad86d0e5d18e2 ""
-  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" 1766512150 46082 b86edbf1846173bbd9d602074e32ca36 ""
+["pdflatex"] 1767454751.75946 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" "marco_teorico.pdf" "marco_teorico" 1767454752.50588 2
+  "../../main.tex" 1767180345 1430 d2266b737a85f4a232f1e165b9b85c31 ""
+  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" 1767454751 45977 0acd567cee7f23ad418811575bf40040 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765661516 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1765661148 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty" 1765661030 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
@@ -27,7 +27,7 @@
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1765662680 2306692 e40f4d716a8e2b5681b246cd467fe932 ""
   "c:/texlive/2025/texmf.cnf" 1765662606 713 e69b156964470283e0530f5060668171 ""
   "marco_teorico.aux" 1765834033 11350 39191ca6d03f9cb3d4f48d02b8ffcd2d "pdflatex"
-  "marco_teorico.tex" 1766512150 46082 b86edbf1846173bbd9d602074e32ca36 ""
+  "marco_teorico.tex" 1767454751 45977 0acd567cee7f23ad418811575bf40040 ""
   "mario.sty" 0 -1 0 ""
   (generated)
   "marco_teorico.aux"

@@ -41,8 +41,8 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT ./mario.sty
-INPUT mario.sty
+INPUT c:/Users/bgarc/texmf/tex/latex/personal/mario.sty
+INPUT c:/Users/bgarc/texmf/tex/latex/personal/mario.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -481,6 +481,7 @@ INPUT partes/intro/intro.tex
 INPUT ./partes/intro/intro.tex
 INPUT ./partes/intro/intro.tex
 INPUT partes/intro/intro.tex
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT ./partes/marco_teorico/marco_teorico.tex
 INPUT ./partes/marco_teorico/marco_teorico.tex
 INPUT partes/marco_teorico/marco_teorico.tex
@@ -503,7 +504,6 @@ INPUT ./partes/marco_teorico/figuras/muelles/Muelle_arriba.png
 INPUT partes/marco_teorico/figuras/muelles/Muelle_arriba.png
 INPUT ./partes/marco_teorico/figuras/muelles/Muelle_arriba.png
 INPUT ./partes/marco_teorico/figuras/muelles/Muelle_arriba.png
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm

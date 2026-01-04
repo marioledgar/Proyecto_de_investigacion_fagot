@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  23 DEC 2025 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  3 JAN 2026 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -145,11 +145,11 @@ Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 
 Enter file name: 
-../../main.tex:6: Emergency stop.
+../../main.tex:7: Emergency stop.
 <read *> 
          
-l.6 \usepackage
-               [spanish]{babel}^^M
+l.7 \usepackage
+               {subcaption}^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
@@ -161,4 +161,4 @@ Here is how much of TeX's memory you used:
  628021 words of font info for 41 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  128i,1n,124p,11342b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
-../../main.tex:6:  ==> Fatal error occurred, no output PDF file produced!
+../../main.tex:7:  ==> Fatal error occurred, no output PDF file produced!

@@ -1,13 +1,14 @@
 # Fdb version 4
-["biber main"] 1766577738.23514 "main.bcf" "main.bbl" "main" 1766577754.45825 0
+["biber main"] 1766577738.23514 "main.bcf" "main.bbl" "main" 1767456060.50977 0
   "biblio.bib" 1765636540 6302 b13e5193e1aaf0fa9481f31636916fee ""
-  "main.bcf" 1766577754 110743 9564d57e0b7eadab9a6cd9befa2ba59c "pdflatex"
+  "main.bcf" 1767456060 110743 9564d57e0b7eadab9a6cd9befa2ba59c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1766577749.95332 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" "main.pdf" "main" 1766577754.4592 0
-  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" 1766577733 1430 d2266b737a85f4a232f1e165b9b85c31 ""
+["pdflatex"] 1767456054.99775 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" "main.pdf" "main" 1767456060.51061 0
+  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" 1767455996 1430 d2266b737a85f4a232f1e165b9b85c31 ""
+  "c:/Users/bgarc/texmf/tex/latex/personal/mario.sty" 1766863290 29770 8504d4f1e6c47fd4a6beacdc6d0a7016 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765661155 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765661516 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcti1095.tfm" 1765661380 2048 0d8d19633d1f5858141c8047aa877208 ""
@@ -285,15 +286,14 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765662612 416004 e1616fd44eb63cfaaece98be5856e0e0 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1765662680 2306692 e40f4d716a8e2b5681b246cd467fe932 ""
   "c:/texlive/2025/texmf.cnf" 1765662606 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1766577754 20131 072c1bf8fd09309afca3db1240538cd5 "pdflatex"
+  "main.aux" 1767456060 20457 b9f8442795579aa29038602875e83b06 "pdflatex"
   "main.bbl" 1766577740 30670 b1c25321d1fa0e67352bc587c6e88a85 "biber main"
-  "main.pre" 1766577751 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1766577754 2301 13e8301fbdc44293469f5e9eeaf509b7 "pdflatex"
-  "main.tex" 1766577733 1430 d2266b737a85f4a232f1e165b9b85c31 ""
-  "mario.sty" 1766576905 29643 b7343ca2d4444fd590be3c0177667983 ""
-  "partes/apendices/demostraciones.tex" 1766330379 6010 ca761a0097547d0764dd4a8f44918582 ""
+  "main.pre" 1767456056 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1767456060 2301 13e8301fbdc44293469f5e9eeaf509b7 "pdflatex"
+  "main.tex" 1767455996 1430 d2266b737a85f4a232f1e165b9b85c31 ""
+  "partes/apendices/demostraciones.tex" 1767456054 6012 329717c1e6db746278c8614cbcb4e077 ""
   "partes/apendices/figuras/integral_seno.png" 1765636540 18001 a4611214f7a20606279150d1d9b7c3fa ""
-  "partes/intro/intro.tex" 1765636540 910 c8af3246233ecf51717d3dc59b33cfa5 ""
+  "partes/intro/intro.tex" 1767455966 945 0926cd595a306b551134a8e03cccfbde ""
   "partes/marco_teorico//figuras/absorcion_vs_atenuacion.png" 1765636540 24874 b9cad08173e9e853b5fb177f2c3aa0d1 ""
   "partes/marco_teorico//figuras/huygens.png" 1765636540 40827 d387019fbb42dec4d955dc19f4b8c8aa ""
   "partes/marco_teorico//figuras/reflexion_refraccion.png" 1765636540 5235 ec3f01297e8e78743d18335e3d5bb113 ""
@@ -316,7 +316,7 @@
   "partes/marco_teorico/figuras/pulsos/Onda1.png" 1765636540 56451 675891da032b09d18de67ab79cd30882 ""
   "partes/marco_teorico/figuras/pulsos/Pulsos.png" 1765636540 105518 9807f73c2cc667e4d2d8016133efb5fc ""
   "partes/marco_teorico/figuras/vibracion_cuerda.png" 1765636540 142460 2caa476a4e112071539f7cde055a6a8f ""
-  "partes/marco_teorico/marco_teorico.tex" 1766512150 46082 b86edbf1846173bbd9d602074e32ca36 ""
+  "partes/marco_teorico/marco_teorico.tex" 1767455770 45977 0acd567cee7f23ad418811575bf40040 ""
   (generated)
   "main.aux"
   "main.bcf"
