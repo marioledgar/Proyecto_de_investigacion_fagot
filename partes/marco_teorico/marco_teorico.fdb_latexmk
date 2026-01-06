@@ -1,16 +1,20 @@
 # Fdb version 4
-["biber marco_teorico"] 0 "marco_teorico.bcf" "marco_teorico.bbl" "marco_teorico" 1767536218.52187 0
+["biber marco_teorico"] 0 "marco_teorico.bcf" "marco_teorico.bbl" "marco_teorico" 1767727928.52693 0
   "biblio.bib" 0 -1 0 ""
   "marco_teorico.bcf" 0 -1 0 "pdflatex"
   (generated)
   "marco_teorico.bbl"
   "marco_teorico.blg"
   (rewritten before read)
-["pdflatex"] 1767536205.67148 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" "marco_teorico.pdf" "marco_teorico" 1767536218.52467 0
+["pdflatex"] 1767727924.13726 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" "marco_teorico.pdf" "marco_teorico" 1767727928.52815 0
   "../../main.tex" 1767536157 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
-  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" 1767536214 46265 3727d1f9d27af755107bb0049fd0f6ff ""
+  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" 1767727919 48159 c48a58e0617c025f6f5fd393d1f34b5f ""
   "c:/Users/bgarc/texmf/tex/latex/personal/mario.sty" 1766863290 29770 8504d4f1e6c47fd4a6beacdc6d0a7016 ""
+  "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765661155 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765661516 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1765661380 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1765661380 1536 05df9db6aeccc4eea94fec15c9024f79 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1765661380 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1765660682 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1765660682 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1765660682 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -59,6 +63,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1765660682 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1765660682 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1765660682 34694 870c211f62cb72718a00e353f14f254d ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1765661156 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1765661926 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-spanish/spanish.ldf" 1765660772 26965 3b6d1655ad716f98e788b1fb9f2e87b8 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty" 1765660765 146654 eaac99efd6386094bb8a3980e34ec87b ""
@@ -299,12 +304,13 @@
   "figuras/pulsos/Pulsos.png" 1765636540 105518 9807f73c2cc667e4d2d8016133efb5fc ""
   "figuras/reflexion_refraccion.png" 1765636540 5235 ec3f01297e8e78743d18335e3d5bb113 ""
   "figuras/refraccion_real.png" 1765636540 252041 ef5e20c9391fff4def4dc7817b8658ab ""
+  "figuras/sonido_longitudinal.png" 1767536749 161067 96c690880418bb474d96fdeb2a1f38a7 ""
   "figuras/vibracion_cuerda.png" 1765636540 142460 2caa476a4e112071539f7cde055a6a8f ""
-  "marco_teorico.aux" 1767536217 12754 b03be9aeea02a704975d47f9718fe14b "pdflatex"
+  "marco_teorico.aux" 1767727928 13191 86805e0ddb86592197b93f5f7f22db1d "pdflatex"
   "marco_teorico.bbl" 0 -1 0 "biber marco_teorico"
-  "marco_teorico.pre" 1767536207 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "marco_teorico.run.xml" 1767536217 2364 5750cb72cb2300c02c5c8880042829c9 "pdflatex"
-  "marco_teorico.tex" 1767536214 46265 3727d1f9d27af755107bb0049fd0f6ff ""
+  "marco_teorico.pre" 1767727925 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "marco_teorico.run.xml" 1767727928 2364 5750cb72cb2300c02c5c8880042829c9 "pdflatex"
+  "marco_teorico.tex" 1767727919 48159 c48a58e0617c025f6f5fd393d1f34b5f ""
   (generated)
   "marco_teorico.aux"
   "marco_teorico.bcf"
