@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  4 JAN 2026 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  7 JAN 2026 18:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1344,19 +1344,26 @@ File: partes/marco_teorico/figuras/DFT/periodica.png Graphic file (type png)
 <use partes/marco_teorico/figuras/DFT/periodica.png>
 Package pdftex.def Info: partes/marco_teorico/figuras/DFT/periodica.png  used on input line 676.
 (pdftex.def)             Requested size: 199.16928pt x 72.4907pt.
- [16 <./partes/marco_teorico/figuras/DFT/sampling.png> <./partes/marco_teorico/figuras/DFT/periodica.png>] [17]) (./partes/apendices/demostraciones.tex
+ [16 <./partes/marco_teorico/figuras/DFT/sampling.png> <./partes/marco_teorico/figuras/DFT/periodica.png>]
+<partes/marco_teorico/figuras/sonido_longitudinal.png, id=284, 369.38pt x 55.70813pt>
+File: partes/marco_teorico/figuras/sonido_longitudinal.png Graphic file (type png)
+<use partes/marco_teorico/figuras/sonido_longitudinal.png>
+Package pdftex.def Info: partes/marco_teorico/figuras/sonido_longitudinal.png  used on input line 735.
+(pdftex.def)             Requested size: 199.16928pt x 30.03772pt.
+ [17]) (./partes/apendices/demostraciones.tex [18{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./partes/marco_teorico/figuras/sonido_longitudinal.png>]
 Package hyperref Info: bookmark level for unknown lemma* defaults to 0 on input line 44.
- [18]
+
 Overfull \hbox (2.30954pt too wide) in paragraph at lines 63--64
 []\OT1/cmr/m/n/10.95 Recordemos pri-me-ro las si-guien-tes iden-ti-da-des (f^^Sormu-las producto-suma): 
  []
 
-<partes/apendices/figuras/integral_seno.png, id=303, 272.51813pt x 134.5025pt>
+[19]
+<partes/apendices/figuras/integral_seno.png, id=314, 272.51813pt x 134.5025pt>
 File: partes/apendices/figuras/integral_seno.png Graphic file (type png)
 <use partes/apendices/figuras/integral_seno.png>
 Package pdftex.def Info: partes/apendices/figuras/integral_seno.png  used on input line 82.
 (pdftex.def)             Requested size: 209.12778pt x 103.21628pt.
-[19 <./partes/apendices/figuras/integral_seno.png>]) [20] [21{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [22] (./main.aux
+ [20 <./partes/apendices/figuras/integral_seno.png>]) [21] [22] (./main.aux
 LaTeX Info: Redefining \sptext on input line 20.
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
@@ -1371,18 +1378,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred when \ifx on line 8 was incomplete) 
 Here is how much of TeX's memory you used:
- 51348 strings out of 469415
- 1124890 string characters out of 5467484
- 2177918 words of memory out of 5000000
- 79183 multiletter control sequences out of 15000+600000
- 645247 words of font info for 106 fonts, out of 8000000 for 9000
+ 51328 strings out of 469415
+ 1124676 string characters out of 5467484
+ 2022060 words of memory out of 5000000
+ 79158 multiletter control sequences out of 15000+600000
+ 646265 words of font info for 109 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 108i,21n,132p,11288b,2192s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (22 pages, 1874073 bytes).
+ 108i,21n,132p,11288b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on main.pdf (22 pages, 1952915 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 401 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
- 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 406 compressed objects within 5 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 349 words of extra memory for PDF output out of 10000 (max. 10000000)
 
