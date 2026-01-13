@@ -17,15 +17,15 @@ Como sabemos que la velocidad viene dada por
 \[v = \frac{\text{distancia}}{\text{tiempo}},\]
 tenemos que la onda tarda
 \[\frac{x}{v}\]
-en recorrer el espacio entre el origen y un punto a distancia $x$. 
+en recorrer el espacio entre el origen y un punto a distancia $x$.
 Por tanto, tenemos que
 \[y(0, t) = y\left(x, t + \frac{x}{v}\right).\]
 Poniendo esto en la ecuación nos queda
 \begin{align*}
-    y(x, t) &= y \left(0, t - \frac{x}{v}\right)\\
-    &= A \sen \left( \omega \left(t - \frac{x}{v} \right) + \varphi_0 \right)\\
-    &= A \sen \left( \omega (t v -  x) + \varphi_0 \right)\\
-    &= A \sen \left( \omega t - x + \varphi_0 \right)   
+    y(x, t) & = y \left(0, t - \frac{x}{v}\right)                                      \\
+            & = A \sen \left( \omega \left(t - \frac{x}{v} \right) + \varphi_0 \right) \\
+            & = A \sen \left( \omega (t v -  x) + \varphi_0 \right)                    \\
+            & = A \sen \left( \omega t - x + \varphi_0 \right)
 \end{align*}
 
 
@@ -44,32 +44,32 @@ Nos gustaría conseguir aislar un solo coeficiente, para eso usamos las fórmula
 \begin{lemma*}[Fórmulas de ortogonalidad del seno y coseno]
     Para números enteros $n$, $m \geq 0$ se cumple que
     \begin{align*}
-        \int_0^{2 \pi} \sen(nx)\sen(mx) \ddint x &=
+        \int_0^{2 \pi} \sen(nx)\sen(mx) \ddint x & =
         \begin{cases}
-            0 & n \not= m\\
+            0   & n \not= m \\
             \pi & n = m
-        \end{cases}\\
-        \int_0^{2\pi} \cos(nx) \cos(mx) \ddint x &=
+        \end{cases}                                                             \\
+        \int_0^{2\pi} \cos(nx) \cos(mx) \ddint x & =
         \begin{cases}
-            0 & n \not= m\\
-            \pi & n = m \not= 0\\
+            0     & n \not= m     \\
+            \pi   & n = m \not= 0 \\
             2 \pi & n = m = 0
-        \end{cases}\\
-        \int_0^{2\pi} \sen(nx) \cos(mx) \ddint x &= 0 \hspace{3mm} \forall\, n, m.
+        \end{cases}                                                       \\
+        \int_0^{2\pi} \sen(nx) \cos(mx) \ddint x & = 0 \hspace{3mm} \forall\, n, m.
     \end{align*}
 \end{lemma*}
 
 \begin{subproof}
     Recordemos primero las siguientes identidades (fórmulas producto-suma):
     \begin{align*}
-        2\sen x \sen y &= \cos(x - y) - \cos(x + y)\\
-        2\cos x \cos y &= \cos(x - y) + \cos(x + y)\\
-        2\sen x \cos y &= \sen(x + y) + \sen(x - y).
-    \end{align*}    
+        2\sen x \sen y & = \cos(x - y) - \cos(x + y)  \\
+        2\cos x \cos y & = \cos(x - y) + \cos(x + y)  \\
+        2\sen x \cos y & = \sen(x + y) + \sen(x - y).
+    \end{align*}
     Empezamos con la primera de las anteriores igualdades
     \begin{align}
-        \int_0^{2 \pi} \sen(nx)\sen(mx) \ddint x & = \half \int_0^{2 \pi} \cos\left( (n - m) x \right) + \cos \left( (n + m) x \right) \ddint x \nonumber \\
-        &= \half \left[ \int_0^{2\pi} \cos ((n - m) x) \ddint x + \int_0^{2\pi} \cos((n + m) x) \ddint x \right] \label{integral_fea}
+        \int_0^{2 \pi} \sen(nx)\sen(mx) \ddint x & = \half \int_0^{2 \pi} \cos\left( (n - m) x \right) + \cos \left( (n + m) x \right) \ddint x \nonumber                       \\
+                                                 & = \half \left[ \int_0^{2\pi} \cos ((n - m) x) \ddint x + \int_0^{2\pi} \cos((n + m) x) \ddint x \right] \label{integral_fea}
     \end{align}
     Por un momento, supongamos que $n \not= m$.
 
@@ -92,7 +92,7 @@ Nos gustaría conseguir aislar un solo coeficiente, para eso usamos las fórmula
 
 Ahora, fijamos $k \geq 0$ y multiplicamos ambos lados de la ecuación \ref{suma_fourier} por $\cos(kx)$ e integramos:
 \begin{equation*}
-   \int_0^{2 \pi} f(x)\cos(kx) \ddint x = a_k \pi
+    \int_0^{2 \pi} f(x)\cos(kx) \ddint x = a_k \pi
 \end{equation*}
 \begin{equation*}
     a_n = \frac{1}{\pi} \int_0^{2 \pi}f(x)\cos(nx) \ddint x.
@@ -107,8 +107,8 @@ Por último, si el periodo no es $2\pi$, definimos una nueva función
 \[f_0(x) = f\left(\frac{2 \pi}{P}x\right).\]
 Podemos hacer la serie de Fourier de esta nueva función, y es fácil comprobar que al volver a la función inicial, los coeficientes serían
 \begin{align*}
-        a_n &= \frac{2}{P} \int_{-P/2}^{P/2} f(x)\cos \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = 0, 1, 2, \dots\\
-        b_n &= \frac{2}{P} \int_{-P/2}^{P/2} f(x)\sen \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1.03cm} \text{para} \hspace{1.2mm} n = 1, 2, \dots 
+    a_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\cos \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = 0, 1, 2, \dots \\
+    b_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\sen \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1.03cm} \text{para} \hspace{1.2mm} n = 1, 2, \dots
 \end{align*}
 
 

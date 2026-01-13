@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber marco_teorico"] 0 "marco_teorico.bcf" "marco_teorico.bbl" "marco_teorico" 1768082177.65173 0
+["biber marco_teorico"] 0 "marco_teorico.bcf" "marco_teorico.bbl" "marco_teorico" 1768291103.15575 0
   "biblio.bib" 0 -1 0 ""
   "marco_teorico.bcf" 0 -1 0 "pdflatex"
   (generated)
   "marco_teorico.bbl"
   "marco_teorico.blg"
   (rewritten before read)
-["pdflatex"] 1768082165.01303 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" "marco_teorico.pdf" "marco_teorico" 1768082177.65323 0
+["pdflatex"] 1768291098.07058 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" "marco_teorico.pdf" "marco_teorico" 1768291103.15676 0
   "../../main.tex" 1768080456 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
-  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" 1768082163 49255 b45ee3447b84f4bb09530aba0215b9f6 ""
+  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" 1768291091 50964 1aee88a79838567b01b2a4f1570e1f17 ""
   "c:/Users/bgarc/texmf/tex/latex/personal/mario.sty" 1766863290 29770 8504d4f1e6c47fd4a6beacdc6d0a7016 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765661155 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765661516 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -286,6 +286,7 @@
   "figuras/DFT/periodica.png" 1765636540 36535 16dda3b117d0c57cdce74b4070098363 ""
   "figuras/DFT/sampling.png" 1765636540 26911 82c5c9445c42644a274aacc90c2044dc ""
   "figuras/absorcion_vs_atenuacion.png" 1765636540 24874 b9cad08173e9e853b5fb177f2c3aa0d1 ""
+  "figuras/campana_inarmonica.png" 1768240622 13668 a3c43b298d0bf9bb7918fe224abe4e4e ""
   "figuras/huygens.png" 1765636540 40827 d387019fbb42dec4d955dc19f4b8c8aa ""
   "figuras/magnitudes_ondas/onda_amplitud_periodo.png" 1765636540 3732 c2517d9155b1b23da4ade5019fd8908a ""
   "figuras/magnitudes_ondas/onda_longitud_frecuencia.png" 1765636540 3522 f0e389b70c72cef78bbdf712993994ab ""
@@ -306,11 +307,11 @@
   "figuras/refraccion_real.png" 1765636540 252041 ef5e20c9391fff4def4dc7817b8658ab ""
   "figuras/sonido_longitudinal.png" 1767536749 161067 96c690880418bb474d96fdeb2a1f38a7 ""
   "figuras/vibracion_cuerda.png" 1765636540 142460 2caa476a4e112071539f7cde055a6a8f ""
-  "marco_teorico.aux" 1768082176 13266 0ef22be22ede670bcfc9087d69ecc1fb "pdflatex"
+  "marco_teorico.aux" 1768291102 13717 8cb5090fa9863af718731b61f6b12105 "pdflatex"
   "marco_teorico.bbl" 0 -1 0 "biber marco_teorico"
-  "marco_teorico.pre" 1768082168 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "marco_teorico.run.xml" 1768082176 2364 5750cb72cb2300c02c5c8880042829c9 "pdflatex"
-  "marco_teorico.tex" 1768082163 49255 b45ee3447b84f4bb09530aba0215b9f6 ""
+  "marco_teorico.pre" 1768291099 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "marco_teorico.run.xml" 1768291102 2364 5750cb72cb2300c02c5c8880042829c9 "pdflatex"
+  "marco_teorico.tex" 1768291091 50964 1aee88a79838567b01b2a4f1570e1f17 ""
   (generated)
   "marco_teorico.aux"
   "marco_teorico.bcf"

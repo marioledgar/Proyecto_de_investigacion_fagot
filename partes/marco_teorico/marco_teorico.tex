@@ -81,8 +81,8 @@ Por tanto, en este caso las soluciones son
 
 Si ponemos $c_1 = A \sen \varphi_0$ y $c_2 = A \cos \varphi_0$ (esto es lo mismo que hacer un cambio a coordenadas polares al número complejo $z = c_1 + c_2 i$), entonces,
 \begin{align}
-    x &= A \sen \varphi_0 \cos (\omega t)+ a \cos \varphi_0 \sen (\omega t)\nonumber\\
-    & = A \sen (\omega t + \varphi_0). \label{MAS}
+    x & = A \sen \varphi_0 \cos (\omega t)+ a \cos \varphi_0 \sen (\omega t)\nonumber \\
+      & = A \sen (\omega t + \varphi_0). \label{MAS}
 \end{align}
 
 Esta es la fórmula que todos conocemos como la ecuación del movimiento armónico simple.
@@ -92,20 +92,20 @@ $\varphi_0$ es la fase inicial, la posición del cuerpo en el inicio; y
 $A$ es la amplitud, la distancia entre la posición de máximo desplazamiento y el reposo.
 
 \begin{table}
-\centering
-\begin{tabular}{ c|m{7cm}|c  }
-     \textit{Magnitud (símbolo)} & \textit{Descripción} & \textit{Unidades SI} \\
-     \hline
-     Frecuencia ($\nu$, $f$) & Veces que se repite el movimiento por unidad de tiempo. & $\unit{\per\second} = \unit{\hertz}$ \\ 
-     \hline
-     Frecuencia angular ($\omega$) & Similar a la frecuencia ($\omega = 2\pi f$).
-     Útil al plantear la ecuación del MAS. & $\unit{\radian\per\second}$\\
-     \hline
-     Amplitud ($A$) & Distancia del máximo desplazamiento al reposo. & $\unit{\metre}$\\
-     \hline
-     Fase inicial ($\varphi_0$) & Desplazamiento inicial $\times \ 2 \pi \,\unit{\radian\per\metre}$ & $\unit{\radian}$\\
-\end{tabular}
-\caption{Magnitudes que definen el MAS.}
+    \centering
+    \begin{tabular}{ c|m{7cm}|c  }
+        \textit{Magnitud (símbolo)}           & \textit{Descripción}                                               & \textit{Unidades SI}                 \\
+        \hline
+        Frecuencia ($\nu$, $f$)               & Veces que se repite el movimiento por unidad de tiempo.            & $\unit{\per\second} = \unit{\hertz}$ \\
+        \hline
+        Frecuencia angular ($\omega$)         & Similar a la frecuencia ($\omega = 2\pi f$).
+        Útil al plantear la ecuación del MAS. & $\unit{\radian\per\second}$                                                                               \\
+        \hline
+        Amplitud ($A$)                        & Distancia del máximo desplazamiento al reposo.                     & $\unit{\metre}$                      \\
+        \hline
+        Fase inicial ($\varphi_0$)            & Desplazamiento inicial $\times \ 2 \pi \,\unit{\radian\per\metre}$ & $\unit{\radian}$                     \\
+    \end{tabular}
+    \caption{Magnitudes que definen el MAS.}
     \label{magnitudes1}
 \end{table}
 
@@ -116,7 +116,7 @@ La velocidad es
 \end{equation*}
 y la aceleración,
 \begin{equation*}
-     a = \ddot x = -A\, \omega^2 \sen (\omega t +\varphi_0) = -\omega^2 x.
+    a = \ddot x = -A\, \omega^2 \sen (\omega t +\varphi_0) = -\omega^2 x.
 \end{equation*}
 
 Al ver esto, nos damos cuenta de que la ecuación de la aceleración es idéntica a la ecuación \ref{ecuacion_dif} salvo por el cambio de variable que hicimos.
@@ -147,9 +147,9 @@ La energía mecánica es
 
 Como sabemos que la energía mecánica es constante,
 \begin{align*}
-    \frac{\dd E}{\dd t} &= \half m (\dot x^2)' + \half s (x^2)' \\
-    &= m \dot x \ddot x + s \dot x x \\
-    &= \dot x(m  \ddot x + sx)= 0
+    \frac{\dd E}{\dd t} & = \half m (\dot x^2)' + \half s (x^2)' \\
+                        & = m \dot x \ddot x + s \dot x x        \\
+                        & = \dot x(m  \ddot x + sx)= 0
 \end{align*}
 y como la velocidad no es constante en $0$,
 \begin{equation*}
@@ -161,8 +161,8 @@ Por último, damos la fórmula de la suma de dos MAS.
 
 Si tienen la misma frecuencia y sus ecuaciones son
 \begin{align*}
-    x_1 &= A_1 \sen(\omega t + \varphi_1)\\
-    x_2 &= A_2 \sen(\omega t + \varphi_2),
+    x_1 & = A_1 \sen(\omega t + \varphi_1)  \\
+    x_2 & = A_2 \sen(\omega t + \varphi_2),
 \end{align*}
 la fórmula de la suma de ambas viene dada por
 \begin{equation*}
@@ -178,7 +178,7 @@ su superposición no vendrá dada por otro movimiento armónico simple.
 Para encontrarla habría que utilizar la forma compleja de la ecuación del movimiento armónico simple.
 Se puede encontrar en \cite{instruments}.
 
-El movimiento resultante se parece a un MAS, pero con una amplitud y una fase inicial que varían de manera periódica con el mismo periodo 
+El movimiento resultante se parece a un MAS, pero con una amplitud y una fase inicial que varían de manera periódica con el mismo periodo
 \[\omega = \frac{\omega_2-\omega_1}{2}.\]
 Esto se puede ver en la figura \ref{sumaMAS}.
 
@@ -225,7 +225,7 @@ Sin embargo, para mayor simplicidad, a veces se consideran frentes de onda plano
 \begin{figure}[ht!]
     \centering
     \subcaptionbox{Onda unidimensional \dots}{\includegraphics[height=3.1cm]{
-        figuras/ondas_dimensiones/Unidimensional.png}}
+            figuras/ondas_dimensiones/Unidimensional.png}}
     \subcaptionbox{\dots bidimensional \dots}{\includegraphics[height=3.1cm]{figuras/ondas_dimensiones/Bidimensional.png}}
     \subcaptionbox{\dots y tridimensional.}{\includegraphics[height=3.3cm]{figuras/ondas_dimensiones/Tridimensional.png}}
     \caption{Ejemplos de ondas de distintas dimensiones. Elaboración propia.}
@@ -252,13 +252,13 @@ Como podemos deducir de esto, su ecuación es sinusoidal, viene dada por un seno
 Las principales magnitudes de una onda son (damos la definición para una onda mecánica, pero se puede extender a cualquier tipo de onda):
 
 \begin{description}
-     \ii  [Amplitud ($A$)] Distancia del máximo desplazamiento al reposo. Unidades: $\unit{\metre}$.
-     \ii [Frecuencia ($\nu$, $f$)] Veces que se repite un periodo completo en cada partícula por unidad de tiempo. Unidades: $\unit{\per\second} = \unit{\hertz}$.
-     \ii[Periodo ($T$)] Tiempo que tarda una partícula efectuar un ciclo ($T = f^{-1}$). Unidades: $\unit{\second}$.
-     \ii [Longitud de onda ($\lambda$)] Distancia mínima entre dos partículas que se encuentran en un mismo estado \footnote{Tienen que mantener el mismo estado de vibración en cualquier momento dado. Sin esta condición podríamos llegar a pensar que el seno tiene periodo $\pi$ porque $\sen 0 = \sen \pi$.}. Unidades: $\unit{m}$.
-     \ii [Velocidad de propagación ($v$)] Velocidad a la que se propaga la onda por el medio. Por supuesto, $v = \frac{\lambda}{T}$. Unidades: $\unit{\metre\per\second}$.
-     \ii [Frecuencia angular ($\omega$)] Similar a la frecuencia ($\omega = 2\pi f$). Útil al plantear la ecuación de la onda, pero no tiene un significado físico como tal. Unidades: $\unit{\radian\per\second}$.
-     \ii [Número de onda angular ($k$)] Número de veces que se  repite la onda en un espacio de $\SI{2 \pi}{\metre}$. Por tanto, $k = 2 \pi \lambda^{-1}$. Unidades: $\unit{\radian\per\metre}$
+    \ii  [Amplitud ($A$)] Distancia del máximo desplazamiento al reposo. Unidades: $\unit{\metre}$.
+    \ii [Frecuencia ($\nu$, $f$)] Veces que se repite un periodo completo en cada partícula por unidad de tiempo. Unidades: $\unit{\per\second} = \unit{\hertz}$.
+    \ii[Periodo ($T$)] Tiempo que tarda una partícula efectuar un ciclo ($T = f^{-1}$). Unidades: $\unit{\second}$.
+    \ii [Longitud de onda ($\lambda$)] Distancia mínima entre dos partículas que se encuentran en un mismo estado \footnote{Tienen que mantener el mismo estado de vibración en cualquier momento dado. Sin esta condición podríamos llegar a pensar que el seno tiene periodo $\pi$ porque $\sen 0 = \sen \pi$.}. Unidades: $\unit{m}$.
+    \ii [Velocidad de propagación ($v$)] Velocidad a la que se propaga la onda por el medio. Por supuesto, $v = \frac{\lambda}{T}$. Unidades: $\unit{\metre\per\second}$.
+    \ii [Frecuencia angular ($\omega$)] Similar a la frecuencia ($\omega = 2\pi f$). Útil al plantear la ecuación de la onda, pero no tiene un significado físico como tal. Unidades: $\unit{\radian\per\second}$.
+    \ii [Número de onda angular ($k$)] Número de veces que se  repite la onda en un espacio de $\SI{2 \pi}{\metre}$. Por tanto, $k = 2 \pi \lambda^{-1}$. Unidades: $\unit{\radian\per\metre}$
 \end{description}
 
 Esto se ve mejor con un dibujo: en la figura \ref{ondasmag} se representan la amplitud $A$, el periodo $T$ y la longitud de onda $\lambda$. La primera imagen muestra como cambia la posición de una sola partícula según avanza el tiempo y la segunda, el estado global del medio en instante de tiempo.
@@ -279,7 +279,7 @@ La ecuación de una onda respecto al espacio y al tiempo, por tanto, tiene un fa
 
 Efectivamente, la ecuación cumple estas características:
 \begin{equation}\label{ecuacion_mas}
-y(x, t) = A \sen (k \cdot (x \pm v t) + \varphi_0),
+    y(x, t) = A \sen (k \cdot (x \pm v t) + \varphi_0),
 \end{equation}
 donde $y$ es el desplazamiento, $A$ la amplitud de la onda, $k$ el número de onda angular,  $v$ la velocidad de propagación y $\varphi_0$ la fase inicial; es decir, $\arcsen \left(\frac{y(0, 0)}{A} \right)$ \cite{ondarm}.
 Derivamos esta ecuación en el Apéndice \ref{demostraciones}.
@@ -316,11 +316,11 @@ Esto significa que, cuanto mayor el frente de onda, menos energía tiene un punt
 Para expresar esto se utiliza otra magnitud: la intensidad de la onda.
 Se habla de la intensidad de cada frente de onda y viene dada por
 \begin{equation*}
-\begin{aligned}
-    I &= P,\\[2pt]
-    I &= \frac{P}{L},\\[2pt]
-    I &= \frac{P}{S},
-\end{aligned}
+    \begin{aligned}
+        I & = P,           \\[2pt]
+        I & = \frac{P}{L}, \\[2pt]
+        I & = \frac{P}{S},
+    \end{aligned}
 \end{equation*}
 para ondas uni-, bi- y tridimensionales respectivamente, donde $P$ es la potencia, $L$ la longitud de un frente de onda unidimensional y $S$ a superficie de un frente de onda bidimensional.
 
@@ -334,11 +334,11 @@ En el apéndice \ref{demostraciones} derivamos la siguiente fórmula:
 \end{equation*}
 Esto y la proporcionalidad entre distancia e intensidad nos da que la amplitud de un frente de onda a una distancia $r$ del foco viene dada por
 \begin{equation*}
-\begin{aligned}
-    A &= P,\\[2pt]
-    A &= \frac{\text{cte.}} {\sqrt{r}},\\[2pt]
-    A &= \frac{\text{cte.}}{r},
-\end{aligned}
+    \begin{aligned}
+        A & = P,                             \\[2pt]
+        A & = \frac{\text{cte.}} {\sqrt{r}}, \\[2pt]
+        A & = \frac{\text{cte.}}{r},
+    \end{aligned}
 \end{equation*}
 en el caso de ondas uni-, bi- y tridimensionales respectivamente.
 
@@ -545,15 +545,15 @@ Ahora definiremos las series de Fourier en general.
         \ii $f$ tiene un número finito de discontinuidades en cada periodo, y son discontinuidades de salto finito.
     \end{enumerate}
     Entonces, para todo $x$,
-    \[f(x) = \frac{a_0}{2} + 
-    \sum_{n=1}^\infty \left( a_n \cos\left(\frac{2 \pi n}{P}x\right) +
-    b_n \sen\left(\frac{2 \pi n}{P}x\right)\right),\]
+    \[f(x) = \frac{a_0}{2} +
+        \sum_{n=1}^\infty \left( a_n \cos\left(\frac{2 \pi n}{P}x\right) +
+        b_n \sen\left(\frac{2 \pi n}{P}x\right)\right),\]
     para algunos coeficientes $a_0, a_1, b_1, a_2, b_2, \dots$
-     
+
     Estos coeficientes vienen dados por
     \begin{align*}
-        a_n &= \frac{2}{P} \int_{-P/2}^{P/2} f(x)\cos \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = 0, 1, 2, \dots\\
-        b_n &= \frac{2}{P} \int_{-P/2}^{P/2} f(x)\sen \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1.03cm} \text{para} \hspace{1.2mm} n = 1, 2, \dots 
+        a_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\cos \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = 0, 1, 2, \dots \\
+        b_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\sen \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1.03cm} \text{para} \hspace{1.2mm} n = 1, 2, \dots
     \end{align*}
 \end{definition*}
 
@@ -567,7 +567,7 @@ Otra forma común de expresar la serie de Fourier es como
 \end{equation*}
 donde
 \begin{equation*}
-     c_n = \frac{1}{P} \int_{-P/2}^{P/2} f(x) e^{\frac{-i 2 \pi n}{P}x} \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = \dots, -2, -1, 0, 1, 2, \dots 
+    c_n = \frac{1}{P} \int_{-P/2}^{P/2} f(x) e^{\frac{-i 2 \pi n}{P}x} \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = \dots, -2, -1, 0, 1, 2, \dots
 \end{equation*}
 
 Esto se deriva de la fórmula de Euler
@@ -579,10 +579,10 @@ Se pueden encontrar más detalles en el apéndice \ref{demostraciones}.
 Aunque solo las funciones periódicas tienen serie de Fourier, cualquier función $f$ se puede aproximar en un intervalo $[a, b]$:
 solo hay que definir una nueva función como
 \[f(x) =
-\begin{cases}
-    f(x) & x \in [a, b]\\
-    f(x \bmod (b-a)) & x \notin [a, b],
-\end{cases}\]
+    \begin{cases}
+        f(x)             & x \in [a, b]     \\
+        f(x \bmod (b-a)) & x \notin [a, b],
+    \end{cases}\]
 donde $x \bmod y$, con $x, y \in \RR$, $y \not= 0$, es el resto de dividir $x$ entre $y$, teniendo en cuenta que el cociente tiene que ser entero.
 Por ejemplo: $3,7 \bmod 1,5 =  0,2$ y $-3 \bmod 1 = 0$.
 
@@ -624,26 +624,26 @@ Por ejemplo, aunque el seno es su propia serie de Fourier, al no ser absolutamen
 
 Sin embargo, dada una función periódica $f$ con periodo $P$, con serie de Fourier definida, podemos encontrar la transformada de un periodo: definimos una nueva función $f_0$ de la siguiente manera
 \[f_0(x) =
-\begin{cases}
-    f(x) & x \in \left[\frac{-P}{2}, \frac{P}{2}\right]\\
-    0 & x \notin \left[\frac{-P}{2}, \frac{P}{2}\right]
-\end{cases}\]
+    \begin{cases}
+        f(x) & x \in \left[\frac{-P}{2}, \frac{P}{2}\right]    \\
+        0    & x \notin \left[\frac{-P}{2}, \frac{P}{2}\right]
+    \end{cases}\]
 Como $f$ era absolutamente integrable en un periodo, $f_0$ es absolutamente integrable.
 Entonces, podemos calcular su transformada.
 
 Además, resulta que en ciertos valores ``enteros'', la transformada toma los valores de la serie de Fourier.
 En realidad no es exactamente así: realmente
 \begin{eq}\label{valores_enteros}
-2 \pi c_n = \SF_0\left(\frac{n}{2\pi}\right).
+    2 \pi c_n = \SF_0\left(\frac{n}{2\pi}\right).
 \end{eq}
 (En este caso y en lo sucesivo suponemos que $P = 2 \pi$).
 De hecho, por eso algunos autores prefieren escribir los coeficientes como $c_{n/2 \pi}$ en vez de $c_n$: porque son el valor de la transformada en $\frac{n}{2 \pi}$ (por una constante).
 
 La ecuación \ref{valores_enteros} se deduce fácilmente de la definición de los coeficientes y la transformada:
 \begin{align*}
-\SF_0 \left(\frac{n}{2\pi} \right) &= \int_{-\infty}^{\infty} f_0(x) \exp \lf({-2 \pi i x \frac{n}{2\pi}} \ri) \ddint x \\
-& = \int _{-\pi}^{\pi} f(x) e^{-i x n} \ddint x \\
-& = 2 \pi c_n.
+    \SF_0 \left(\frac{n}{2\pi} \right) & = \int_{-\infty}^{\infty} f_0(x) \exp \lf({-2 \pi i x \frac{n}{2\pi}} \ri) \ddint x \\
+                                       & = \int _{-\pi}^{\pi} f(x) e^{-i x n} \ddint x                                       \\
+                                       & = 2 \pi c_n.
 \end{align*}
 Esto es lo que hace a la transformada de Fourier tan útil: si tenemos una onda y queremos saber la intensidad relativa de sus diferentes armónicos (sin que nos importe el valor de las intensidades, solo las proporciones entre ellas), solo necesitamos hacer su transformada de Fourier y comparar los valores de la forma $\frac{n}{2\pi}$.
 
@@ -664,7 +664,7 @@ Antes de nada damos una definición que será clave en nuestra derivación del m
 
 Un impulso de área $A$ es una ``función'' $f$ tal que $f(x) = 0$ para cualquier $x \not = p$ y cuya integral sobre los reales es $A$.
 Por ejemplo, la función $\delta$ de Dirac: cumple que $\delta(x) = 0$ para $x \not = 0$ y que
-    \[\int_{\infty}^{\infty} \delta(x) \ddint x.\]
+\[\int_{\infty}^{\infty} \delta(x) \ddint x.\]
 
 Para calcular la DFT seguimos los siguientes pasos \cite{dft}:
 
@@ -682,22 +682,22 @@ Aquí hay que notar dos cosas: para empezar, que la distancia entre las muestras
 Además, con estas $N$ muestras estamos definiendo una ``ventana'', un intervalo en el que tomamos las muestras, olvidando el resto de la función.
 Esta ventana no debe ser demasiado grande, si no, después de hacer la DFT en distintos intervalos, quedaría algo similar a una película con pocos fotogramas por segundo.
 
-Sin embargo, esta ventana tiene que ser lo suficientemente grande como para que se pueda apreciar la función: por ejemplo, si $f(x) = \sen(x)$ y nuestra ventana fuera 
+Sin embargo, esta ventana tiene que ser lo suficientemente grande como para que se pueda apreciar la función: por ejemplo, si $f(x) = \sen(x)$ y nuestra ventana fuera
 \[
-\lf[\frac{\pi}{2} - \varepsilon, \frac{\pi}{2} + \varepsilon \ri]
+    \lf[\frac{\pi}{2} - \varepsilon, \frac{\pi}{2} + \varepsilon \ri]
 \]
 para $\varepsilon$ pequeño, la función parecería una constante.
 
 Como se ve en la figura \ref{sampling} (b), ahora estamos suponiendo que nuestra función es periódica, y que la DFT funcionaría para toda la onda; aunque no es así y tendremos que calcularla para cada intervalo de tiempo.
 
 Después de esta discretización, debemos calcular la transformada. Sin embargo, al ser la transformada una integral y ser nuestra función discreta, inevitablemente obtendremos que $\SF(\omega) = 0$.
-Por ello, interpretamos cada $f[k]$, para $k = 0$, $1$, \dots, $N-1$, como un impulso de área $f[k]$. 
+Por ello, interpretamos cada $f[k]$, para $k = 0$, $1$, \dots, $N-1$, como un impulso de área $f[k]$.
 
 Ahora ya podemos integrar:
 \begin{align*}
-    \SF_d(\omega) &= \int_0^{(N - 1) T} f(x) e^{-2\pi i \omega x} \ddint x \\
-    &= f[0] e^{0} + f[1] e^{-2\pi i \omega \cdot 1} + \dots + f[N - 1] e^{-2\pi i \omega (N - 1) T} \\
-    &= \sum_{k=0}^{N-1} f[k] e^{-2\pi i \omega k T}.
+    \SF_d(\omega) & = \int_0^{(N - 1) T} f(x) e^{-2\pi i \omega x} \ddint x                                        \\
+                  & = f[0] e^{0} + f[1] e^{-2\pi i \omega \cdot 1} + \dots + f[N - 1] e^{-2\pi i \omega (N - 1) T} \\
+                  & = \sum_{k=0}^{N-1} f[k] e^{-2\pi i \omega k T}.
 \end{align*}
 Aunque este sumatorio se puede evaluar para cualquier $\omega$ real, solo nos interesa para los valores de la forma $\frac{k}{2 \pi}$ para $k = 0$, $1$, \dots, $N-1$; por la ecuación \ref{valores_enteros}.
 
@@ -777,7 +777,26 @@ Como se ha explicado en la anterior sección, una onda puede descomponerse en di
 El timbre depende de esta descomposición en armónicos.
 Sin embargo, contrario a lo que se piensa a menudo, existen sonidos ``inarmónicos''.
 La descomposición de estos sonidos no es en múltiplos de una frecuencia fundamental.
+Esto se debe a que estos sonidos no son periódicos:
+la vibración de una cuerda, por ejemplo, es bastante simple se aproxima a ser periódica
+(no lo es exactamente por no ser un sistema perfecto).
+Sin embargo, la vibración de un tambor es mucho más irregular.
+No se aproxima a una función periódica, por tanto no tiene una descomposición en armónicos \cite{inarmonicos}.
 
+Sin embargo, normalmente, sí que se puede descomponer el sonido como suma de distintas ondas, aunque sus frecuencias no sean múltiplos de una fundamental.
+Por ejemplo, en la figura \ref{espectro_campana} se ve el espectro teórico de una campana.
+Las líneas punteadas son los múltiplos de la frecuencia fundamental $f$.
+Se ve claramente que las frecuencias no son múltiplos de $f$.
+
+
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=7cm]{figuras/campana_inarmonica.png}
+    \caption{Espectro de frecuencias teórico de una campana. Fuente: Wikipedia.}
+    \label{espectro_campana}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%

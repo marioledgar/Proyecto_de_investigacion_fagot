@@ -624,6 +624,11 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./figuras/campana_inarmonica.png
+INPUT ./figuras/campana_inarmonica.png
+INPUT ./figuras/campana_inarmonica.png
+INPUT ./figuras/campana_inarmonica.png
+INPUT ./figuras/campana_inarmonica.png
 INPUT marco_teorico.aux
 INPUT marco_teorico.run.xml
 OUTPUT marco_teorico.run.xml
