@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber marco_teorico"] 0 "marco_teorico.bcf" "marco_teorico.bbl" "marco_teorico" 1768331906.92469 0
+["biber marco_teorico"] 0 "marco_teorico.bcf" "marco_teorico.bbl" "marco_teorico" 1768332734.26501 0
   "biblio.bib" 0 -1 0 ""
   "marco_teorico.bcf" 0 -1 0 "pdflatex"
   (generated)
   "marco_teorico.bbl"
   "marco_teorico.blg"
   (rewritten before read)
-["pdflatex"] 1768331902.32881 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" "marco_teorico.pdf" "marco_teorico" 1768331906.92581 0
-  "../../main.tex" 1768080456 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
-  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" 1768331896 51373 139df90f2f4430fc4cfbf10a24d5d022 ""
+["pdflatex"] 1768332729.60193 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" "marco_teorico.pdf" "marco_teorico" 1768332734.26593 0
+  "../../main.tex" 1768332117 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
+  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/partes/marco_teorico/marco_teorico.tex" 1768332726 51676 000c0ca2c7ed9abc050e25b8b627e239 ""
   "c:/Users/bgarc/texmf/tex/latex/personal/mario.sty" 1766863290 29770 8504d4f1e6c47fd4a6beacdc6d0a7016 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765661155 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765661516 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -307,11 +307,11 @@
   "figuras/refraccion_real.png" 1765636540 252041 ef5e20c9391fff4def4dc7817b8658ab ""
   "figuras/sonido_longitudinal.png" 1767536749 161067 96c690880418bb474d96fdeb2a1f38a7 ""
   "figuras/vibracion_cuerda.png" 1765636540 142460 2caa476a4e112071539f7cde055a6a8f ""
-  "marco_teorico.aux" 1768331906 13780 58ce3ec22242838f84b075979fda677d "pdflatex"
+  "marco_teorico.aux" 1768332733 13862 3361c08ccc5eb988c5451f79c7752e42 "pdflatex"
   "marco_teorico.bbl" 0 -1 0 "biber marco_teorico"
-  "marco_teorico.pre" 1768331903 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "marco_teorico.run.xml" 1768331906 2364 5750cb72cb2300c02c5c8880042829c9 "pdflatex"
-  "marco_teorico.tex" 1768331896 51373 139df90f2f4430fc4cfbf10a24d5d022 ""
+  "marco_teorico.pre" 1768332730 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "marco_teorico.run.xml" 1768332733 2364 5750cb72cb2300c02c5c8880042829c9 "pdflatex"
+  "marco_teorico.tex" 1768332726 51676 000c0ca2c7ed9abc050e25b8b627e239 ""
   (generated)
   "marco_teorico.aux"
   "marco_teorico.bcf"

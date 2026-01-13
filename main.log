@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  13 JAN 2026 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  13 JAN 2026 20:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1225,17 +1225,17 @@ Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
 <partes/marco_teorico/figuras/muelles/Muelle_abajo.png, id=31, 149.05687pt x 377.91188pt>
 File: partes/marco_teorico/figuras/muelles/Muelle_abajo.png Graphic file (type png)
 <use partes/marco_teorico/figuras/muelles/Muelle_abajo.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/muelles/Muelle_abajo.png  used on input line 19.
+Package pdftex.def Info: partes/marco_teorico/figuras/muelles/Muelle_abajo.png  used on input line 20.
 (pdftex.def)             Requested size: 56.11224pt x 142.26378pt.
 <partes/marco_teorico/figuras/muelles/Muelle_equilibrio.png, id=33, 149.05687pt x 377.91188pt>
 File: partes/marco_teorico/figuras/muelles/Muelle_equilibrio.png Graphic file (type png)
 <use partes/marco_teorico/figuras/muelles/Muelle_equilibrio.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/muelles/Muelle_equilibrio.png  used on input line 21.
+Package pdftex.def Info: partes/marco_teorico/figuras/muelles/Muelle_equilibrio.png  used on input line 22.
 (pdftex.def)             Requested size: 56.11224pt x 142.26378pt.
 <partes/marco_teorico/figuras/muelles/Muelle_arriba.png, id=34, 149.55875pt x 377.91188pt>
 File: partes/marco_teorico/figuras/muelles/Muelle_arriba.png Graphic file (type png)
 <use partes/marco_teorico/figuras/muelles/Muelle_arriba.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/muelles/Muelle_arriba.png  used on input line 23.
+Package pdftex.def Info: partes/marco_teorico/figuras/muelles/Muelle_arriba.png  used on input line 24.
 (pdftex.def)             Requested size: 56.30118pt x 142.26378pt.
  [1
 
@@ -1244,117 +1244,117 @@ Package pdftex.def Info: partes/marco_teorico/figuras/muelles/Muelle_arriba.png 
 <partes/marco_teorico/figuras/pulsos/Onda1.png, id=93, 567.11874pt x 144.03813pt>
 File: partes/marco_teorico/figuras/pulsos/Onda1.png Graphic file (type png)
 <use partes/marco_teorico/figuras/pulsos/Onda1.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/pulsos/Onda1.png  used on input line 191.
+Package pdftex.def Info: partes/marco_teorico/figuras/pulsos/Onda1.png  used on input line 192.
 (pdftex.def)             Requested size: 336.09421pt x 85.35826pt.
 <partes/marco_teorico/figuras/pulsos/Onda2.png, id=94, 567.11874pt x 141.52875pt>
 File: partes/marco_teorico/figuras/pulsos/Onda2.png Graphic file (type png)
 <use partes/marco_teorico/figuras/pulsos/Onda2.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/pulsos/Onda2.png  used on input line 192.
+Package pdftex.def Info: partes/marco_teorico/figuras/pulsos/Onda2.png  used on input line 193.
 (pdftex.def)             Requested size: 342.04784pt x 85.35826pt.
 <partes/marco_teorico/figuras/pulsos/Pulsos.png, id=95, 567.11874pt x 140.525pt>
 File: partes/marco_teorico/figuras/pulsos/Pulsos.png Graphic file (type png)
 <use partes/marco_teorico/figuras/pulsos/Pulsos.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/pulsos/Pulsos.png  used on input line 193.
+Package pdftex.def Info: partes/marco_teorico/figuras/pulsos/Pulsos.png  used on input line 194.
 (pdftex.def)             Requested size: 344.47948pt x 85.35826pt.
  [4] [5 <./partes/marco_teorico/figuras/pulsos/Onda1.png> <./partes/marco_teorico/figuras/pulsos/Onda2.png> <./partes/marco_teorico/figuras/pulsos/Pulsos.png>]
 <partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png, id=114, 642.90187pt x 250.43562pt>
 File: partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png Graphic file (type png)
 <use partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png  used on input line 228.
+Package pdftex.def Info: partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png  used on input line 229.
 (pdftex.def)             Requested size: 226.43164pt x 88.2037pt.
 <partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png, id=115, 363.3575pt x 219.82124pt>
 File: partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png Graphic file (type png)
 <use partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png  used on input line 229.
+Package pdftex.def Info: partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png  used on input line 230.
 (pdftex.def)             Requested size: 145.79506pt x 88.2037pt.
 <partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png, id=116, 297.11pt x 340.77313pt>
 File: partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png Graphic file (type png)
 <use partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png  used on input line 230.
+Package pdftex.def Info: partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png  used on input line 231.
 (pdftex.def)             Requested size: 81.86191pt x 93.89418pt.
 <partes/marco_teorico/figuras/ondas_direccion/Longitudinal.png, id=119, 174.6525pt x 224.84pt>
 File: partes/marco_teorico/figuras/ondas_direccion/Longitudinal.png Graphic file (type png)
 <use partes/marco_teorico/figuras/ondas_direccion/Longitudinal.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/ondas_direccion/Longitudinal.png  used on input line 246.
+Package pdftex.def Info: partes/marco_teorico/figuras/ondas_direccion/Longitudinal.png  used on input line 247.
 (pdftex.def)             Requested size: 110.514pt x 142.26378pt.
 <partes/marco_teorico/figuras/ondas_direccion/Transversal.png, id=120, 148.05313pt x 218.31563pt>
 File: partes/marco_teorico/figuras/ondas_direccion/Transversal.png Graphic file (type png)
 <use partes/marco_teorico/figuras/ondas_direccion/Transversal.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/ondas_direccion/Transversal.png  used on input line 247.
+Package pdftex.def Info: partes/marco_teorico/figuras/ondas_direccion/Transversal.png  used on input line 248.
 (pdftex.def)             Requested size: 96.47736pt x 142.26378pt.
  [6 <./partes/marco_teorico/figuras/ondas_dimensiones/Unidimensional.png> <./partes/marco_teorico/figuras/ondas_dimensiones/Bidimensional.png> <./partes/marco_teorico/figuras/ondas_dimensiones/Tridimensional.png>]
 <partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png, id=134, 146.04562pt x 97.11281pt>
 File: partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png Graphic file (type png)
 <use partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png  used on input line 268.
+Package pdftex.def Info: partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png  used on input line 269.
 (pdftex.def)             Requested size: 128.37122pt x 85.35826pt.
 <partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png, id=135, 152.06813pt x 97.11281pt>
 File: partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png Graphic file (type png)
 <use partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png  used on input line 269.
+Package pdftex.def Info: partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png  used on input line 270.
 (pdftex.def)             Requested size: 133.66489pt x 85.35826pt.
  [7 <./partes/marco_teorico/figuras/ondas_direccion/Longitudinal.png> <./partes/marco_teorico/figuras/ondas_direccion/Transversal.png> <./partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png> <./partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png>] [8]
 <partes/marco_teorico/figuras/absorcion_vs_atenuacion.png, id=161, 308.65312pt x 262.73157pt>
 File: partes/marco_teorico/figuras/absorcion_vs_atenuacion.png Graphic file (type png)
 <use partes/marco_teorico/figuras/absorcion_vs_atenuacion.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/absorcion_vs_atenuacion.png  used on input line 349.
+Package pdftex.def Info: partes/marco_teorico/figuras/absorcion_vs_atenuacion.png  used on input line 350.
 (pdftex.def)             Requested size: 156.49014pt x 133.20956pt.
 <partes/marco_teorico/figuras/huygens.png, id=167, 735.74875pt x 581.17125pt>
 File: partes/marco_teorico/figuras/huygens.png Graphic file (type png)
 <use partes/marco_teorico/figuras/huygens.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/huygens.png  used on input line 375.
+Package pdftex.def Info: partes/marco_teorico/figuras/huygens.png  used on input line 376.
 (pdftex.def)             Requested size: 167.29967pt x 132.15015pt.
  [9 <./partes/marco_teorico/figuras/absorcion_vs_atenuacion.png>]
 <partes/marco_teorico/figuras/reflexion_refraccion.png, id=180, 154.5775pt x 157.58875pt>
 File: partes/marco_teorico/figuras/reflexion_refraccion.png Graphic file (type png)
 <use partes/marco_teorico/figuras/reflexion_refraccion.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/reflexion_refraccion.png  used on input line 396.
+Package pdftex.def Info: partes/marco_teorico/figuras/reflexion_refraccion.png  used on input line 397.
 (pdftex.def)             Requested size: 125.47794pt x 127.9275pt.
 <partes/marco_teorico/figuras/refraccion_real.png, id=181, 501.875pt x 376.40625pt>
 File: partes/marco_teorico/figuras/refraccion_real.png Graphic file (type png)
 <use partes/marco_teorico/figuras/refraccion_real.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/refraccion_real.png  used on input line 403.
+Package pdftex.def Info: partes/marco_teorico/figuras/refraccion_real.png  used on input line 404.
 (pdftex.def)             Requested size: 104.56389pt x 78.4216pt.
  [10 <./partes/marco_teorico/figuras/huygens.png (PNG copy)> <./partes/marco_teorico/figuras/reflexion_refraccion.png (PNG copy)> <./partes/marco_teorico/figuras/refraccion_real.png (PNG copy)>] [11]
 <partes/marco_teorico/figuras/vibracion_cuerda.png, id=210, 402.00188pt x 361.35pt>
 File: partes/marco_teorico/figuras/vibracion_cuerda.png Graphic file (type png)
 <use partes/marco_teorico/figuras/vibracion_cuerda.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/vibracion_cuerda.png  used on input line 515.
+Package pdftex.def Info: partes/marco_teorico/figuras/vibracion_cuerda.png  used on input line 516.
 (pdftex.def)             Requested size: 158.27066pt x 142.26378pt.
  [12]
 <partes/marco_teorico/figuras/onda_triangular/original.png, id=222, 693.59125pt x 372.39125pt>
 File: partes/marco_teorico/figuras/onda_triangular/original.png Graphic file (type png)
 <use partes/marco_teorico/figuras/onda_triangular/original.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/onda_triangular/original.png  used on input line 527.
+Package pdftex.def Info: partes/marco_teorico/figuras/onda_triangular/original.png  used on input line 528.
 (pdftex.def)             Requested size: 158.98288pt x 85.35826pt.
 <partes/marco_teorico/figuras/onda_triangular/fourier_aproximada.png, id=223, 693.59125pt x 372.39125pt>
 File: partes/marco_teorico/figuras/onda_triangular/fourier_aproximada.png Graphic file (type png)
 <use partes/marco_teorico/figuras/onda_triangular/fourier_aproximada.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/onda_triangular/fourier_aproximada.png  used on input line 528.
+Package pdftex.def Info: partes/marco_teorico/figuras/onda_triangular/fourier_aproximada.png  used on input line 529.
 (pdftex.def)             Requested size: 158.98288pt x 85.35826pt.
-Package hyperref Info: bookmark level for unknown definition* defaults to 0 on input line 541.
+Package hyperref Info: bookmark level for unknown definition* defaults to 0 on input line 542.
  [13 <./partes/marco_teorico/figuras/vibracion_cuerda.png> <./partes/marco_teorico/figuras/onda_triangular/original.png> <./partes/marco_teorico/figuras/onda_triangular/fourier_aproximada.png>] [14] [15]
 <partes/marco_teorico/figuras/DFT/sampling.png, id=263, 674.52pt x 237.88875pt>
 File: partes/marco_teorico/figuras/DFT/sampling.png Graphic file (type png)
 <use partes/marco_teorico/figuras/DFT/sampling.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/DFT/sampling.png  used on input line 675.
+Package pdftex.def Info: partes/marco_teorico/figuras/DFT/sampling.png  used on input line 676.
 (pdftex.def)             Requested size: 199.16928pt x 70.2419pt.
 <partes/marco_teorico/figuras/DFT/periodica.png, id=264, 688.07062pt x 250.43562pt>
 File: partes/marco_teorico/figuras/DFT/periodica.png Graphic file (type png)
 <use partes/marco_teorico/figuras/DFT/periodica.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/DFT/periodica.png  used on input line 676.
+Package pdftex.def Info: partes/marco_teorico/figuras/DFT/periodica.png  used on input line 677.
 (pdftex.def)             Requested size: 199.16928pt x 72.4907pt.
  [16 <./partes/marco_teorico/figuras/DFT/sampling.png> <./partes/marco_teorico/figuras/DFT/periodica.png>]
 <partes/marco_teorico/figuras/sonido_longitudinal.png, id=284, 369.38pt x 55.70813pt>
 File: partes/marco_teorico/figuras/sonido_longitudinal.png Graphic file (type png)
 <use partes/marco_teorico/figuras/sonido_longitudinal.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/sonido_longitudinal.png  used on input line 735.
+Package pdftex.def Info: partes/marco_teorico/figuras/sonido_longitudinal.png  used on input line 736.
 (pdftex.def)             Requested size: 199.16928pt x 30.03772pt.
  [17] [18{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./partes/marco_teorico/figuras/sonido_longitudinal.png>]
 <partes/marco_teorico/figuras/campana_inarmonica.png, id=308, 1233.85968pt x 490.83376pt>
 File: partes/marco_teorico/figuras/campana_inarmonica.png Graphic file (type png)
 <use partes/marco_teorico/figuras/campana_inarmonica.png>
-Package pdftex.def Info: partes/marco_teorico/figuras/campana_inarmonica.png  used on input line 799.
+Package pdftex.def Info: partes/marco_teorico/figuras/campana_inarmonica.png  used on input line 800.
 (pdftex.def)             Requested size: 199.16928pt x 79.22403pt.
 ) (./partes/apendices/demostraciones.tex [19 <./partes/marco_teorico/figuras/campana_inarmonica.png>]
 Package hyperref Info: bookmark level for unknown lemma* defaults to 0 on input line 44.

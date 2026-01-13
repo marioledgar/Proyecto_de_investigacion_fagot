@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1768331984.95061 "main.bcf" "main.bbl" "main" 1768332001.27967 0
+["biber main"] 1768331984.95061 "main.bcf" "main.bbl" "main" 1768332127.92129 0
   "biblio.bib" 1768163520 7238 a4e7ec4d395131c66203ff95688593c6 ""
-  "main.bcf" 1768332000 111023 05b736341d1f7bf77bc58abfc2e0fbbc "pdflatex"
+  "main.bcf" 1768332127 111023 05b736341d1f7bf77bc58abfc2e0fbbc "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1768331996.45449 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" "main.pdf" "main" 1768332001.28054 0
-  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" 1768331924 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
+["pdflatex"] 1768332122.78477 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" "main.pdf" "main" 1768332127.9221 0
+  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" 1768332117 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
   "c:/Users/bgarc/texmf/tex/latex/personal/mario.sty" 1766863290 29770 8504d4f1e6c47fd4a6beacdc6d0a7016 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765661155 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765661516 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -290,11 +290,11 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765662612 416004 e1616fd44eb63cfaaece98be5856e0e0 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1765662680 2306692 e40f4d716a8e2b5681b246cd467fe932 ""
   "c:/texlive/2025/texmf.cnf" 1765662606 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1768332000 21848 82c1730412d01e1806211376d1a274b7 "pdflatex"
+  "main.aux" 1768332127 21849 5db417420188de9835b913a3cf02fa18 "pdflatex"
   "main.bbl" 1768331986 33252 c001092a6cf2777f1d24e16394e39558 "biber main"
-  "main.pre" 1768331997 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1768332000 2301 13e8301fbdc44293469f5e9eeaf509b7 "pdflatex"
-  "main.tex" 1768331924 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
+  "main.pre" 1768332124 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1768332127 2301 13e8301fbdc44293469f5e9eeaf509b7 "pdflatex"
+  "main.tex" 1768332117 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
   "partes/apendices/demostraciones.tex" 1768161699 6348 bac19cec45cc5b9a74bbcfa1d8d3cd2b ""
   "partes/apendices/figuras/integral_seno.png" 1765636540 18001 a4611214f7a20606279150d1d9b7c3fa ""
   "partes/intro/intro.tex" 1767724779 1018 75aaff31f46aae58ad97e62289f539ba ""
@@ -322,7 +322,7 @@
   "partes/marco_teorico/figuras/refraccion_real.png" 1765636540 252041 ef5e20c9391fff4def4dc7817b8658ab ""
   "partes/marco_teorico/figuras/sonido_longitudinal.png" 1767536749 161067 96c690880418bb474d96fdeb2a1f38a7 ""
   "partes/marco_teorico/figuras/vibracion_cuerda.png" 1765636540 142460 2caa476a4e112071539f7cde055a6a8f ""
-  "partes/marco_teorico/marco_teorico.tex" 1768331896 51373 139df90f2f4430fc4cfbf10a24d5d022 ""
+  "partes/marco_teorico/marco_teorico.tex" 1768332089 51399 ea96967a4b13cc78a243c26c940f795c ""
   (generated)
   "main.aux"
   "main.bcf"

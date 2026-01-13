@@ -2414,6 +2414,7 @@
     <bcf:citekey order="34" intorder="1">definicion_sonido</bcf:citekey>
     <bcf:citekey order="35" intorder="1">inarmonicos</bcf:citekey>
     <bcf:citekey order="36" intorder="1">instruments</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">inharmonicidad_piano</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

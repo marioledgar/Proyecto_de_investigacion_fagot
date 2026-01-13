@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  13 JAN 2026 20:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  13 JAN 2026 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1122,7 +1122,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 3.
+(scrartcl)           before \begin{document} on input line 4.
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1141,24 +1141,24 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `marco_teorico.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count522
@@ -1178,8 +1178,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
  (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
@@ -1194,298 +1194,301 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'marco_teorico.bbl' not found.
 
 No file marco_teorico.bbl.
-Package biblatex Info: Reference section=0 on input line 3.
-Package biblatex Info: Reference segment=0 on input line 3.
-Package hyperref Info: Link coloring ON on input line 3.
+Package biblatex Info: Reference section=0 on input line 4.
+Package biblatex Info: Reference segment=0 on input line 4.
+Package hyperref Info: Link coloring ON on input line 4.
 \c@lstlisting=\count528
-Package tocbasic Info: setting babel extension for `lol' on input line 3.
+Package tocbasic Info: setting babel extension for `lol' on input line 4.
 \scr@dte@lstlisting@maxnumwidth=\skip107
-LaTeX Info: Redefining \dots on input line 3.
+LaTeX Info: Redefining \dots on input line 4.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 3.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 4.
 <figuras/muelles/Muelle_abajo.png, id=31, 149.05687pt x 377.91188pt>
 File: figuras/muelles/Muelle_abajo.png Graphic file (type png)
 <use figuras/muelles/Muelle_abajo.png>
-Package pdftex.def Info: figuras/muelles/Muelle_abajo.png  used on input line 19.
+Package pdftex.def Info: figuras/muelles/Muelle_abajo.png  used on input line 20.
 (pdftex.def)             Requested size: 56.11224pt x 142.26378pt.
 <figuras/muelles/Muelle_equilibrio.png, id=33, 149.05687pt x 377.91188pt>
 File: figuras/muelles/Muelle_equilibrio.png Graphic file (type png)
 <use figuras/muelles/Muelle_equilibrio.png>
-Package pdftex.def Info: figuras/muelles/Muelle_equilibrio.png  used on input line 21.
+Package pdftex.def Info: figuras/muelles/Muelle_equilibrio.png  used on input line 22.
 (pdftex.def)             Requested size: 56.11224pt x 142.26378pt.
 <figuras/muelles/Muelle_arriba.png, id=34, 149.55875pt x 377.91188pt>
 File: figuras/muelles/Muelle_arriba.png Graphic file (type png)
 <use figuras/muelles/Muelle_arriba.png>
-Package pdftex.def Info: figuras/muelles/Muelle_arriba.png  used on input line 23.
+Package pdftex.def Info: figuras/muelles/Muelle_arriba.png  used on input line 24.
 (pdftex.def)             Requested size: 56.30118pt x 142.26378pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 30.
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 31.
  (c:/texlive/2025/texmf-dist/tex/latex/yhmath/OMXyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 30.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 31.
  (c:/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
-LaTeX Warning: Citation 'pain' on page 1 undefined on input line 33.
+LaTeX Warning: Citation 'pain' on page 1 undefined on input line 34.
 
 
-LaTeX Warning: Citation 'newton_principia' on page 1 undefined on input line 39.
+LaTeX Warning: Citation 'newton_principia' on page 1 undefined on input line 40.
 
 
-LaTeX Warning: Citation 'gamow' on page 1 undefined on input line 39.
+LaTeX Warning: Citation 'gamow' on page 1 undefined on input line 40.
 
 [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./figuras/muelles/Muelle_abajo.png> <./figuras/muelles/Muelle_equilibrio.png> <./figuras/muelles/Muelle_arriba.png>]
 
-LaTeX Warning: Citation 'edos' on page 2 undefined on input line 76.
+LaTeX Warning: Citation 'edos' on page 2 undefined on input line 77.
 
 
-LaTeX Warning: Citation 'comp' on page 2 undefined on input line 126.
+LaTeX Warning: Citation 'comp' on page 2 undefined on input line 127.
 
 
-LaTeX Warning: Citation 'epe' on page 2 undefined on input line 133.
+LaTeX Warning: Citation 'epe' on page 2 undefined on input line 134.
 
 [2] [3]
 
-LaTeX Warning: Citation 'instruments' on page 4 undefined on input line 179.
+LaTeX Warning: Citation 'instruments' on page 4 undefined on input line 180.
 
 <figuras/pulsos/Onda1.png, id=77, 567.11874pt x 144.03813pt>
 File: figuras/pulsos/Onda1.png Graphic file (type png)
 <use figuras/pulsos/Onda1.png>
-Package pdftex.def Info: figuras/pulsos/Onda1.png  used on input line 191.
+Package pdftex.def Info: figuras/pulsos/Onda1.png  used on input line 192.
 (pdftex.def)             Requested size: 336.09421pt x 85.35826pt.
 <figuras/pulsos/Onda2.png, id=78, 567.11874pt x 141.52875pt>
 File: figuras/pulsos/Onda2.png Graphic file (type png)
 <use figuras/pulsos/Onda2.png>
-Package pdftex.def Info: figuras/pulsos/Onda2.png  used on input line 192.
+Package pdftex.def Info: figuras/pulsos/Onda2.png  used on input line 193.
 (pdftex.def)             Requested size: 342.04784pt x 85.35826pt.
 <figuras/pulsos/Pulsos.png, id=79, 567.11874pt x 140.525pt>
 File: figuras/pulsos/Pulsos.png Graphic file (type png)
 <use figuras/pulsos/Pulsos.png>
-Package pdftex.def Info: figuras/pulsos/Pulsos.png  used on input line 193.
+Package pdftex.def Info: figuras/pulsos/Pulsos.png  used on input line 194.
 (pdftex.def)             Requested size: 344.47948pt x 85.35826pt.
 [4 <./figuras/pulsos/Onda1.png> <./figuras/pulsos/Onda2.png> <./figuras/pulsos/Pulsos.png>]
 
-LaTeX Warning: Citation '2bach' on page 5 undefined on input line 213.
+LaTeX Warning: Citation '2bach' on page 5 undefined on input line 214.
 
 <figuras/ondas_dimensiones/Unidimensional.png, id=90, 642.90187pt x 250.43562pt>
 File: figuras/ondas_dimensiones/Unidimensional.png Graphic file (type png)
 <use figuras/ondas_dimensiones/Unidimensional.png>
-Package pdftex.def Info: figuras/ondas_dimensiones/Unidimensional.png  used on input line 228.
+Package pdftex.def Info: figuras/ondas_dimensiones/Unidimensional.png  used on input line 229.
 (pdftex.def)             Requested size: 226.43164pt x 88.2037pt.
 <figuras/ondas_dimensiones/Bidimensional.png, id=91, 363.3575pt x 219.82124pt>
 File: figuras/ondas_dimensiones/Bidimensional.png Graphic file (type png)
 <use figuras/ondas_dimensiones/Bidimensional.png>
-Package pdftex.def Info: figuras/ondas_dimensiones/Bidimensional.png  used on input line 229.
+Package pdftex.def Info: figuras/ondas_dimensiones/Bidimensional.png  used on input line 230.
 (pdftex.def)             Requested size: 145.79506pt x 88.2037pt.
 <figuras/ondas_dimensiones/Tridimensional.png, id=92, 297.11pt x 340.77313pt>
 File: figuras/ondas_dimensiones/Tridimensional.png Graphic file (type png)
 <use figuras/ondas_dimensiones/Tridimensional.png>
-Package pdftex.def Info: figuras/ondas_dimensiones/Tridimensional.png  used on input line 230.
+Package pdftex.def Info: figuras/ondas_dimensiones/Tridimensional.png  used on input line 231.
 (pdftex.def)             Requested size: 81.86191pt x 93.89418pt.
 
-LaTeX Warning: Citation 'georgi2022physics' on page 5 undefined on input line 237.
+LaTeX Warning: Citation 'georgi2022physics' on page 5 undefined on input line 238.
 
 [5 <./figuras/ondas_dimensiones/Unidimensional.png> <./figuras/ondas_dimensiones/Bidimensional.png> <./figuras/ondas_dimensiones/Tridimensional.png>]
 <figuras/ondas_direccion/Longitudinal.png, id=103, 174.6525pt x 224.84pt>
 File: figuras/ondas_direccion/Longitudinal.png Graphic file (type png)
 <use figuras/ondas_direccion/Longitudinal.png>
-Package pdftex.def Info: figuras/ondas_direccion/Longitudinal.png  used on input line 246.
+Package pdftex.def Info: figuras/ondas_direccion/Longitudinal.png  used on input line 247.
 (pdftex.def)             Requested size: 110.514pt x 142.26378pt.
 <figuras/ondas_direccion/Transversal.png, id=104, 148.05313pt x 218.31563pt>
 File: figuras/ondas_direccion/Transversal.png Graphic file (type png)
 <use figuras/ondas_direccion/Transversal.png>
-Package pdftex.def Info: figuras/ondas_direccion/Transversal.png  used on input line 247.
+Package pdftex.def Info: figuras/ondas_direccion/Transversal.png  used on input line 248.
 (pdftex.def)             Requested size: 96.47736pt x 142.26378pt.
 <figuras/magnitudes_ondas/onda_amplitud_periodo.png, id=107, 146.04562pt x 97.11281pt>
 File: figuras/magnitudes_ondas/onda_amplitud_periodo.png Graphic file (type png)
 <use figuras/magnitudes_ondas/onda_amplitud_periodo.png>
-Package pdftex.def Info: figuras/magnitudes_ondas/onda_amplitud_periodo.png  used on input line 268.
+Package pdftex.def Info: figuras/magnitudes_ondas/onda_amplitud_periodo.png  used on input line 269.
 (pdftex.def)             Requested size: 128.37122pt x 85.35826pt.
 <figuras/magnitudes_ondas/onda_longitud_frecuencia.png, id=108, 152.06813pt x 97.11281pt>
 File: figuras/magnitudes_ondas/onda_longitud_frecuencia.png Graphic file (type png)
 <use figuras/magnitudes_ondas/onda_longitud_frecuencia.png>
-Package pdftex.def Info: figuras/magnitudes_ondas/onda_longitud_frecuencia.png  used on input line 269.
+Package pdftex.def Info: figuras/magnitudes_ondas/onda_longitud_frecuencia.png  used on input line 270.
 (pdftex.def)             Requested size: 133.66489pt x 85.35826pt.
 
 
-LaTeX Warning: Citation '2bach' on page 6 undefined on input line 276.
+LaTeX Warning: Citation '2bach' on page 6 undefined on input line 277.
 
 [6 <./figuras/ondas_direccion/Longitudinal.png> <./figuras/ondas_direccion/Transversal.png>]
 
-LaTeX Warning: Citation 'ondarm' on page 7 undefined on input line 284.
+LaTeX Warning: Citation 'ondarm' on page 7 undefined on input line 285.
 
 
-LaTeX Warning: Reference `demostraciones' on page 7 undefined on input line 285.
+LaTeX Warning: Reference `demostraciones' on page 7 undefined on input line 286.
 
 
-LaTeX Warning: Citation 'johnson2011software' on page 7 undefined on input line 301.
+LaTeX Warning: Citation 'johnson2011software' on page 7 undefined on input line 302.
 
 [7 <./figuras/magnitudes_ondas/onda_amplitud_periodo.png> <./figuras/magnitudes_ondas/onda_longitud_frecuencia.png>]
 
-LaTeX Warning: Reference `demostraciones' on page 8 undefined on input line 331.
+LaTeX Warning: Reference `demostraciones' on page 8 undefined on input line 332.
 
 <figuras/absorcion_vs_atenuacion.png, id=128, 308.65312pt x 262.73157pt>
 File: figuras/absorcion_vs_atenuacion.png Graphic file (type png)
 <use figuras/absorcion_vs_atenuacion.png>
-Package pdftex.def Info: figuras/absorcion_vs_atenuacion.png  used on input line 349.
+Package pdftex.def Info: figuras/absorcion_vs_atenuacion.png  used on input line 350.
 (pdftex.def)             Requested size: 156.49014pt x 133.20956pt.
 
-LaTeX Warning: Citation 'absorcion' on page 8 undefined on input line 350.
+LaTeX Warning: Citation 'absorcion' on page 8 undefined on input line 351.
 
 
-LaTeX Warning: Citation 'absorcion' on page 8 undefined on input line 350.
+LaTeX Warning: Citation 'absorcion' on page 8 undefined on input line 351.
 
 [8 <./figuras/absorcion_vs_atenuacion.png>]
 
-LaTeX Warning: Citation 'absorcion' on page 9 undefined on input line 362.
+LaTeX Warning: Citation 'absorcion' on page 9 undefined on input line 363.
 
 
-LaTeX Warning: Citation 'freegarde2012introduction' on page 9 undefined on input line 367.
+LaTeX Warning: Citation 'freegarde2012introduction' on page 9 undefined on input line 368.
 
 <figuras/huygens.png, id=136, 735.74875pt x 581.17125pt>
 File: figuras/huygens.png Graphic file (type png)
 <use figuras/huygens.png>
-Package pdftex.def Info: figuras/huygens.png  used on input line 375.
+Package pdftex.def Info: figuras/huygens.png  used on input line 376.
 (pdftex.def)             Requested size: 167.29967pt x 132.15015pt.
 <figuras/reflexion_refraccion.png, id=140, 154.5775pt x 157.58875pt>
 File: figuras/reflexion_refraccion.png Graphic file (type png)
 <use figuras/reflexion_refraccion.png>
-Package pdftex.def Info: figuras/reflexion_refraccion.png  used on input line 396.
+Package pdftex.def Info: figuras/reflexion_refraccion.png  used on input line 397.
 (pdftex.def)             Requested size: 125.47794pt x 127.9275pt.
 <figuras/refraccion_real.png, id=141, 501.875pt x 376.40625pt>
 File: figuras/refraccion_real.png Graphic file (type png)
 <use figuras/refraccion_real.png>
-Package pdftex.def Info: figuras/refraccion_real.png  used on input line 403.
+Package pdftex.def Info: figuras/refraccion_real.png  used on input line 404.
 (pdftex.def)             Requested size: 104.56389pt x 78.4216pt.
 [9 <./figuras/huygens.png (PNG copy)>]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 426.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 427.
 
 
-LaTeX Warning: Citation 'fourier' on page 10 undefined on input line 442.
+LaTeX Warning: Citation 'fourier' on page 10 undefined on input line 443.
 
 
-LaTeX Warning: Citation 'fourier' on page 10 undefined on input line 446.
+LaTeX Warning: Citation 'fourier' on page 10 undefined on input line 447.
 
 [10 <./figuras/reflexion_refraccion.png (PNG copy)> <./figuras/refraccion_real.png (PNG copy)>]
 
-LaTeX Warning: Citation 'chris' on page 11 undefined on input line 460.
+LaTeX Warning: Citation 'chris' on page 11 undefined on input line 461.
 
 
-LaTeX Warning: Citation 'elena' on page 11 undefined on input line 465.
+LaTeX Warning: Citation 'elena' on page 11 undefined on input line 466.
 
 
-LaTeX Warning: Citation 'elena' on page 11 undefined on input line 473.
+LaTeX Warning: Citation 'elena' on page 11 undefined on input line 474.
 
 [11]
 
-LaTeX Warning: Citation 'cuerda' on page 12 undefined on input line 491.
+LaTeX Warning: Citation 'cuerda' on page 12 undefined on input line 492.
 
 
-LaTeX Warning: Citation 'dalembert' on page 12 undefined on input line 491.
+LaTeX Warning: Citation 'dalembert' on page 12 undefined on input line 492.
 
 <figuras/vibracion_cuerda.png, id=164, 402.00188pt x 361.35pt>
 File: figuras/vibracion_cuerda.png Graphic file (type png)
 <use figuras/vibracion_cuerda.png>
-Package pdftex.def Info: figuras/vibracion_cuerda.png  used on input line 515.
+Package pdftex.def Info: figuras/vibracion_cuerda.png  used on input line 516.
 (pdftex.def)             Requested size: 158.27066pt x 142.26378pt.
 <figuras/onda_triangular/original.png, id=168, 693.59125pt x 372.39125pt>
 File: figuras/onda_triangular/original.png Graphic file (type png)
 <use figuras/onda_triangular/original.png>
-Package pdftex.def Info: figuras/onda_triangular/original.png  used on input line 527.
+Package pdftex.def Info: figuras/onda_triangular/original.png  used on input line 528.
 (pdftex.def)             Requested size: 158.98288pt x 85.35826pt.
 <figuras/onda_triangular/fourier_aproximada.png, id=169, 693.59125pt x 372.39125pt>
 File: figuras/onda_triangular/fourier_aproximada.png Graphic file (type png)
 <use figuras/onda_triangular/fourier_aproximada.png>
-Package pdftex.def Info: figuras/onda_triangular/fourier_aproximada.png  used on input line 528.
+Package pdftex.def Info: figuras/onda_triangular/fourier_aproximada.png  used on input line 529.
 (pdftex.def)             Requested size: 158.98288pt x 85.35826pt.
 
-LaTeX Warning: Citation 'bernoulli' on page 12 undefined on input line 533.
+LaTeX Warning: Citation 'bernoulli' on page 12 undefined on input line 534.
 
 [12 <./figuras/vibracion_cuerda.png>]
-Package hyperref Info: bookmark level for unknown definition* defaults to 0 on input line 541.
+Package hyperref Info: bookmark level for unknown definition* defaults to 0 on input line 542.
 
 
-LaTeX Warning: Citation 'dirichlet' on page 13 undefined on input line 560.
+LaTeX Warning: Citation 'dirichlet' on page 13 undefined on input line 561.
 
 
-LaTeX Warning: Reference `demostraciones' on page 13 undefined on input line 562.
+LaTeX Warning: Reference `demostraciones' on page 13 undefined on input line 563.
 
 [13 <./figuras/onda_triangular/original.png> <./figuras/onda_triangular/fourier_aproximada.png>]
 
-LaTeX Warning: Reference `demostraciones' on page 14 undefined on input line 577.
+LaTeX Warning: Reference `demostraciones' on page 14 undefined on input line 578.
 
 
-LaTeX Warning: Citation 'gerard' on page 14 undefined on input line 619.
+LaTeX Warning: Citation 'gerard' on page 14 undefined on input line 620.
 
 [14]
 
-LaTeX Warning: Citation 'dft' on page 15 undefined on input line 669.
+LaTeX Warning: Citation 'dft' on page 15 undefined on input line 670.
 
 <figuras/DFT/sampling.png, id=201, 674.52pt x 237.88875pt>
 File: figuras/DFT/sampling.png Graphic file (type png)
 <use figuras/DFT/sampling.png>
-Package pdftex.def Info: figuras/DFT/sampling.png  used on input line 675.
+Package pdftex.def Info: figuras/DFT/sampling.png  used on input line 676.
 (pdftex.def)             Requested size: 199.16928pt x 70.2419pt.
 <figuras/DFT/periodica.png, id=202, 688.07062pt x 250.43562pt>
 File: figuras/DFT/periodica.png Graphic file (type png)
 <use figuras/DFT/periodica.png>
-Package pdftex.def Info: figuras/DFT/periodica.png  used on input line 676.
+Package pdftex.def Info: figuras/DFT/periodica.png  used on input line 677.
 (pdftex.def)             Requested size: 199.16928pt x 72.4907pt.
 
-LaTeX Warning: Citation 'dft' on page 15 undefined on input line 677.
+LaTeX Warning: Citation 'dft' on page 15 undefined on input line 678.
 
 
-LaTeX Warning: Citation 'dft' on page 15 undefined on input line 677.
+LaTeX Warning: Citation 'dft' on page 15 undefined on input line 678.
 
 [15]
 
-LaTeX Warning: Citation 'rao_kim' on page 16 undefined on input line 707.
+LaTeX Warning: Citation 'rao_kim' on page 16 undefined on input line 708.
 
 
-LaTeX Warning: Citation 'fft' on page 16 undefined on input line 709.
+LaTeX Warning: Citation 'fft' on page 16 undefined on input line 710.
 
 
-LaTeX Warning: Citation 'elena' on page 16 undefined on input line 709.
+LaTeX Warning: Citation 'elena' on page 16 undefined on input line 710.
 
 [16 <./figuras/DFT/sampling.png> <./figuras/DFT/periodica.png>]
 
-LaTeX Warning: Citation 'definicion_sonido' on page 17 undefined on input line 722.
+LaTeX Warning: Citation 'definicion_sonido' on page 17 undefined on input line 723.
 
 <figuras/sonido_longitudinal.png, id=220, 369.38pt x 55.70813pt>
 File: figuras/sonido_longitudinal.png Graphic file (type png)
 <use figuras/sonido_longitudinal.png>
-Package pdftex.def Info: figuras/sonido_longitudinal.png  used on input line 735.
+Package pdftex.def Info: figuras/sonido_longitudinal.png  used on input line 736.
 (pdftex.def)             Requested size: 199.16928pt x 30.03772pt.
 
-LaTeX Warning: Citation 'definicion_sonido' on page 17 undefined on input line 770.
+LaTeX Warning: Citation 'definicion_sonido' on page 17 undefined on input line 771.
 
 [17{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figuras/sonido_longitudinal.png>]
 
-LaTeX Warning: Citation 'inarmonicos' on page 18 undefined on input line 784.
+LaTeX Warning: Citation 'inarmonicos' on page 18 undefined on input line 785.
 
 
-LaTeX Warning: Citation 'instruments' on page 18 undefined on input line 793.
+LaTeX Warning: Citation 'instruments' on page 18 undefined on input line 794.
+
+
+LaTeX Warning: Citation 'inharmonicidad_piano' on page 18 undefined on input line 795.
 
 <figuras/campana_inarmonica.png, id=232, 1233.85968pt x 490.83376pt>
 File: figuras/campana_inarmonica.png Graphic file (type png)
 <use figuras/campana_inarmonica.png>
-Package pdftex.def Info: figuras/campana_inarmonica.png  used on input line 799.
+Package pdftex.def Info: figuras/campana_inarmonica.png  used on input line 800.
 (pdftex.def)             Requested size: 199.16928pt x 79.22403pt.
 [18 <./figuras/campana_inarmonica.png>] (./marco_teorico.aux
 LaTeX Info: Redefining \sptext on input line 22.
@@ -1509,17 +1512,17 @@ Package logreq Info: Writing requests to 'marco_teorico.run.xml'.
 \openout1 = `marco_teorico.run.xml'.
 
  )
-(\end occurred when \ifx on line 2 was incomplete) 
+(\end occurred when \ifx on line 3 was incomplete) 
 Here is how much of TeX's memory you used:
  50967 strings out of 469415
  1110683 string characters out of 5467484
- 2016674 words of memory out of 5000000
+ 2016716 words of memory out of 5000000
  78895 multiletter control sequences out of 15000+600000
  642419 words of font info for 95 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  128i,21n,149p,11342b,1880s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on marco_teorico.pdf (18 pages, 1885011 bytes).
+Output written on marco_teorico.pdf (18 pages, 1885210 bytes).
 PDF statistics:
  359 PDF objects out of 1000 (max. 8388607)
  241 compressed objects within 3 object streams
