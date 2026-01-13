@@ -712,6 +712,39 @@
       \verb https://www.stewartcalculus.com/data/CALCULUS%20Concepts%20and%20Contexts/upfiles/3c3-2ndOrderLinearEqns_Stu.pdf
       \endverb
     \endentry
+    \entry{inarmonicos}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=770e3cca9580952ecc6af51966810d61}{%
+           family={Wolfe},
+           familyi={W\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{770e3cca9580952ecc6af51966810d61}
+      \strng{fullhash}{770e3cca9580952ecc6af51966810d61}
+      \strng{fullhashraw}{770e3cca9580952ecc6af51966810d61}
+      \strng{bibnamehash}{770e3cca9580952ecc6af51966810d61}
+      \strng{authorbibnamehash}{770e3cca9580952ecc6af51966810d61}
+      \strng{authornamehash}{770e3cca9580952ecc6af51966810d61}
+      \strng{authorfullhash}{770e3cca9580952ecc6af51966810d61}
+      \strng{authorfullhashraw}{770e3cca9580952ecc6af51966810d61}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How harmonic are harmonics?}
+      \field{urlday}{11}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{n.d.}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.phys.unsw.edu.au/jw/harmonics.html
+      \endverb
+      \verb{url}
+      \verb https://www.phys.unsw.edu.au/jw/harmonics.html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

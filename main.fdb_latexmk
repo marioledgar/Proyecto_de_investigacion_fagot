@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1767807252.29071 "main.bcf" "main.bbl" "main" 1768080468.92926 0
-  "biblio.bib" 1767723755 6799 4393dca45e26dbe32aed44571424262a ""
-  "main.bcf" 1768080468 110816 a17cff023f89d5713a8b0cbf1c119afd "pdflatex"
+["biber main"] 1768331984.95061 "main.bcf" "main.bbl" "main" 1768332001.27967 0
+  "biblio.bib" 1768163520 7238 a4e7ec4d395131c66203ff95688593c6 ""
+  "main.bcf" 1768332000 111023 05b736341d1f7bf77bc58abfc2e0fbbc "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1768080462.13714 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" "main.pdf" "main" 1768080468.93004 0
-  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" 1768080456 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
+["pdflatex"] 1768331996.45449 "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" "main.pdf" "main" 1768332001.28054 0
+  "c:/Users/bgarc/Documents/cosas de Mario/Latex/Proyecto_de_investigación_fagot/main.tex" 1768331924 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
   "c:/Users/bgarc/texmf/tex/latex/personal/mario.sty" 1766863290 29770 8504d4f1e6c47fd4a6beacdc6d0a7016 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765661155 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765661516 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -290,17 +290,18 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765662612 416004 e1616fd44eb63cfaaece98be5856e0e0 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1765662680 2306692 e40f4d716a8e2b5681b246cd467fe932 ""
   "c:/texlive/2025/texmf.cnf" 1765662606 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1768080468 21041 77ecf0e19dad86c6a15ca1925a99c786 "pdflatex"
-  "main.bbl" 1767807259 31933 9d39b4487c561b35f011690daa34375b "biber main"
-  "main.pre" 1768080463 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1768080468 2301 13e8301fbdc44293469f5e9eeaf509b7 "pdflatex"
-  "main.tex" 1768080456 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
-  "partes/apendices/demostraciones.tex" 1767532732 6069 c0a0105ad29be3db39495a77256f39d8 ""
+  "main.aux" 1768332000 21848 82c1730412d01e1806211376d1a274b7 "pdflatex"
+  "main.bbl" 1768331986 33252 c001092a6cf2777f1d24e16394e39558 "biber main"
+  "main.pre" 1768331997 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1768332000 2301 13e8301fbdc44293469f5e9eeaf509b7 "pdflatex"
+  "main.tex" 1768331924 1473 2e7d5c08a1913a6da3eb3837d3652405 ""
+  "partes/apendices/demostraciones.tex" 1768161699 6348 bac19cec45cc5b9a74bbcfa1d8d3cd2b ""
   "partes/apendices/figuras/integral_seno.png" 1765636540 18001 a4611214f7a20606279150d1d9b7c3fa ""
   "partes/intro/intro.tex" 1767724779 1018 75aaff31f46aae58ad97e62289f539ba ""
   "partes/marco_teorico/figuras/DFT/periodica.png" 1765636540 36535 16dda3b117d0c57cdce74b4070098363 ""
   "partes/marco_teorico/figuras/DFT/sampling.png" 1765636540 26911 82c5c9445c42644a274aacc90c2044dc ""
   "partes/marco_teorico/figuras/absorcion_vs_atenuacion.png" 1765636540 24874 b9cad08173e9e853b5fb177f2c3aa0d1 ""
+  "partes/marco_teorico/figuras/campana_inarmonica.png" 1768240622 13668 a3c43b298d0bf9bb7918fe224abe4e4e ""
   "partes/marco_teorico/figuras/huygens.png" 1765636540 40827 d387019fbb42dec4d955dc19f4b8c8aa ""
   "partes/marco_teorico/figuras/magnitudes_ondas/onda_amplitud_periodo.png" 1765636540 3732 c2517d9155b1b23da4ade5019fd8908a ""
   "partes/marco_teorico/figuras/magnitudes_ondas/onda_longitud_frecuencia.png" 1765636540 3522 f0e389b70c72cef78bbdf712993994ab ""
@@ -321,7 +322,7 @@
   "partes/marco_teorico/figuras/refraccion_real.png" 1765636540 252041 ef5e20c9391fff4def4dc7817b8658ab ""
   "partes/marco_teorico/figuras/sonido_longitudinal.png" 1767536749 161067 96c690880418bb474d96fdeb2a1f38a7 ""
   "partes/marco_teorico/figuras/vibracion_cuerda.png" 1765636540 142460 2caa476a4e112071539f7cde055a6a8f ""
-  "partes/marco_teorico/marco_teorico.tex" 1768080423 48794 656c20047d683fc1a853b2925ae9a99c ""
+  "partes/marco_teorico/marco_teorico.tex" 1768331896 51373 139df90f2f4430fc4cfbf10a24d5d022 ""
   (generated)
   "main.aux"
   "main.bcf"
