@@ -34,3 +34,4 @@
 {"rule":"COMMA_MARCADOR_DISCURSIVO","sentence":"^\\QNo se aproxima a una función periódica, por tanto no tiene una descomposición en armónicos.\\E$"}
 {"rule":"COMMA_MARCADOR_DISCURSIVO","sentence":"^\\QNo se aproxima a una función periódica, por tanto no tiene una descomposición en armónicos .\\E$"}
 {"rule":"ES_REPEATEDWORDS","sentence":"^\\QSin embargo, normalmente, sí que se puede descomponer el sonido como suma de distintas ondas, aunque sus frecuencias no sean múltiplos de una fundamental.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QSu registro va del Si\\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q al Sol\\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-|Dummy\\+|Dummy's\\+)[0-9]+\\Q.\\E$"}
