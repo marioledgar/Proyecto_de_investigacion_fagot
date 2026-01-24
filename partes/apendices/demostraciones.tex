@@ -4,7 +4,7 @@
 
 \subsection{Ecuación de la onda armónica}
 
-Para llegar a la ecuación \ref{ecuacion_mas} tenemos que primero encontrar la ecuación del punto $x = 0$.
+Para llegar a la ecuación \ref{eq:ecuacion_mas} tenemos que primero encontrar la ecuación del punto $x = 0$.
 Como es la ecuación de un MAS, es
 \begin{equation*}
     y(0, t) = A \sen(\omega t + \varphi_0)
@@ -36,7 +36,7 @@ En esta sección derivamos la expresión de los coeficientes de la serie de Four
 Suponemos que el periodo de $f$ es $2 \pi$.
 
 Empezamos con la siguiente igualdad:
-\begin{equation}\label{suma_fourier}
+\begin{equation}\label{eq:suma_fourier}
     f(x) = \divdos{a_0} + \sum_{n=1}^\infty \left(a_n \cos(nx) + b_n\sen(nx)\right).
 \end{equation}
 Nos gustaría conseguir aislar un solo coeficiente, para eso usamos las fórmulas de ortogonalidad del seno y el coseno.
@@ -69,19 +69,20 @@ Nos gustaría conseguir aislar un solo coeficiente, para eso usamos las fórmula
     Empezamos con la primera de las anteriores igualdades
     \begin{align}
         \int_0^{2 \pi} \sen(nx)\sen(mx) \ddint x & = \half \int_0^{2 \pi} \cos\left( (n - m) x \right) + \cos \left( (n + m) x \right) \ddint x \nonumber                       \\
-                                                 & = \half \left[ \int_0^{2\pi} \cos ((n - m) x) \ddint x + \int_0^{2\pi} \cos((n + m) x) \ddint x \right] \label{integral_fea}
+                                                 & = \half \left[ \int_0^{2\pi} \cos ((n - m) x) \ddint x + \int_0^{2\pi} \cos((n + m) x) \ddint x \right] \label{eq:integral_fea}
+
     \end{align}
     Por un momento, supongamos que $n \not= m$.
 
     Es fácil ver que para cualquier $n \not= 0$ se cumple que
     \[\int_0^{2\pi} \sen (nx) \ddint x = \int_0^{2\pi} \cos (nx) \ddint x = 0.\]
-    Esto se puede ver visualmente en la figura \ref{integral_seno}: las áreas naranjas y las verdes se cancelan.
+    Esto se puede ver visualmente en la figura \ref{fig:integral_seno}: las áreas naranjas y las verdes se cancelan.
     Lo mismo pasa con el coseno, solo que con cierto desfase.
     \begin{figure}[ht]
         \centering
         \includegraphics[width=0.5\linewidth]{figuras/integral_seno.png}
         \caption{Integral entre $0$ y $2\pi$ de $\sen(2x)$. Elaboración propia.}
-        \label{integral_seno}
+        \label{fig:integral_seno}
     \end{figure}
 
     En el caso $n \not= m$, queda claro que la integral es $0$.
@@ -90,7 +91,7 @@ Nos gustaría conseguir aislar un solo coeficiente, para eso usamos las fórmula
     Se pueden demostrar las otras dos relaciones de ortogonalidad de manera similar.
 \end{subproof}
 
-Ahora, fijamos $k \geq 0$ y multiplicamos ambos lados de la ecuación \ref{suma_fourier} por $\cos(kx)$ e integramos:
+Ahora, fijamos $k \geq 0$ y multiplicamos ambos lados de la ecuación \ref{eq:suma_fourier} por $\cos(kx)$ e integramos:
 \begin{equation*}
     \int_0^{2 \pi} f(x)\cos(kx) \ddint x = a_k \pi
 \end{equation*}
