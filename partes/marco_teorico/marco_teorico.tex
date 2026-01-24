@@ -15,21 +15,21 @@ El movimiento armónico simple es un tipo de movimiento producido por un cuerpo 
 Los ejemplos más comunes son un péndulo y un muelle que oscila en torno al equilibrio.
 
 \begin{figure}
-  \centering
-  \subcaptionbox{}
-  {\includegraphics[height=5cm]{figuras/muelles/Muelle_abajo.png}}
-  \subcaptionbox{}
-  {\includegraphics[height=5cm]{figuras/muelles/Muelle_equilibrio.png}}
-  \subcaptionbox{}
-  {\includegraphics[height=5cm]{figuras/muelles/Muelle_arriba.png}}
-  \caption{MAS en un muelle. Fuente: Wikipedia.}\label{fig:muelle}
+    \centering
+    \subcaptionbox{}
+    {\includegraphics[height=5cm]{figuras/muelles/Muelle_abajo.png}}
+    \subcaptionbox{}
+    {\includegraphics[height=5cm]{figuras/muelles/Muelle_equilibrio.png}}
+    \subcaptionbox{}
+    {\includegraphics[height=5cm]{figuras/muelles/Muelle_arriba.png}}
+    \caption{MAS en un muelle. Fuente: Wikipedia.}\label{fig:muelle}
 \end{figure}
 
 El movimiento armónico simple sigue la ley de Hooke, enunciada en 1678 por el científico británico Robert Hooke (1635-1703):
 
 Para desplazamientos pequeños, la fuerza restauradora (la que lleva al objeto a su posición de equilibrio) es directamente proporcional a la distancia a la posición de equilibrio:
 \begin{equation}\label{eq:hooke}
-  F_R = -s x,
+    F_R = -s x,
 \end{equation}
 donde $F_R$ es la fuerza restauradora, $x$ el desplazamiento y $s$ una constante de proporcionalidad con unidades $\unit{\kilogram\per\second\squared}$, en el caso de los muelles, la constante de elasticidad \cite{pain}.
 
@@ -42,19 +42,19 @@ Esta ley fue enunciada por Isaac Newton (1643-1727) en 1687 en su obra \textit{P
 Si se aplica una fuerza $F$ a un cuerpo de masa $m$, este sufrirá una aceleración $a$ de manera que
 
 \begin{equation}\label{eq:newton2}
-  F = ma
+    F = ma
 \end{equation}
 
 Igualando la ley de Hooke (\ref{eq:hooke}) a la segunda ley de Newton (\ref{eq:newton2}) nos queda que
 
 \begin{equation}\label{eq:newhoo}
-  ma = -sx,
+    ma = -sx,
 \end{equation}
 
 o lo que es lo mismo,
 
 \begin{equation*}
-  m \ddot{x} - sx = 0,
+    m \ddot{x} - sx = 0,
 \end{equation*}
 
 donde $\ddot{x}$ es la aceleración, la segunda derivada de la posición.
@@ -64,7 +64,7 @@ llamada frecuencia angular, de la que hablaremos más adelante.
 
 Con esto, nuestra ecuación se reduce a
 \begin{equation}\label{eq:ecuacion_dif}
-  \ddot{x} + \omega^2x = 0.
+    \ddot{x} + \omega^2x = 0.
 \end{equation}
 
 Esta ecuación es una ecuación diferencial lineal y homogénea de segundo orden, y aunque su resolución es muy conocida, presentamos un esbozo de ella.
@@ -77,13 +77,13 @@ Es bien sabido que las soluciones de una ecuación de este tipo cuyo polinomio c
 (una demostración se puede encontrar, por ejemplo, en  \cite{edos}).
 Por tanto, en este caso las soluciones son
 \begin{equation*}
-  x = c_1\cos(\omega t) + c_2 \sen(\omega t), \hspace{1cm} c_1, c_2 \in \RR.
+    x = c_1\cos(\omega t) + c_2 \sen(\omega t), \hspace{1cm} c_1, c_2 \in \RR.
 \end{equation*}
 
 Si ponemos $c_1 = A \sen \varphi_0$ y $c_2 = A \cos \varphi_0$ (esto es lo mismo que hacer un cambio a coordenadas polares al número complejo $z = c_1 + c_2 i$), entonces,
 \begin{align}
-  x & = A \sen \varphi_0 \cos (\omega t)+ a \cos \varphi_0 \sen (\omega t)\nonumber \\
-    & = A \sen (\omega t + \varphi_0). \label{eq:MAS}
+    x & = A \sen \varphi_0 \cos (\omega t)+ a \cos \varphi_0 \sen (\omega t)\nonumber \\
+      & = A \sen (\omega t + \varphi_0). \label{eq:MAS}
 \end{align}
 
 Esta es la fórmula que todos conocemos como la ecuación del movimiento armónico simple.
@@ -93,31 +93,31 @@ $\varphi_0$ es la fase inicial, la posición del cuerpo en el inicio; y
 $A$ es la amplitud, la distancia entre la posición de máximo desplazamiento y el reposo.
 
 \begin{table}
-  \centering
-  \begin{tabular}{ c|m{7cm}|c  }
-    \textit{Magnitud (símbolo)}           & \textit{Descripción}                                               & \textit{Unidades SI}                 \\
-    \hline
-    Frecuencia ($\nu$, $f$)               & Veces que se repite el movimiento por unidad de tiempo.            & $\unit{\per\second} = \unit{\hertz}$ \\
-    \hline
-    Frecuencia angular ($\omega$)         & Similar a la frecuencia ($\omega = 2\pi f$).
-    Útil al plantear la ecuación del MAS. & $\unit{\radian\per\second}$                                                                               \\
-    \hline
-    Amplitud ($A$)                        & Distancia del máximo desplazamiento al reposo.                     & $\unit{\metre}$                      \\
-    \hline
-    Fase inicial ($\varphi_0$)            & Desplazamiento inicial $\times \ 2 \pi \,\unit{\radian\per\metre}$ & $\unit{\radian}$                     \\
-  \end{tabular}
-  \caption{Magnitudes que definen el MAS.}
-  \label{tab:magnitudes1}
+    \centering
+    \begin{tabular}{ c|m{7cm}|c  }
+        \textit{Magnitud (símbolo)}           & \textit{Descripción}                                               & \textit{Unidades SI}                 \\
+        \hline
+        Frecuencia ($\nu$, $f$)               & Veces que se repite el movimiento por unidad de tiempo.            & $\unit{\per\second} = \unit{\hertz}$ \\
+        \hline
+        Frecuencia angular ($\omega$)         & Similar a la frecuencia ($\omega = 2\pi f$).
+        Útil al plantear la ecuación del MAS. & $\unit{\radian\per\second}$                                                                               \\
+        \hline
+        Amplitud ($A$)                        & Distancia del máximo desplazamiento al reposo.                     & $\unit{\metre}$                      \\
+        \hline
+        Fase inicial ($\varphi_0$)            & Desplazamiento inicial $\times \ 2 \pi \,\unit{\radian\per\metre}$ & $\unit{\radian}$                     \\
+    \end{tabular}
+    \caption{Magnitudes que definen el MAS.}
+    \label{tab:magnitudes1}
 \end{table}
 
 Para calcular la velocidad y la aceleración, simplemente derivamos respecto al tiempo.
 La velocidad es
 \begin{equation*}
-  v = \dot x = A \,\omega \cos(\omega t \varphi_0)
+    v = \dot x = A \,\omega \cos(\omega t \varphi_0)
 \end{equation*}
 y la aceleración,
 \begin{equation*}
-  a = \ddot x = -A\, \omega^2 \sen (\omega t +\varphi_0) = -\omega^2 x.
+    a = \ddot x = -A\, \omega^2 \sen (\omega t +\varphi_0) = -\omega^2 x.
 \end{equation*}
 
 Al ver esto, nos damos cuenta de que la ecuación de la aceleración es idéntica a la ecuación \ref{eq:ecuacion_dif} salvo por el cambio de variable que hicimos.
@@ -128,7 +128,7 @@ Esta última forma se trata extensamente en \cite{comp}.
 
 En el movimiento armónico simple la energía cinética sigue la forma habitual:
 \begin{equation*}
-  E_{c} = \half m v^2
+    E_{c} = \half m v^2
 \end{equation*}
 
 En cuanto a la energía potencial, se basa en la definición del trabajo \cite{epe}:
@@ -138,23 +138,23 @@ Para evitar ambigüedades hemos utilizado $r$ como variable de integración.
 
 Si tomamos el primer instante como el reposo, nos queda
 \begin{equation*}
-  E_p = \half s x^2.
+    E_p = \half s x^2.
 \end{equation*}
 
 La energía mecánica es
 \begin{equation*}
-  E_m = \half s x^2 + \half m\dot x^2
+    E_m = \half s x^2 + \half m\dot x^2
 \end{equation*}
 
 Como sabemos que la energía mecánica es constante,
 \begin{align*}
-  \frac{\dd E}{\dd t} & = \half m (\dot x^2)' + \half s (x^2)' \\
-                      & = m \dot x \ddot x + s \dot x x        \\
-                      & = \dot x(m  \ddot x + sx)= 0
+    \frac{\dd E}{\dd t} & = \half m (\dot x^2)' + \half s (x^2)' \\
+                        & = m \dot x \ddot x + s \dot x x        \\
+                        & = \dot x(m  \ddot x + sx)= 0
 \end{align*}
 y como la velocidad no es constante en $0$,
 \begin{equation*}
-  m  \ddot x + sx = 0,
+    m  \ddot x + sx = 0,
 \end{equation*}
 otra vez la ecuación inicial.
 
@@ -162,12 +162,12 @@ Por último, damos la fórmula de la suma de dos MAS.
 
 Si tienen la misma frecuencia y sus ecuaciones son
 \begin{align*}
-  x_1 & = A_1 \sen(\omega t + \varphi_1)  \\
-  x_2 & = A_2 \sen(\omega t + \varphi_2),
+    x_1 & = A_1 \sen(\omega t + \varphi_1)  \\
+    x_2 & = A_2 \sen(\omega t + \varphi_2),
 \end{align*}
 la fórmula de la suma de ambas viene dada por
 \begin{equation*}
-  x = R \cos (\omega t + \theta),
+    x = R \cos (\omega t + \theta),
 \end{equation*}
 donde  la amplitud es
 \[R = \sqrt{A_1^2 + A_2^2 + 2A_1A_2 \cos(\varphi_2 - \varphi_1)}\]
@@ -188,12 +188,12 @@ Como el periodo de los pulsos decrece cuando decrece la diferencia $\Delta \omeg
 Por eso, solo percibimos los pulsos cuando $\Delta\omega$ es pequeño, si no, son demasiado rápidos para oírlos.
 
 \begin{figure}[t!]
-  \centering
-  \subcaptionbox{}{\includegraphics[height=3cm]{figuras/pulsos/Onda1.png}}
-  \subcaptionbox{}{\includegraphics[height=3cm]{figuras/pulsos/Onda2.png}}
-  \subcaptionbox{}{\includegraphics[height=3cm]{figuras/pulsos/Pulsos.png}}
-  \caption{Suma de dos MAS con distinta frecuencia. Elaboración propia.}
-  \label{fig:sumaMAS}
+    \centering
+    \subcaptionbox{}{\includegraphics[height=3cm]{figuras/pulsos/Onda1.png}}
+    \subcaptionbox{}{\includegraphics[height=3cm]{figuras/pulsos/Onda2.png}}
+    \subcaptionbox{}{\includegraphics[height=3cm]{figuras/pulsos/Pulsos.png}}
+    \caption{Suma de dos MAS con distinta frecuencia. Elaboración propia.}
+    \label{fig:sumaMAS}
 \end{figure}
 
 
@@ -224,13 +224,13 @@ y esferas para tridimensionales.
 Sin embargo, para mayor simplicidad, a veces se consideran frentes de onda planos, ya que esto es una buena aproximación para frentes lejanos al origen.
 
 \begin{figure}[ht!]
-  \centering
-  \subcaptionbox{Onda unidimensional \dots}{\includegraphics[height=3.1cm]{
-      figuras/ondas_dimensiones/Unidimensional.png}}
-  \subcaptionbox{\dots bidimensional \dots}{\includegraphics[height=3.1cm]{figuras/ondas_dimensiones/Bidimensional.png}}
-  \subcaptionbox{\dots y tridimensional.}{\includegraphics[height=3.3cm]{figuras/ondas_dimensiones/Tridimensional.png}}
-  \caption{Ejemplos de ondas de distintas dimensiones. Elaboración propia.}
-  \label{fig:ondasdim}
+    \centering
+    \subcaptionbox{Onda unidimensional \dots}{\includegraphics[height=3.1cm]{
+            figuras/ondas_dimensiones/Unidimensional.png}}
+    \subcaptionbox{\dots bidimensional \dots}{\includegraphics[height=3.1cm]{figuras/ondas_dimensiones/Bidimensional.png}}
+    \subcaptionbox{\dots y tridimensional.}{\includegraphics[height=3.3cm]{figuras/ondas_dimensiones/Tridimensional.png}}
+    \caption{Ejemplos de ondas de distintas dimensiones. Elaboración propia.}
+    \label{fig:ondasdim}
 \end{figure}
 
 También se pueden clasificar según el medio en el que se propagan: pueden ser mecánicas, si requieren un medio material para propagarse (como el sonido); o electromagnéticas, si se pueden propagar en el vacío (como la luz).
@@ -243,33 +243,33 @@ Las partículas del medio en el que se propaga una onda armónica sufren, por ta
 Como podemos deducir de esto, su ecuación es sinusoidal, viene dada por un seno o coseno.
 
 \begin{figure}[ht!]
-  \centering
-  \subcaptionbox{Una onda longitudinal}{\includegraphics[height=5cm]{figuras/ondas_direccion/Longitudinal.png}}\hspace{2cm}
-  \subcaptionbox{\dots y una transversal}{\includegraphics[height=5cm]{figuras/ondas_direccion/Transversal.png}}
-  \caption{Ejemplos de ondas según la dirección del movimiento de las partículas. Fuente: Wikipedia.}
-  \label{fig:ondasdire}
+    \centering
+    \subcaptionbox{Una onda longitudinal}{\includegraphics[height=5cm]{figuras/ondas_direccion/Longitudinal.png}}\hspace{2cm}
+    \subcaptionbox{\dots y una transversal}{\includegraphics[height=5cm]{figuras/ondas_direccion/Transversal.png}}
+    \caption{Ejemplos de ondas según la dirección del movimiento de las partículas. Fuente: Wikipedia.}
+    \label{fig:ondasdire}
 \end{figure}
 
 Las principales magnitudes de una onda son (damos la definición para una onda mecánica, pero se puede extender a cualquier tipo de onda):
 
 \begin{description}
-  \ii  [Amplitud ($A$)] Distancia del máximo desplazamiento al reposo. Unidades: $\unit{\metre}$.
-  \ii [Frecuencia ($\nu$, $f$)] Veces que se repite un periodo completo en cada partícula por unidad de tiempo. Unidades: $\unit{\per\second} = \unit{\hertz}$.
-  \ii[Periodo ($T$)] Tiempo que tarda una partícula efectuar un ciclo ($T = f^{-1}$). Unidades: $\unit{\second}$.
-  \ii [Longitud de onda ($\lambda$)] Distancia mínima entre dos partículas que se encuentran en un mismo estado \footnote{Tienen que mantener el mismo estado de vibración en cualquier momento dado. Sin esta condición podríamos llegar a pensar que el seno tiene periodo $\pi$ porque $\sen 0 = \sen \pi$.}. Unidades: $\unit{m}$.
-  \ii [Velocidad de propagación ($v$)] Velocidad a la que se propaga la onda por el medio. Por supuesto, $v = \frac{\lambda}{T}$. Unidades: $\unit{\metre\per\second}$.
-  \ii [Frecuencia angular ($\omega$)] Similar a la frecuencia ($\omega = 2\pi f$). Útil al plantear la ecuación de la onda, pero no tiene un significado físico como tal. Unidades: $\unit{\radian\per\second}$.
-  \ii [Número de onda angular ($k$)] Número de veces que se  repite la onda en un espacio de $\SI{2 \pi}{\metre}$. Por tanto, $k = 2 \pi \lambda^{-1}$. Unidades: $\unit{\radian\per\metre}$
+    \ii  [Amplitud ($A$)] Distancia del máximo desplazamiento al reposo. Unidades: $\unit{\metre}$.
+    \ii [Frecuencia ($\nu$, $f$)] Veces que se repite un periodo completo en cada partícula por unidad de tiempo. Unidades: $\unit{\per\second} = \unit{\hertz}$.
+    \ii[Periodo ($T$)] Tiempo que tarda una partícula efectuar un ciclo ($T = f^{-1}$). Unidades: $\unit{\second}$.
+    \ii [Longitud de onda ($\lambda$)] Distancia mínima entre dos partículas que se encuentran en un mismo estado \footnote{Tienen que mantener el mismo estado de vibración en cualquier momento dado. Sin esta condición podríamos llegar a pensar que el seno tiene periodo $\pi$ porque $\sen 0 = \sen \pi$.}. Unidades: $\unit{m}$.
+    \ii [Velocidad de propagación ($v$)] Velocidad a la que se propaga la onda por el medio. Por supuesto, $v = \frac{\lambda}{T}$. Unidades: $\unit{\metre\per\second}$.
+    \ii [Frecuencia angular ($\omega$)] Similar a la frecuencia ($\omega = 2\pi f$). Útil al plantear la ecuación de la onda, pero no tiene un significado físico como tal. Unidades: $\unit{\radian\per\second}$.
+    \ii [Número de onda angular ($k$)] Número de veces que se  repite la onda en un espacio de $\SI{2 \pi}{\metre}$. Por tanto, $k = 2 \pi \lambda^{-1}$. Unidades: $\unit{\radian\per\metre}$
 \end{description}
 
 Esto se ve mejor con un dibujo: en la figura \ref{fig:ondasmag} se representan la amplitud $A$, el periodo $T$ y la longitud de onda $\lambda$. La primera imagen muestra como cambia la posición de una sola partícula según avanza el tiempo y la segunda, el estado global del medio en instante de tiempo.
 
 \begin{figure}[ht!]
-  \centering
-  \subcaptionbox{Desplazamiento respecto al tiempo en una partícula fija.}{\includegraphics[height=3cm]{figuras/magnitudes_ondas/onda_amplitud_periodo.png}}\hspace{2cm}
-  \subcaptionbox{Desplazamiento respecto a la posición en un instante fijo.}{\includegraphics[height=3cm]{figuras/magnitudes_ondas/onda_longitud_frecuencia.png}}
-  \caption{Magnitudes relativas a las ondas. Elaboración propia}
-  \label{fig:ondasmag}
+    \centering
+    \subcaptionbox{Desplazamiento respecto al tiempo en una partícula fija.}{\includegraphics[height=3cm]{figuras/magnitudes_ondas/onda_amplitud_periodo.png}}\hspace{2cm}
+    \subcaptionbox{Desplazamiento respecto a la posición en un instante fijo.}{\includegraphics[height=3cm]{figuras/magnitudes_ondas/onda_longitud_frecuencia.png}}
+    \caption{Magnitudes relativas a las ondas. Elaboración propia}
+    \label{fig:ondasmag}
 \end{figure}
 
 Con esta imagen se visualiza un concepto clave sobre las ondas:
@@ -280,7 +280,7 @@ La ecuación de una onda respecto al espacio y al tiempo, por tanto, tiene un fa
 
 Efectivamente, la ecuación cumple estas características:
 \begin{equation}\label{eq:ecuacion_mas}
-  y(x, t) = A \sen (k \cdot (x \pm v t) + \varphi_0),
+    y(x, t) = A \sen (k \cdot (x \pm v t) + \varphi_0),
 \end{equation}
 donde $y$ es el desplazamiento, $A$ la amplitud de la onda, $k$ el número de onda angular,  $v$ la velocidad de propagación y $\varphi_0$ la fase inicial; es decir, $\arcsen \left(\frac{y(0, 0)}{A} \right)$ \cite{ondarm}.
 Derivamos esta ecuación en el Apéndice \ref{sec:demostraciones}.
@@ -317,11 +317,11 @@ Esto significa que, cuanto mayor el frente de onda, menos energía tiene un punt
 Para expresar esto se utiliza otra magnitud: la intensidad de la onda.
 Se habla de la intensidad de cada frente de onda y viene dada por
 \begin{equation*}
-  \begin{aligned}
-    I & = P,           \\[2pt]
-    I & = \frac{P}{L}, \\[2pt]
-    I & = \frac{P}{S},
-  \end{aligned}
+    \begin{aligned}
+        I & = P,           \\[2pt]
+        I & = \frac{P}{L}, \\[2pt]
+        I & = \frac{P}{S},
+    \end{aligned}
 \end{equation*}
 para ondas uni-, bi- y tridimensionales respectivamente, donde $P$ es la potencia, $L$ la longitud de un frente de onda unidimensional y $S$ a superficie de un frente de onda bidimensional.
 
@@ -331,25 +331,25 @@ Esto nos daría que en una onda unidimensional la intensidad es constante, que e
 Para llegar al concepto de atenuación tenemos que unificar los conceptos de intensidad y amplitud.
 En el apéndice \ref{sec:demostraciones} derivamos la siguiente fórmula:
 \begin{equation*}
-  I = \text{cte.} \cdot A^2.
+    I = \text{cte.} \cdot A^2.
 \end{equation*}
 Esto y la proporcionalidad entre distancia e intensidad nos da que la amplitud de un frente de onda a una distancia $r$ del foco viene dada por
 \begin{equation*}
-  \begin{aligned}
-    A & = P,                             \\[2pt]
-    A & = \frac{\text{cte.}} {\sqrt{r}}, \\[2pt]
-    A & = \frac{\text{cte.}}{r},
-  \end{aligned}
+    \begin{aligned}
+        A & = P,                             \\[2pt]
+        A & = \frac{\text{cte.}} {\sqrt{r}}, \\[2pt]
+        A & = \frac{\text{cte.}}{r},
+    \end{aligned}
 \end{equation*}
 en el caso de ondas uni-, bi- y tridimensionales respectivamente.
 
 Sin embargo, si analizamos la caída de la intensidad de una onda real, vemos que es más rápida que la calculada por la atenuación, como se ve en la figura \ref{fig:absorcion}.
 
 \begin{figure}[ht]
-  \centering
-  \includegraphics[width=5.5cm]{figuras/absorcion_vs_atenuacion.png}
-  \caption{Caída de la intensidad en función de la distancia. En verde, la predicha por la fórmula de la atenuación. En rojo, la envolvente de la onda real. Fuente: \cite{absorcion}.}
-  \label{fig:absorcion}
+    \centering
+    \includegraphics[width=5.5cm]{figuras/absorcion_vs_atenuacion.png}
+    \caption{Caída de la intensidad en función de la distancia. En verde, la predicha por la fórmula de la atenuación. En rojo, la envolvente de la onda real. Fuente: \cite{absorcion}.}
+    \label{fig:absorcion}
 \end{figure}
 
 Este fenómeno se conoce como absorción.
@@ -372,10 +372,10 @@ También afirma que las ondas secundarias interfieren (se suman) y dan lugar a l
 
 Esto se ve mejor con una imagen: la figura \ref{fig:huygens} muestra esto perfectamente para ondas planas y esféricas.
 \begin{figure}
-  \centering
-  \includegraphics[width=0.4\linewidth]{figuras/huygens.png}
-  \caption{Principio de Huygens. Fuente: Wikipedia}
-  \label{fig:huygens}
+    \centering
+    \includegraphics[width=0.4\linewidth]{figuras/huygens.png}
+    \caption{Principio de Huygens. Fuente: Wikipedia}
+    \label{fig:huygens}
 \end{figure}
 
 El principio de Huygens, aunque intuitivo, es de mucha importancia y sirve para demostrar el comportamiento de varias de las próximas propiedades, reflexión y refracción, aunque no lo haremos por evitar alejarnos del tema.
@@ -393,17 +393,17 @@ donde se sigue la nomenclatura de la figura \ref{fig:reflexion_refraccion} para 
 En la figura \ref{fig:refraccion_lapiz} se ve el efecto de la luz sobre las imágenes.
 
 \begin{figure}
-  \centering
-  \includegraphics[width=0.3\linewidth]{figuras/reflexion_refraccion.png}
-  \caption{Reflexión y refracción de una onda. Fuente: Wikipedia.}
-  \label{fig:reflexion_refraccion}
+    \centering
+    \includegraphics[width=0.3\linewidth]{figuras/reflexion_refraccion.png}
+    \caption{Reflexión y refracción de una onda. Fuente: Wikipedia.}
+    \label{fig:reflexion_refraccion}
 \end{figure}
 
 \begin{figure}
-  \centering
-  \includegraphics[width=0.25\linewidth]{figuras/refraccion_real.png}
-  \caption{La refracción hace que parezca que el lápiz está doblado. Fuente: Wikipedia.}
-  \label{fig:refraccion_lapiz}
+    \centering
+    \includegraphics[width=0.25\linewidth]{figuras/refraccion_real.png}
+    \caption{La refracción hace que parezca que el lápiz está doblado. Fuente: Wikipedia.}
+    \label{fig:refraccion_lapiz}
 \end{figure}
 
 Como se ve en la figura \ref{fig:reflexion_refraccion}, la reflexión puede ocurrir la reflexión a la vez que la refracción.
@@ -491,7 +491,7 @@ Fue el francés Jean le Rond d’Alembert (1717-1783) el que resolvió en ese a�
 
 Su técnica consistía en considerar el problema según el número de cuentas tendía al infinito. Encontró así la siguiente ecuación (el razonamiento se puede encontrar en \cite{cuerda} o en su propio artículo \cite{dalembert}):
 \begin{equation}\label{eq:difcuerda}
-  \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2},
+    \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2},
 \end{equation}
 donde $c$ es una constante que depende de las propiedades de la cuerda con unidades $\unit{\metre\per\second}$ y suponemos que $L = 1$.
 
@@ -500,22 +500,22 @@ D’Alembert encontró que la solución debía de ser de la forma
 donde $\Phi$ y $\Psi$ son funciones arbitrarias con segundas derivadas continuas.
 Imponiendo las condiciones de contorno $u(x, 0) = f(x)$, $u(0, t) = u(1, t) = 0$, llegó a que
 \begin{equation}\label{eq:cuerda}
-  u(x, t) = \half(f(x + ct) + f(x - ct).
+    u(x, t) = \half(f(x + ct) + f(x - ct).
 \end{equation}
 Sin embargo, esto no tiene sentido, ya que $f$ solo está definida en $[0, L]$.
 Pues bien, para arreglar este problema, se extiende $f$ a todos los reales de la siguiente manera:
 \begin{itemize}
-  \ii Definimos $f$ como una función impar: $f(-x) = -f(x)$.
-  \ii Imponemos que $f$ sea periódica con periodo $2L$.
+    \ii Definimos $f$ como una función impar: $f(-x) = -f(x)$.
+    \ii Imponemos que $f$ sea periódica con periodo $2L$.
 \end{itemize}
 
 Por ejemplo, si $f(x) = x^2\sen x$ para $0 \leq x \leq \pi$, la cuerda vibraría como se ve en la figura \ref{fig:vibcuerda} (en este caso $L = \pi$).
 
 \begin{figure}
-  \centering
-  \includegraphics[height=5cm]{figuras/vibracion_cuerda.png}
-  \caption{Vibración de una cuerda con forma $f(x) = x^2 \sen x$. Elaboración propia.}
-  \label{fig:vibcuerda}
+    \centering
+    \includegraphics[height=5cm]{figuras/vibracion_cuerda.png}
+    \caption{Vibración de una cuerda con forma $f(x) = x^2 \sen x$. Elaboración propia.}
+    \label{fig:vibcuerda}
 \end{figure}
 
 La ecuación \ref{eq:cuerda} tiene sentido para cualquier función $f$; sin embargo, la ecuación \ref{eq:difcuerda} solo tiene sentido para funciones con segunda derivada.
@@ -524,11 +524,11 @@ D’Alembert creía que su fórmula solo podía aplicarse a estos casos.
 Sin embargo, otros defendían la aplicación de la fórmula a cualquier caso.
 Por ejemplo, si hacemos que la cuerda tenga un pico, como en la figura \ref{fig:trian}, en principio no se podría aplicar nuestra fórmula, ya que la función no tiene segunda derivada en este pico.
 \begin{figure}[ht!]
-  \centering
-  \subcaptionbox{Función original.}{\includegraphics[height=3cm]{figuras/onda_triangular/original.png}}\hspace{1cm}
-  \subcaptionbox{Aproximación para $n=3$}{\includegraphics[height=3cm]{figuras/onda_triangular/fourier_aproximada.png}}
-  \caption{Pulso triangular y aproximación por serie de Fourier. Elaboración propia}
-  \label{fig:trian}
+    \centering
+    \subcaptionbox{Función original.}{\includegraphics[height=3cm]{figuras/onda_triangular/original.png}}\hspace{1cm}
+    \subcaptionbox{Aproximación para $n=3$}{\includegraphics[height=3cm]{figuras/onda_triangular/fourier_aproximada.png}}
+    \caption{Pulso triangular y aproximación por serie de Fourier. Elaboración propia}
+    \label{fig:trian}
 \end{figure}
 Durante mucho tiempo existió este desacuerdo,
 hasta que Daniel Bernoulli (1604-1705), hijo de Johann Bernoulli, dio el salto crucial: consideró representar $f$ como la suma de varios (infinitos) senos y cosenos \cite{bernoulli}, lo que actualmente se conoce como la serie de Fourier de $f$:
@@ -539,23 +539,23 @@ Cualquier función de esta forma tendría segunda derivada, y además concuerda 
 Ahora definiremos las series de Fourier en general.
 
 \begin{definition*}
-  Sea $f: \RR \to \RR$ una función periódica con periodo $P$ que cumpla que
-  \begin{enumerate}[label=\alph*)]
-    \ii \(\int_{-P/2}^{P/2} |f(x)| \ddint x\) existe.
-    \ii Cada periodo de $f$ se puede dividir en número finito de intervalos en los que la función es monótona.
-    \ii $f$ tiene un número finito de discontinuidades en cada periodo, y son discontinuidades de salto finito.
-  \end{enumerate}
-  Entonces, para todo $x$,
-  \[f(x) = \frac{a_0}{2} +
-    \sum_{n=1}^\infty \left( a_n \cos\left(\frac{2 \pi n}{P}x\right) +
-    b_n \sen\left(\frac{2 \pi n}{P}x\right)\right),\]
-  para algunos coeficientes $a_0, a_1, b_1, a_2, b_2, \dots$
+    Sea $f: \RR \to \RR$ una función periódica con periodo $P$ que cumpla que
+    \begin{enumerate}[label=\alph*)]
+        \ii \(\int_{-P/2}^{P/2} |f(x)| \ddint x\) existe.
+        \ii Cada periodo de $f$ se puede dividir en número finito de intervalos en los que la función es monótona.
+        \ii $f$ tiene un número finito de discontinuidades en cada periodo, y son discontinuidades de salto finito.
+    \end{enumerate}
+    Entonces, para todo $x$,
+    \[f(x) = \frac{a_0}{2} +
+        \sum_{n=1}^\infty \left( a_n \cos\left(\frac{2 \pi n}{P}x\right) +
+        b_n \sen\left(\frac{2 \pi n}{P}x\right)\right),\]
+    para algunos coeficientes $a_0, a_1, b_1, a_2, b_2, \dots$
 
-  Estos coeficientes vienen dados por
-  \begin{align*}
-    a_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\cos \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = 0, 1, 2, \dots \\
-    b_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\sen \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1.03cm} \text{para} \hspace{1.2mm} n = 1, 2, \dots
-  \end{align*}
+    Estos coeficientes vienen dados por
+    \begin{align*}
+        a_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\cos \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = 0, 1, 2, \dots \\
+        b_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\sen \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1.03cm} \text{para} \hspace{1.2mm} n = 1, 2, \dots
+    \end{align*}
 \end{definition*}
 
 Las condiciones tres condiciones para que exista la serie de Fourier (más precisamente, para que converja) se conocen como condiciones de Dirichlet \cite{dirichlet}, en honor a Gustav Lejeune Dirichlet (1805-1859), el que las estableció.
@@ -564,26 +564,26 @@ La demostración de la convergencia de la serie de Fourier se puede encontrar en
 
 Otra forma común de expresar la serie de Fourier es como
 \begin{equation*}
-  f(x) = \sum_{n = -\infty}^\infty c_n e^{\frac{i 2 \pi n}{P}x}
+    f(x) = \sum_{n = -\infty}^\infty c_n e^{\frac{i 2 \pi n}{P}x}
 \end{equation*}
 donde
 \begin{equation*}
-  c_n = \frac{1}{P} \int_{-P/2}^{P/2} f(x) e^{\frac{-i 2 \pi n}{P}x} \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = \dots, -2, -1, 0, 1, 2, \dots
+    c_n = \frac{1}{P} \int_{-P/2}^{P/2} f(x) e^{\frac{-i 2 \pi n}{P}x} \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = \dots, -2, -1, 0, 1, 2, \dots
 \end{equation*}
 
 Esto se deriva de la fórmula de Euler
 \begin{equation*}
-  e^{i\theta} = \cos \theta + i \sen \theta.
+    e^{i\theta} = \cos \theta + i \sen \theta.
 \end{equation*}
 Se pueden encontrar más detalles en el apéndice \ref{sec:demostraciones}.
 
 Aunque solo las funciones periódicas tienen serie de Fourier, cualquier función $f$ se puede aproximar en un intervalo $[a, b]$:
 solo hay que definir una nueva función como
 \[f(x) =
-  \begin{cases}
-    f(x)             & x \in [a, b]     \\
-    f(x \bmod (b-a)) & x \notin [a, b],
-  \end{cases}\]
+    \begin{cases}
+        f(x)             & x \in [a, b]     \\
+        f(x \bmod (b-a)) & x \notin [a, b],
+    \end{cases}\]
 donde $x \bmod y$, con $x, y \in \RR$, $y \not= 0$, es el resto de dividir $x$ entre $y$, teniendo en cuenta que el cociente tiene que ser entero.
 Por ejemplo: $3,7 \bmod 1,5 =  0,2$ y $-3 \bmod 1 = 0$.
 
@@ -597,13 +597,13 @@ En la siguiente sección veremos como esto se extiende naturalmente a la transfo
 Si bien podemos aproximar un intervalo de la función, nos gustaría poder aproximarla entera.
 De esta manera, se nos puede ocurrir tomar el límite
 \begin{equation*}
-  c_n = \lim_{A \to \infty} \frac{1}{A} \int_{-A/2}^{A/2} f(x) e^{\frac{-i 2 \pi n}{A}x} \ddint x.
+    c_n = \lim_{A \to \infty} \frac{1}{A} \int_{-A/2}^{A/2} f(x) e^{\frac{-i 2 \pi n}{A}x} \ddint x.
 \end{equation*}
 Por supuesto, esto no tiene ningún sentido porque no podemos dividir entre infinito, en realidad hay que trabajar con una nueva variable $\frac{1}{A}$ para poder tomar el límite.
 
 Sin embargo, una vez nuestra expresión tiene sentido, podemos desarrollar la transformada de Fourier: una nueva función en una variable $\omega$ que se define como
 \begin{equation*}
-  \SF(\omega) = \int_{-\infty}^{\infty} f(x) e^{-2 \pi i x \omega} \ddint x.
+    \SF(\omega) = \int_{-\infty}^{\infty} f(x) e^{-2 \pi i x \omega} \ddint x.
 \end{equation*}
 Como es natural, debemos imponer la condición de que sea absolutamente integrable; esto es, que exista $\int_{-\infty} ^\infty |f(x)| \ddint x$.
 
@@ -625,26 +625,26 @@ Por ejemplo, aunque el seno es su propia serie de Fourier, al no ser absolutamen
 
 Sin embargo, dada una función periódica $f$ con periodo $P$, con serie de Fourier definida, podemos encontrar la transformada de un periodo: definimos una nueva función $f_0$ de la siguiente manera
 \[f_0(x) =
-  \begin{cases}
-    f(x) & x \in \left[\frac{-P}{2}, \frac{P}{2}\right]    \\
-    0\:  & x \notin \left[\frac{-P}{2}, \frac{P}{2}\right]
-  \end{cases}\]
+    \begin{cases}
+        f(x) & x \in \left[\frac{-P}{2}, \frac{P}{2}\right]    \\
+        0\:  & x \notin \left[\frac{-P}{2}, \frac{P}{2}\right]
+    \end{cases}\]
 Como $f$ era absolutamente integrable en un periodo, $f_0$ es absolutamente integrable.
 Entonces, podemos calcular su transformada.
 
 Además, resulta que en ciertos valores ``enteros'', la transformada toma los valores de la serie de Fourier.
 En realidad no es exactamente así: realmente
 \begin{eq}\label{eq:valores_enteros}
-  2 \pi c_n = \SF_0\left(\frac{n}{2\pi}\right).
+    2 \pi c_n = \SF_0\left(\frac{n}{2\pi}\right).
 \end{eq}
 (En este caso y en lo sucesivo suponemos que $P = 2 \pi$).
 De hecho, por eso algunos autores prefieren escribir los coeficientes como $c_{n/2 \pi}$ en vez de $c_n$: porque son el valor de la transformada en $\frac{n}{2 \pi}$ (por una constante).
 
 La ecuación \ref{eq:valores_enteros} se deduce fácilmente de la definición de los coeficientes y la transformada:
 \begin{align*}
-  \SF_0 \left(\frac{n}{2\pi} \right) & = \int_{-\infty}^{\infty} f_0(x) \exp \lf({-2 \pi i x \frac{n}{2\pi}} \ri) \ddint x \\
-                                     & = \int _{-\pi}^{\pi} f(x) e^{-i x n} \ddint x                                       \\
-                                     & = 2 \pi c_n.
+    \SF_0 \left(\frac{n}{2\pi} \right) & = \int_{-\infty}^{\infty} f_0(x) \exp \lf({-2 \pi i x \frac{n}{2\pi}} \ri) \ddint x \\
+                                       & = \int _{-\pi}^{\pi} f(x) e^{-i x n} \ddint x                                       \\
+                                       & = 2 \pi c_n.
 \end{align*}
 Esto es lo que hace a la transformada de Fourier tan útil: si tenemos una onda y queremos saber la intensidad relativa de sus diferentes armónicos (sin que nos importe el valor de las intensidades, solo las proporciones entre ellas), solo necesitamos hacer su transformada de Fourier y comparar los valores de la forma $\frac{n}{2\pi}$.
 
@@ -672,11 +672,11 @@ Para calcular la DFT seguimos los siguientes pasos \cite{dft}:
 En primer lugar, tomamos $N$ muestras de nuestra función separadas por un tiempo $T$ entre ellas. Denotamos estas muestras por $f[0]$, $f[T]$, \dots, $f[(N - 1)T]$. Esto se ve en la figura \ref{fig:muestreo}.
 
 \begin{figure}[ht!]
-  \centering
-  \subcaptionbox{Muestreo.\label{fig:muestreo}}{\includegraphics[width = 7cm]{figuras/DFT/sampling.png}}
-  \subcaptionbox{Periodificación.\label{fig:periodificacion}}{\includegraphics[width = 7cm]{figuras/DFT/periodica.png}}
-  \caption{Discretización de una función para el cálculo de la DFT. Fuente: \cite{dft}.}
-  \label{fig:sampling}
+    \centering
+    \subcaptionbox{Muestreo.\label{fig:muestreo}}{\includegraphics[width = 7cm]{figuras/DFT/sampling.png}}
+    \subcaptionbox{Periodificación.\label{fig:periodificacion}}{\includegraphics[width = 7cm]{figuras/DFT/periodica.png}}
+    \caption{Discretización de una función para el cálculo de la DFT. Fuente: \cite{dft}.}
+    \label{fig:sampling}
 \end{figure}
 
 Aquí hay que notar dos cosas: para empezar, que la distancia entre las muestras no puede ser demasiado grande, ya que entonces sería una muy mala aproximación de la función original, y el resultado sería poco preciso.
@@ -685,7 +685,7 @@ Esta ventana no debe ser demasiado grande, si no, después de hacer la DFT en di
 
 Sin embargo, esta ventana tiene que ser lo suficientemente grande como para que se pueda apreciar la función: por ejemplo, si $f(x) = \sen(x)$ y nuestra ventana fuera
 \[
-  \lf[\frac{\pi}{2} - \varepsilon, \frac{\pi}{2} + \varepsilon \ri]
+    \lf[\frac{\pi}{2} - \varepsilon, \frac{\pi}{2} + \varepsilon \ri]
 \]
 para $\varepsilon$ pequeño, la función parecería una constante.
 
@@ -696,9 +696,9 @@ Por ello, interpretamos cada $f[k]$, para $k = 0$, $1$, \dots, $N-1$, como un im
 
 Ahora ya podemos integrar:
 \begin{align*}
-  \SF_d(\omega) & = \int_0^{(N - 1) T} f(x) e^{-2\pi i \omega x} \ddint x                                        \\
-                & = f[0] e^{0} + f[1] e^{-2\pi i \omega \cdot 1} + \dots + f[N - 1] e^{-2\pi i \omega (N - 1) T} \\
-                & = \sum_{k=0}^{N-1} f[k] e^{-2\pi i \omega k T}.
+    \SF_d(\omega) & = \int_0^{(N - 1) T} f(x) e^{-2\pi i \omega x} \ddint x                                        \\
+                  & = f[0] e^{0} + f[1] e^{-2\pi i \omega \cdot 1} + \dots + f[N - 1] e^{-2\pi i \omega (N - 1) T} \\
+                  & = \sum_{k=0}^{N-1} f[k] e^{-2\pi i \omega k T}.
 \end{align*}
 Aunque este sumatorio se puede evaluar para cualquier $\omega$ real, solo nos interesa para los valores de la forma $\frac{k}{2 \pi}$ para $k = 0$, $1$, \dots, $N-1$; por la ecuación \ref{valores_enteros}.
 
@@ -719,8 +719,8 @@ El término \textit{sonido} acepta varias definiciones,
 según el ámbito en el que nos encontremos.
 El sonido admite dos definiciones:
 \begin{enumerate}[label=a)]
-  \item Una oscilación en la presión, desplazamiento de partículas, velocidad de partículas, etc., propagada en un medio con fuerzas internas.
-  \item  La sensación auditiva provocada por esta oscilación \cite{definicion_sonido}.
+    \item Una oscilación en la presión, desplazamiento de partículas, velocidad de partículas, etc., propagada en un medio con fuerzas internas.
+    \item  La sensación auditiva provocada por esta oscilación \cite{definicion_sonido}.
 \end{enumerate}
 Se utilizará la primera de estas definiciones en esta investigación.
 
@@ -732,10 +732,10 @@ Cuando se mueve el pistón, el aire cercano se comprime o rareface.
 Estos cambios de presión se extienden a lo largo del tubo, y esta onda es lo que se conoce como sonido.
 
 \begin{figure}[ht!]
-  \centering
-  \includegraphics[width=7cm]{figuras/sonido_longitudinal.png}
-  \caption{Los cambios de presión en un extremo del medio se propagan. Fuente: sciencelearn.org.nz}
-  \label{fig:sonido-longitudinal}
+    \centering
+    \includegraphics[width=7cm]{figuras/sonido_longitudinal.png}
+    \caption{Los cambios de presión en un extremo del medio se propagan. Fuente: sciencelearn.org.nz}
+    \label{fig:sonido-longitudinal}
 \end{figure}
 
 Por ejemplo, al golpear un diapasón, sus dos extremos empiezan a vibrar y actúan de manera similar al pistón del anterior ejemplo.
@@ -795,10 +795,10 @@ Esto se debe a que el elemento que vibra en estos instrumentos, en vez de ser un
 Incluso en instrumentos de cuerda, como el piano, hay cierto factor de rigidez (las cuerdas no son matemáticamente ideales) que hace que los armónicos no se alineen exactamente con los múltiplos de la frecuencia fundamental \cite{inharmonicidad_piano}.
 
 \begin{figure}
-  \centering
-  \includegraphics[width=7cm]{figuras/campana_inarmonica.png}
-  \caption{Espectro de frecuencias teórico de una campana. Fuente: Wikipedia.}
-  \label{fig:espectro_campana}
+    \centering
+    \includegraphics[width=7cm]{figuras/campana_inarmonica.png}
+    \caption{Espectro de frecuencias teórico de una campana. Fuente: Wikipedia.}
+    \label{fig:espectro_campana}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -815,10 +815,10 @@ Es un instrumento cónico, con semiángulo de $0,4 \deg$ \cite{doble_lengueta}.
 Su extremo más estrecho mide $\qty{4}{\milli \meter}$ y su extremo más ancho $\qty{40}{\milli \meter}$.
 
 \begin{figure}[ht!]
-  \centering
-  \includegraphics[width=3cm]{figuras/fagot.png}
-  \caption{Un fagot.}
-  \label{fig:fagot}
+    \centering
+    \includegraphics[width=3cm]{figuras/fagot.png}
+    \caption{Un fagot.}
+    \label{fig:fagot}
 \end{figure}
 
 Tiene agujeros taladrados diagonalmente a lo largo del tubo y también llaves que permiten cerrar o abrir agujeros fuera del alcance de los dedos.
@@ -828,22 +828,22 @@ al abrir cierto agujero, la longitud útil del tubo se acorta hasta ese agujero.
 En la figura \ref{fig:tubo_agujeros} se ve como un tubo con seis agujeros es equivalente a siete tubos de distintas longitudes.
 
 \begin{figure}[ht!]
-  \centering
-  \includegraphics[width=7cm]{figuras/tubo_agujeros.png}
-  \caption{Al abrir cierto agujero, la longitud útil del tubo se acorta hasta ese agujero. Fuente: \cite{adam_carse}.}
-  \label{fig:tubo_agujeros}
+    \centering
+    \includegraphics[width=7cm]{figuras/tubo_agujeros.png}
+    \caption{Al abrir cierto agujero, la longitud útil del tubo se acorta hasta ese agujero. Fuente: \cite{adam_carse}.}
+    \label{fig:tubo_agujeros}
 \end{figure}
 
 Las partes del fagot son las siguientes (por orden según como pasa el aire por ellas):
 
 \begin{enumerate}
-  \item Caña. Se trata de dos trozos de caña de río atados con una cuerda.
-        Por aquí sopla el intérprete.
-  \item Tudel. Es un tubo de metal con forma de S.
-  \item Tudelera. Tubo de madera.
-  \item Culata. Tiene forma de U, en su parte inferior se encuentra el doblez del tubo.
-  \item Cuerpo medio.
-  \item Campana.
+    \item Caña. Se trata de dos trozos de caña de río atados con una cuerda.
+          Por aquí sopla el intérprete.
+    \item Tudel. Es un tubo de metal con forma de S.
+    \item Tudelera. Tubo de madera.
+    \item Culata. Tiene forma de U, en su parte inferior se encuentra el doblez del tubo.
+    \item Cuerpo medio.
+    \item Campana.
 \end{enumerate}
 
 %\begin{figure}
@@ -865,11 +865,36 @@ Debido a esta vibración, el flujo de aire, en vez de ser constante, es intermit
 Son pequeños impulsos de aire que viajan en forma de onda por el tubo \cite{harry-olson}.
 
 \begin{figure}[ht!]
-  \centering
-  \includegraphics[height=5cm]{figuras/caña_fagot_vibracion.jpg}
-  \caption{Fases de la vibración de una caña. Fuente: \cite{harry-olson}.}
-  \label{fig:caña_fagot_vibracion}
+    \centering
+    \includegraphics[height=5cm]{figuras/caña_fagot_vibracion.jpg}
+    \caption{Fases de la vibración de una caña. Fuente: \cite{harry-olson}.}
+    \label{fig:caña_fagot_vibracion}
 \end{figure}
 
+Estos impulsos se reflejan al final del tubo (o en el primer agujero abierto).
+%% explicar
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote1.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote2.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote3.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote4.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote5.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote6.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote7.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote8.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote9.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote10.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote11.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote12.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote13.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote14.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote15.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote16.jpeg}
+    \includegraphics[width=0.75\textwidth]{figuras/vibracion_rebote/vibracion_rebote17.jpeg}
+    \caption{Las ondas sonoras se reflejan al llegar al final del tubo. Fuente: \cite{fluteacoustics}.}
+    \label{fig:vibracion_rebote}
+\end{figure}
 
 \end{document}
