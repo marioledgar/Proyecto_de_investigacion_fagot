@@ -7,7 +7,7 @@
 Para llegar a la ecuación \ref{eq:ecuacion_mas} tenemos que primero encontrar la ecuación del punto $x = 0$.
 Como es la ecuación de un MAS, es
 \begin{equation*}
-    y(0, t) = A \sen(\omega t + \varphi_0)
+  y(0, t) = A \sen(\omega t + \varphi_0)
 \end{equation*}
 donde $A$, $\omega$ y $\varphi_0$ son, respectivamente, la amplitud, la frecuencia angular y el desfase del MAS en $x = 0$ y, por tanto, la amplitud, la frecuencia angular y el desfase de la onda.
 
@@ -22,10 +22,10 @@ Por tanto, tenemos que
 \[y(0, t) = y\left(x, t + \frac{x}{v}\right).\]
 Poniendo esto en la ecuación nos queda
 \begin{align*}
-    y(x, t) & = y \left(0, t - \frac{x}{v}\right)                                      \\
-            & = A \sen \left( \omega \left(t - \frac{x}{v} \right) + \varphi_0 \right) \\
-            & = A \sen \left( \omega (t v -  x) + \varphi_0 \right)                    \\
-            & = A \sen \left( \omega t - x + \varphi_0 \right)
+  y(x, t) & = y \left(0, t - \frac{x}{v}\right)                                      \\
+          & = A \sen \left( \omega \left(t - \frac{x}{v} \right) + \varphi_0 \right) \\
+          & = A \sen \left( \omega (t v -  x) + \varphi_0 \right)                    \\
+          & = A \sen \left( \omega t - x + \varphi_0 \right)
 \end{align*}
 
 
@@ -37,78 +37,79 @@ Suponemos que el periodo de $f$ es $2 \pi$.
 
 Empezamos con la siguiente igualdad:
 \begin{equation}\label{eq:suma_fourier}
-    f(x) = \divdos{a_0} + \sum_{n=1}^\infty \left(a_n \cos(nx) + b_n\sen(nx)\right).
+  f(x) = \divdos{a_0} + \sum_{n=1}^\infty \left(a_n \cos(nx) + b_n\sen(nx)\right).
 \end{equation}
 Nos gustaría conseguir aislar un solo coeficiente, para eso usamos las fórmulas de ortogonalidad del seno y el coseno.
 
 \begin{lemma*}[Fórmulas de ortogonalidad del seno y coseno]
-    Para números enteros $n$, $m \geq 0$ se cumple que
-    \begin{align*}
-        \int_0^{2 \pi} \sen(nx)\sen(mx) \ddint x & =
-        \begin{cases}
-            0   & n \not= m \\
-            \pi & n = m
-        \end{cases}                                                             \\
-        \int_0^{2\pi} \cos(nx) \cos(mx) \ddint x & =
-        \begin{cases}
-            0     & n \not= m     \\
-            \pi   & n = m \not= 0 \\
-            2 \pi & n = m = 0
-        \end{cases}                                                       \\
-        \int_0^{2\pi} \sen(nx) \cos(mx) \ddint x & = 0 \hspace{3mm} \forall\, n, m.
-    \end{align*}
+  Para números enteros $n$, $m \geq 0$ se cumple que
+  \begin{align*}
+    \int_0^{2 \pi} \sen(nx)\sen(mx) \ddint x & =
+    \begin{cases}
+      0   & n \not= m \\
+      \pi & n = m
+    \end{cases}                                                             \\
+    \int_0^{2\pi} \cos(nx) \cos(mx) \ddint x & =
+    \begin{cases}
+      0     & n \not= m     \\
+      \pi   & n = m \not= 0 \\
+      2 \pi & n = m = 0
+    \end{cases}                                                       \\
+    \int_0^{2\pi} \sen(nx) \cos(mx) \ddint x & = 0 \hspace{3mm} \forall\, n, m.
+  \end{align*}
 \end{lemma*}
 
 \begin{subproof}
-    Recordemos primero las siguientes identidades (fórmulas producto-suma):
-    \begin{align*}
-        2\sen x \sen y & = \cos(x - y) - \cos(x + y)  \\
-        2\cos x \cos y & = \cos(x - y) + \cos(x + y)  \\
-        2\sen x \cos y & = \sen(x + y) + \sen(x - y).
-    \end{align*}
-    Empezamos con la primera de las anteriores igualdades
-    \begin{align}
-        \int_0^{2 \pi} \sen(nx)\sen(mx) \ddint x & = \half \int_0^{2 \pi} \cos\left( (n - m) x \right) + \cos \left( (n + m) x \right) \ddint x \nonumber                       \\
-                                                 & = \half \left[ \int_0^{2\pi} \cos ((n - m) x) \ddint x + \int_0^{2\pi} \cos((n + m) x) \ddint x \right] \label{eq:integral_fea}
-    \end{align}
-    Por un momento, supongamos que $n \not= m$.
+  Recordemos primero las siguientes identidades (fórmulas producto-suma):
+  \begin{align*}
+    2\sen x \sen y & = \cos(x - y) - \cos(x + y)  \\
+    2\cos x \cos y & = \cos(x - y) + \cos(x + y)  \\
+    2\sen x \cos y & = \sen(x + y) + \sen(x - y).
+  \end{align*}
+  Empezamos con la primera de las anteriores igualdades
+  \begin{align}
+    \int_0^{2 \pi} \sen(nx)\sen(mx) \ddint x & = \half \int_0^{2 \pi} \cos\left( (n - m) x \right) + \cos \left( (n + m) x \right) \ddint x \nonumber \,                       \\
+                                             & = \half \left[ \int_0^{2\pi} \cos ((n - m) x) \ddint x + \int_0^{2\pi} \cos((n + m) x) \ddint x \right] \label{eq:integral_fea}
+  \end{align}
 
-    Es fácil ver que para cualquier $n \not= 0$ se cumple que
-    \[\int_0^{2\pi} \sen (nx) \ddint x = \int_0^{2\pi} \cos (nx) \ddint x = 0.\]
-    Esto se puede ver visualmente en la figura \ref{fig:integral_seno}: las áreas naranjas y las verdes se cancelan.
-    Lo mismo pasa con el coseno, solo que con cierto desfase.
-    \begin{figure}[ht]
-        \centering
-        \includegraphics[width=0.5\linewidth]{figuras/integral_seno.png}
-        \caption{Integral entre $0$ y $2\pi$ de $\sen(2x)$. Elaboración propia.}
-        \label{fig:integral_seno}
-    \end{figure}
+  Por un momento, supongamos que $n \not= m$.
 
-    En el caso $n \not= m$, queda claro que la integral es $0$.
-    En el caso $n = m$ nos queda que es $1$.
+  Es fácil ver que para cualquier $n \not= 0$ se cumple que
+  \[\int_0^{2\pi} \sen (nx) \ddint x = \int_0^{2\pi} \cos (nx) \ddint x = 0.\]
+  Esto se puede ver visualmente en la figura \ref{fig:integral_seno}: las áreas naranjas y las verdes se cancelan.
+  Lo mismo pasa con el coseno, solo que con cierto desfase.
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figuras/integral_seno.png}
+    \caption{Integral entre $0$ y $2\pi$ de $\sen(2x)$. Elaboración propia.}
+    \label{fig:integral_seno}
+  \end{figure}
 
-    Se pueden demostrar las otras dos relaciones de ortogonalidad de manera similar.
+  En el caso $n \not= m$, queda claro que la integral es $0$.
+  En el caso $n = m$ nos queda que es $1$.
+
+  Se pueden demostrar las otras dos relaciones de ortogonalidad de manera similar.
 \end{subproof}
 
 Ahora, fijamos $k \geq 0$ y multiplicamos ambos lados de la ecuación \ref{eq:suma_fourier} por $\cos(kx)$ e integramos:
 \begin{equation*}
-    \int_0^{2 \pi} f(x)\cos(kx) \ddint x = a_k \pi
+  \int_0^{2 \pi} f(x)\cos(kx) \ddint x = a_k \pi
 \end{equation*}
 \begin{equation*}
-    a_n = \frac{1}{\pi} \int_0^{2 \pi}f(x)\cos(nx) \ddint x.
+  a_n = \frac{1}{\pi} \int_0^{2 \pi}f(x)\cos(nx) \ddint x.
 \end{equation*}
 
 Multiplicando por $\sen(kx)$ e integrando nos queda que
 \begin{equation*}
-    b_n = \frac{1}{\pi} \int_0^{2 \pi} f(x) \sen(nx) \ddint x.
+  b_n = \frac{1}{\pi} \int_0^{2 \pi} f(x) \sen(nx) \ddint x.
 \end{equation*}
 
 Por último, si el periodo no es $2\pi$, definimos una nueva función
 \[f_0(x) = f\left(\frac{2 \pi}{P}x\right).\]
 Podemos hacer la serie de Fourier de esta nueva función, y es fácil comprobar que al volver a la función inicial, los coeficientes serían
 \begin{align*}
-    a_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\cos \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = 0, 1, 2, \dots \\
-    b_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\sen \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1.03cm} \text{para} \hspace{1.2mm} n = 1, 2, \dots
+  a_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\cos \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1cm} \text{para} \hspace{1.2mm} n = 0, 1, 2, \dots \\
+  b_n & = \frac{2}{P} \int_{-P/2}^{P/2} f(x)\sen \left( \frac{2 \pi n}{P}x \right) \ddint x, \hspace{1.03cm} \text{para} \hspace{1.2mm} n = 1, 2, \dots
 \end{align*}
 
 
@@ -116,7 +117,7 @@ Podemos hacer la serie de Fourier de esta nueva función, y es fácil comprobar 
 
 Para demostrar que la forma compleja y la trigonométrica de la serie de Fourier son equivalentes, nos basamos en la fórmula de Euler, presentamos sin demostración:
 \begin{eq*}
-    e^{i x} = \cos(x) + i \sen (x)
+  e^{i x} = \cos(x) + i \sen (x)
 \end{eq*}
 para cualquier número real $x$.
 
